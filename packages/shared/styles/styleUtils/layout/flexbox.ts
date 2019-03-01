@@ -1,4 +1,4 @@
-import { css } from "react-emotion";
+import { css } from "@emotion/core";
 
 interface FlexboxProperties {
   align?: "flex" | "center" | "flex-start" | "flex-end" | "space-between";

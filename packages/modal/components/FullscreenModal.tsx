@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { cx } from "emotion";
 import ModalBase from "../components/ModalBase";
 import { ModalBaseProps, ModalSizes } from "./ModalBase";

@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/core";
 
 // TODO: better name than "details"?
 // export const details = (isOpen?: boolean) => css`

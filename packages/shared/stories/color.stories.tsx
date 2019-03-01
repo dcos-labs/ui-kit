@@ -1,7 +1,8 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { storiesOf } from "@storybook/react";
 import { withReadme } from "storybook-readme";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 import { coreColors } from "../../design-tokens/build/js/colorsForStyleguide";
 
 const { white, black, cyan, ...colors } = coreColors();

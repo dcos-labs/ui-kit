@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { storiesOf } from "@storybook/react";
 import { withReadme } from "storybook-readme";
 import { action } from "@storybook/addon-actions";

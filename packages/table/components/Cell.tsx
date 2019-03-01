@@ -1,4 +1,5 @@
-import styled, { css } from "react-emotion";
+import styled from "@emotion/styled";
+import { css } from "emotion";
 import { innerCellCss, cellAlignmentCss } from "../style";
 
 export type TextAlign = "left" | "right" | "center";

@@ -8,6 +8,7 @@
     "target": "es5",
     "module": "commonjs",
     "jsx": "react",
+    "jsxFactory": "jsx",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "esModuleInterop": true,

@@ -1,6 +1,7 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { cx } from "emotion";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 import { sidebarSectionHeader, sidebarSectionList } from "../style";
 import {
   tintText,
@@ -41,7 +42,7 @@ class SidebarSection extends React.PureComponent<SidebarSectionProps, {}> {
       <div>
         {label && (
           <H3
-            className={cx(
+            css={[
               sidebarSectionHeader,
               flex({ align: "center" }),
               tintText(greyLightDarken3),
@@ -49,12 +50,12 @@ class SidebarSection extends React.PureComponent<SidebarSectionProps, {}> {
               textWeight("medium"),
               margin("bottom", "none"),
               margin("top", "none")
-            )}
+            ]}
           >
             {label}
           </H3>
         )}
-        <ul className={cx(sidebarSectionList, listReset)}>{children}</ul>
+        <ul css={[sidebarSectionList, listReset]}>{children}</ul>
       </div>
     );
   }

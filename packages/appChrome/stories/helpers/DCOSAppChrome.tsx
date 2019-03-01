@@ -1,5 +1,5 @@
 import * as React from "react";
-import { css, cx } from "emotion";
+import { jsx, css } from "@emotion/core";
 import { AppChrome, HeaderBar, Sidebar } from "../../index";
 import Clickable from "../../../clickable/components/clickable";
 import { SidebarContent } from "./StorybookSidebarHelpers";
@@ -78,7 +78,7 @@ class DCOSAppChrome extends React.Component<
         sidebar={
           <Sidebar isOpen={this.state.sidebarIsOpen}>
             <div
-              className={css`
+              css={css`
               ${padding("bottom", "l")}
               ${padding("top", "l")}
 
@@ -93,24 +93,21 @@ class DCOSAppChrome extends React.Component<
         }
         headerBar={
           <HeaderBar>
-            <div
-              className={flex({ align: "center" })}
-              style={{ width: "100%" }}
-            >
+            <div css={[flex({ align: "center" })]} style={{ width: "100%" }}>
               <Clickable
                 action={this.toggleSidebar}
                 tabIndex={0}
                 disableFocusOutline={true}
               >
-                <div className={flexItem("shrink")}>☰</div>
+                <div css={flexItem("shrink")}>☰</div>
               </Clickable>
-              <div className={cx(flexItem("grow"), padding("left", "m"))}>
+              <div css={[flexItem("grow"), padding("left", "m")]}>
                 Mesosphere logo
               </div>
-              <div className={cx(flexItem("shrink"), padding("left", "m"))}>
+              <div css={[flexItem("shrink"), padding("left", "m")]}>
                 User menu
               </div>
-              <div className={cx(flexItem("shrink"), padding("left", "m"))}>
+              <div css={[flexItem("shrink"), padding("left", "m")]}>
                 Cluster menu
               </div>
             </div>

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { Table, Column, Cell, HeaderCell } from "../..";
 import { width } from "./mocks";
 

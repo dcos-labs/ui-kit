@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { badge } from "../style";
 
 export interface BadgeProps {

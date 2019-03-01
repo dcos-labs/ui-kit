@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { Column, SortableHeaderCell, Cell, NumberCell } from "../..";
 import { items } from "./mocks";
 import CheckboxTable from "../../components/CheckboxTable";

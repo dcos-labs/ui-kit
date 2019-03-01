@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 
 // TODO: once we have an icon library, use that instead
 export const DownTriangle = () => (

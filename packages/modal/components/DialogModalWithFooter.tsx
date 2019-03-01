@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import DialogModal, { DialogModalProps } from "./DialogModal";
 import SecondaryButton from "../../button/components/SecondaryButton";
 import { ButtonProps } from "../../button/components/ButtonBase";

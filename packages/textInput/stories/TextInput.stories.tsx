@@ -1,5 +1,6 @@
 import { css, cx } from "emotion";
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { storiesOf } from "@storybook/react";
 import { withReadme } from "storybook-readme";
 import { TextInput } from "../index";

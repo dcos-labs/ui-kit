@@ -1,6 +1,7 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { cx, css } from "emotion";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 import { darkMode } from "../../shared/styles/styleUtils";
 import { sidebar, sidebarAnimator } from "../style";
 import { greyDark } from "../../design-tokens/build/js/designTokens";
@@ -48,8 +49,8 @@ class Sidebar extends React.PureComponent<SidebarProps, {}> {
 
   public render() {
     const { children, isOpen } = this.props;
-    const navClassNames = cx(sidebar, sidebarWidth);
-    const divClassNames = cx(sidebarAnimator);
+    const navClassNames = [sidebar, sidebarWidth];
+    const divClassNames = [sidebarAnimator];
 
     const Sidebar = styled("div")`
       background-color: ${props =>
@@ -74,8 +75,8 @@ class Sidebar extends React.PureComponent<SidebarProps, {}> {
     `;
 
     return (
-      <Sidebar className={divClassNames}>
-        <Nav className={navClassNames}>{children}</Nav>
+      <Sidebar css={divClassNames}>
+        <Nav css={navClassNames}>{children}</Nav>
       </Sidebar>
     );
   }

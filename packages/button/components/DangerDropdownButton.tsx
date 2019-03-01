@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import DangerButton from "./DangerButton";
 import { ButtonProps } from "./ButtonBase";
 import { DownTriangle } from "../../shared/icons";

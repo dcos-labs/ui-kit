@@ -1,4 +1,4 @@
-import { css } from "react-emotion";
+import { css } from "emotion";
 import { boxSpacing, BoxSides, SpaceSizes } from "./modifierUtils";
 import { atMediaUp, breakpoints } from "../../breakpoints";
 

@@ -1,5 +1,6 @@
 import { cx } from "emotion";
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { outline } from "../style";
 
 export interface ClickableProps {
@@ -47,9 +48,21 @@ export class Clickable extends React.PureComponent<ClickableProps, {}> {
     } = this.props;
     const { className = "" } = children.props;
 
+    React.Children.map(this.props.children, child =>
+      jsx(child.type, {
+        key: child.key,
+        ref: child.ref,
+        ...child.props,
+        onClick: action,
+        css: [className, disableFocusOutline && outline],
+        role,
+        tabIndex,
+        onKeyPress: this.handleKeyPress
+      })
+    );
     return React.cloneElement(React.Children.only(children), {
       onClick: action,
-      className: cx(className, { [outline]: disableFocusOutline }),
+      css: [className, disableFocusOutline && outline],
       role,
       tabIndex,
       onKeyPress: this.handleKeyPress

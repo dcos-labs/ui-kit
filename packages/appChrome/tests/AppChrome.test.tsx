@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { shallow } from "enzyme";
 import * as emotion from "emotion";
 import { createSerializer } from "jest-emotion";

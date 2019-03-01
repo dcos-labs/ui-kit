@@ -1,4 +1,4 @@
-import { css } from "react-emotion";
+import { css } from "emotion";
 import { boxSpacing, BoxSides } from "./modifierUtils";
 
 export const flush = (side: BoxSides) => {

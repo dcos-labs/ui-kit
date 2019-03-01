@@ -1,6 +1,6 @@
 import * as React from "react";
-import { cx } from "emotion";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
+import { jsx } from "@emotion/core";
 import { darkMode, flex } from "../../shared/styles/styleUtils";
 import { spaceSizes } from "../../../packages/shared/styles/styleUtils/modifiers/modifierUtils";
 import { purpleDarken4 } from "../../design-tokens/build/js/designTokens";
@@ -14,7 +14,7 @@ class Header extends React.PureComponent<HeaderProps, {}> {
   public render() {
     const { children } = this.props;
     /* tslint:disable:no-string-literal */
-    const HeaderBar = styled("div")`
+    const HeaderBar = styled.div`
       background-color: ${props =>
         props.theme.headerBackgroundColor || purpleDarken4};
       ${props =>
@@ -34,11 +34,7 @@ class Header extends React.PureComponent<HeaderProps, {}> {
     `;
     /* tslint:enable:no-string-literal */
 
-    return (
-      <HeaderBar className={cx(flex({ align: "center" }))}>
-        {children}
-      </HeaderBar>
-    );
+    return <HeaderBar css={[flex({ align: "center" })]}>{children}</HeaderBar>;
   }
 }
 

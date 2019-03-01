@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/core";
 import { atMediaUp } from "../shared/styles/breakpoints";
 import {
   greyDarkLighten2,

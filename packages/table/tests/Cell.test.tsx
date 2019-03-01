@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 
 import Cell from "../components/Cell";
 import HeaderCell from "../components/HeaderCell";

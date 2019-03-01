@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { cx } from "emotion";
 import { Expandable } from "../../expandable";
 import { SidebarItemLabelProps } from "./SidebarItemLabel";
@@ -27,12 +28,10 @@ class SidebarSubMenu extends React.PureComponent<SidebarSubMenuProps, {}> {
   ) {
     const iconWidth = this.props.iconWidth ? this.props.iconWidth : 0;
     return (
-      <ul className={listReset}>
+      <ul css={listReset}>
         {items.map((item, i) => (
           <li
-            className={cx({
-              [spaceMenuIcon(`${iconWidth}px`)]: Boolean(iconWidth)
-            })}
+            css={[Boolean(iconWidth) && spaceMenuIcon(`${iconWidth}px`)]}
             key={i}
           >
             {item}
@@ -48,7 +47,7 @@ class SidebarSubMenu extends React.PureComponent<SidebarSubMenuProps, {}> {
     return (
       <li>
         <Expandable
-          labelClassName={cx(appChromeInsetContent, sidebarNavItem(false))}
+          labelClassName={[appChromeInsetContent, sidebarNavItem(false)]}
           isOpen={isOpen}
           label={<div>{label}</div>}
         >

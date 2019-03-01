@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { jsx } from "@emotion/core";
 import { flex, flexItem, padding } from "../../shared/styles/styleUtils";
 import { sidebarItemHeight, sidebarNavItemIconWrap } from "../style";
 
@@ -14,19 +14,19 @@ class SidebarItemLabel extends React.PureComponent<SidebarItemLabelProps, {}> {
     const { children, icon } = this.props;
 
     return (
-      <div className={cx(flex({ align: "center" }), sidebarItemHeight)}>
+      <div css={[flex({ align: "center" }), sidebarItemHeight]}>
         {icon && (
           <div
-            className={cx(
+            css={[
               flexItem("shrink"),
               padding("right", "m"),
               sidebarNavItemIconWrap
-            )}
+            ]}
           >
             {icon}
           </div>
         )}
-        <div className={flexItem("grow")}>{children}</div>
+        <div css={[flexItem("grow")]}>{children}</div>
       </div>
     );
   }

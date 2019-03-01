@@ -1,11 +1,11 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import {
   subMenuItem,
   subMenuItemText,
   appChromeInsetContent,
   sidebarNavItem
 } from "../style";
-import { cx } from "emotion";
 import {
   textSize,
   flex,
@@ -26,22 +26,22 @@ class SidebarSubMenuItem extends React.PureComponent<
 > {
   public render() {
     const { children, isActive, onClick } = this.props;
-    const classNames = cx(
-      subMenuItem,
-      appChromeInsetContent,
-      tintContentSecondary,
-      sidebarNavItem(isActive),
-      textSize("s"),
-      flex({ align: "center" }),
-      {
-        [tintContentPrimary]: isActive
-      }
-    );
 
     return (
       <Clickable action={onClick} tabIndex={0} role="link">
-        <div className={classNames}>
-          <span className={subMenuItemText}>{children}</span>
+        <div
+          css={[
+            subMenuItem,
+            appChromeInsetContent,
+            tintContentSecondary,
+            sidebarNavItem(isActive),
+            textSize("s"),
+            flex({ align: "center" }),
+
+            isActive && tintContentPrimary
+          ]}
+        >
+          <span css={subMenuItemText}>{children}</span>
         </div>
       </Clickable>
     );

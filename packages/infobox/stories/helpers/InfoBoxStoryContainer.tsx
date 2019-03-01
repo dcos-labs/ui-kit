@@ -1,4 +1,5 @@
 import * as React from "react";
+import { jsx } from "@emotion/core";
 import { InfoBoxProps } from "../../components/InfoBox";
 
 class InfoBoxStoryContainer extends React.Component<

@@ -1,6 +1,6 @@
 import * as React from "react";
-import { cx } from "emotion";
-import styled from "react-emotion";
+import { jsx } from "@emotion/core";
+import styled from "@emotion/styled";
 import { sidebarNavItem } from "../style";
 import Clickable from "../../clickable/components/clickable";
 import { tintContentPrimary } from "../../shared/styles/styleUtils";
@@ -27,10 +27,6 @@ class SidebarItem extends React.PureComponent<SidebarItemProps, {}> {
         spaceSizes[props.theme.sidebarItemPaddingVert] || spaceSizes["none"]};
     `;
     /* tslint:enable:no-string-literal */
-    const classNames = cx(sidebarNavItem(isActive), {
-      [tintContentPrimary]: isActive
-    });
-
     return (
       <Clickable
         action={onClick}
@@ -38,7 +34,9 @@ class SidebarItem extends React.PureComponent<SidebarItemProps, {}> {
         role="link"
         disableFocusOutline={true}
       >
-        <Item className={classNames}>{children}</Item>
+        <Item css={[sidebarNavItem(isActive), isActive && tintContentPrimary]}>
+          {children}
+        </Item>
       </Clickable>
     );
   }

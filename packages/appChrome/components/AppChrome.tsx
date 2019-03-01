@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { jsx } from "@emotion/core";
 import { appChrome, appWrapper } from "../style";
 import {
   flex,
@@ -19,15 +19,11 @@ class AppChrome extends React.PureComponent<AppChromeProps, {}> {
     const { sidebar, headerBar, mainContent } = this.props;
 
     return (
-      <div
-        className={cx(appChrome, textSize("m"), flex({ direction: "column" }))}
-      >
+      <div css={[appChrome, textSize("m"), flex({ direction: "column" })]}>
         <div className="headerBar">{headerBar}</div>
-        <div className={cx(flex(), appWrapper)}>
-          <div className={flexItem("shrink")}>{sidebar}</div>
-          <main className={cx(flexItem("grow"), flush("left"))}>
-            {mainContent}
-          </main>
+        <div css={[flex(), appWrapper]}>
+          <div css={[flexItem("shrink")]}>{sidebar}</div>
+          <main css={[flexItem("grow"), flush("left")]}>{mainContent}</main>
         </div>
       </div>
     );

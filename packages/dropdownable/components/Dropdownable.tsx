@@ -1,5 +1,6 @@
 import React from "react";
-import styled, { css } from "react-emotion";
+import styled from "@emotion/styled";
+import { css } from "emotion";
 
 import Overlay from "../../shared/components/Overlay";
 import DropdownContents from "./DropdownContents";

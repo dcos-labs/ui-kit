@@ -1,5 +1,6 @@
 import { cx } from "emotion";
 import * as React from "react";
+import { jsx } from "@emotion/core";
 
 import { TextInput, TextInputProps } from "./TextInput";
 
