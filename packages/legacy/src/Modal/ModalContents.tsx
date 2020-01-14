@@ -73,21 +73,19 @@ export default class ModalContents extends React.Component<
     });
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (this.props.open !== nextProps.open) {
-      document.body.classList.toggle("no-overflow");
-    }
-  }
-
-  componentDidUpdate() {
+  componentDidUpdate(prevProps: ModalProps) {
     // If we don't already know the height of the content, we calculate it.
     if (this.props.open) {
       this.lastViewportHeight = Math.ceil(DOMUtil.getViewportHeight());
       window.requestAnimationFrame(this.calculateContentHeight);
     }
+
+    if (this.props.open !== prevProps.open) {
+      document.body.classList.toggle("no-overflow");
+    }
   }
 
-  componentWillUpdate(nextProps) {
+  UNSAFE_componentWillUpdate(nextProps) {
     // Reset the height of the content to null when the modal is closing so
     // that the height will be recalculated next time it opens.
     if (this.props.open && !nextProps.open) {
@@ -100,7 +98,7 @@ export default class ModalContents extends React.Component<
     }
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     if (this.props.open) {
       document.body.classList.add("no-overflow");
     }

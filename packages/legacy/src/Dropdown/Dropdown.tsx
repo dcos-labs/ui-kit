@@ -84,7 +84,7 @@ export class Dropdown extends React.Component<DropdownProps, any> {
     });
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const props = this.props;
     if (!props.persistentID) {
       this.setState({ selectedID: props.initialID });
@@ -104,7 +104,7 @@ export class Dropdown extends React.Component<DropdownProps, any> {
     }
   }
 
-  componentWillUpdate(_, nextState) {
+  UNSAFE_componentWillUpdate(_, nextState) {
     // If the open state changed, add or remove listener as needed.
     if (nextState.isOpen !== this.state.isOpen) {
       if (nextState.isOpen) {

@@ -52,12 +52,12 @@ const StyledNav = styled("nav")`
 `;
 
 class Sidebar extends React.PureComponent<SidebarProps, {}> {
-  public componentWillReceiveProps(nextProps: SidebarProps) {
+  public componentDidUpdate(prevProps: SidebarProps) {
     const { onOpen, onClose } = this.props;
 
-    if (nextProps.isOpen && onOpen) {
+    if (prevProps.isOpen && onOpen) {
       onOpen();
-    } else if (!nextProps.isOpen && onClose) {
+    } else if (!prevProps.isOpen && onClose) {
       onClose();
     }
   }

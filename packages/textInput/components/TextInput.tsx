@@ -168,6 +168,7 @@ export class TextInput<
       showInputLabel,
       type,
       errors,
+      tooltipContent,
       ...inputElementProps
     } = this.props as TextInputProps;
 

@@ -93,7 +93,7 @@ class Dropdownable extends React.Component<DropdownableProps, State> {
     resizeEventManager.remove(this.setPositionFromCurrentProps);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps: DropdownableProps) {
     if (nextProps.open) {
       this.setPosition(nextProps);
     }

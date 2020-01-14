@@ -97,7 +97,7 @@ describe("Toaster", () => {
     const instance = component.find(Toaster).instance() as Toaster;
 
     expect(instance.state.toasts && instance.state.toasts.length).toEqual(1);
-    instance.componentWillReceiveProps(newProps);
+    instance.UNSAFE_componentWillReceiveProps(newProps);
     expect(instance.state.toasts && instance.state.toasts.length).toEqual(2);
   });
 });

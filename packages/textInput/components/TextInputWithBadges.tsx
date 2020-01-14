@@ -76,6 +76,7 @@ export class TextInputWithBadges extends TextInputWithIcon<
     let baseProps = super.getInputElementProps();
     const {
       badges,
+      badgeAppearance,
       onBadgeChange,
       downshiftReset,
       addBadgeOnBlur,

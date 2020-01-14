@@ -47,7 +47,7 @@ class Toaster extends React.PureComponent<ToasterProps, ToasterState> {
     this.restartTimeouts();
   }
 
-  public componentWillReceiveProps(nextProps: ToasterProps) {
+  public UNSAFE_componentWillReceiveProps(nextProps: ToasterProps) {
     const currentToasts = this.state.toasts || [];
     const childIds =
       (nextProps.children && nextProps.children.map(toast => toast.props.id)) ||
