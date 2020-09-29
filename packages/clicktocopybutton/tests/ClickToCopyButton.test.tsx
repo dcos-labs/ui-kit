@@ -30,11 +30,18 @@ describe("ClickToCopyButton", () => {
   it("calls onCopy when clicked ", () => {
     const onCopyFn = jest.fn();
     const component = mount(
-      <ClickToCopyButton textToCopy={textToCopy} onCopy={onCopyFn} />
+      <ClickToCopyButton
+        textToCopy={textToCopy}
+        onCopy={onCopyFn}
+        tooltipId="copyTooltip"
+      />
     );
 
     expect(onCopyFn).not.toHaveBeenCalled();
-    component.simulate("click");
+    component
+      .find('[role="button"]')
+      .first()
+      .simulate("click");
     expect(onCopyFn).toHaveBeenCalled();
   });
 });

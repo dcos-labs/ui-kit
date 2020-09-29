@@ -164,18 +164,18 @@ exports[`CodeSnippet renders with copy button 1`] = `
   cursor: pointer;
 }
 
-.emotion-10 {
+.emotion-11 {
   overflow: auto;
   white-space: pre;
 }
 
-.emotion-9 {
+.emotion-10 {
   overflow: auto;
   white-space: pre;
   padding: 16px;
 }
 
-.emotion-8 {
+.emotion-9 {
   background-color: #1B2029;
   background-repeat: no-repeat;
   overflow: auto;
@@ -183,7 +183,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
   padding: 16px;
 }
 
-.emotion-7 {
+.emotion-8 {
   -webkit-align-items: flex-start;
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
@@ -207,11 +207,11 @@ exports[`CodeSnippet renders with copy button 1`] = `
   min-height: 0;
 }
 
-.emotion-7 > div {
+.emotion-8 > div {
   width: auto;
 }
 
-.emotion-7 > *:not(:first-child) {
+.emotion-8 > *:not(:first-child) {
   padding-left: 0;
   padding-top: 0;
 }
@@ -243,7 +243,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
   text-align: inherit;
 }
 
-.emotion-6 {
+.emotion-7 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -256,6 +256,11 @@ exports[`CodeSnippet renders with copy button 1`] = `
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: initial;
+}
+
+.emotion-6 {
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
 .emotion-4 {
@@ -278,7 +283,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
 >
   <SpacingBox
     bgColor="#1B2029"
-    className="emotion-10"
+    className="emotion-11"
     side="all"
     spacingSize="m"
     tag="div"
@@ -292,12 +297,12 @@ exports[`CodeSnippet renders with copy button 1`] = `
           "size": undefined,
         }
       }
-      className="emotion-9"
+      className="emotion-10"
       dataCy="spacingBox"
       tag="div"
     >
       <div
-        className="emotion-8"
+        className="emotion-9"
         data-cy="spacingBox"
       >
         <Flex
@@ -308,7 +313,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
           wrap="nowrap"
         >
           <div
-            className="emotion-7"
+            className="emotion-8"
             data-cy="flex"
           >
             <FlexItem
@@ -350,68 +355,152 @@ exports[`CodeSnippet renders with copy button 1`] = `
               flex="shrink"
             >
               <div
-                className="emotion-6"
+                className="emotion-7"
                 data-cy="flexItem"
               >
                 <ClickToCopyButton
                   color="var(--themeTextColorPrimaryInverted, #FFFFFF)"
                   textToCopy="snippet content"
+                  tooltipContent="Copied to clipboard"
                 >
                   <ClickToCopy
                     textToCopy="snippet content"
+                    tooltipContent="Copied to clipboard"
                   >
-                    <Clickable
-                      action={[Function]}
-                      disableFocusOutline={false}
-                      role="button"
-                      tabIndex={0}
-                    >
-                      <Box
-                        bgImageOptions={
-                          Object {
-                            "position": undefined,
-                            "repeat": undefined,
-                            "size": undefined,
-                          }
+                    <Box
+                      bgImageOptions={
+                        Object {
+                          "position": undefined,
+                          "repeat": undefined,
+                          "size": undefined,
                         }
-                        className="emotion-5"
-                        dataCy="box"
-                        display="inline-block"
-                        onClick={[Function]}
-                        onKeyPress={[Function]}
-                        role="button"
-                        tabIndex={0}
-                        tag="span"
+                      }
+                      dataCy="box"
+                      display="inline-block"
+                      tag="div"
+                    >
+                      <div
+                        className="emotion-6"
+                        data-cy="box"
                       >
-                        <span
-                          className="emotion-4"
-                          onClick={[Function]}
-                          onKeyPress={[Function]}
-                          role="button"
-                          tabIndex={0}
-                        >
-                          <Icon
-                            color="var(--themeTextColorPrimaryInverted, #FFFFFF)"
-                            shape="system-clipboard"
-                          >
-                            <svg
-                              aria-label="system-clipboard icon"
-                              className="emotion-3"
-                              data-cy="icon"
-                              height={24}
-                              preserveAspectRatio="xMinYMin meet"
-                              role="img"
-                              viewBox="0 0 24 24"
-                              width={24}
+                        <Tooltip
+                          id="copyTooltip1"
+                          open={false}
+                          suppress={true}
+                          trigger={
+                            <Clickable
+                              action={[Function]}
+                              disableFocusOutline={false}
+                              role="button"
+                              tabIndex={0}
                             >
-                              <use
-                                xlinkHref="#system-clipboard"
-                              />
-                            </svg>
-                          </Icon>
-                        </span>
-                      </Box>
-                    </Clickable>
+                              <Box
+                                bgImageOptions={
+                                  Object {
+                                    "position": undefined,
+                                    "repeat": undefined,
+                                    "size": undefined,
+                                  }
+                                }
+                                dataCy="box"
+                                display="inline-block"
+                                tag="span"
+                              >
+                                <Icon
+                                  color="var(--themeTextColorPrimaryInverted, #FFFFFF)"
+                                  shape="system-clipboard"
+                                />
+                              </Box>
+                            </Clickable>
+                          }
+                        >
+                          <span
+                            data-cy="tooltip"
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseOver={[Function]}
+                          >
+                            <Dropdownable
+                              dropdown={
+                                <TooltipContent
+                                  id="copyTooltip1"
+                                  open={false}
+                                >
+                                  Copied to clipboard
+                                </TooltipContent>
+                              }
+                              open={false}
+                              preferredDirections={
+                                Array [
+                                  "top",
+                                  "top-start",
+                                  "top-end",
+                                  "bottom",
+                                  "bottom-start",
+                                  "bottom-end",
+                                ]
+                              }
+                            >
+                              <div>
+                                <Clickable
+                                  action={[Function]}
+                                  disableFocusOutline={false}
+                                  role="button"
+                                  tabIndex={0}
+                                >
+                                  <Box
+                                    bgImageOptions={
+                                      Object {
+                                        "position": undefined,
+                                        "repeat": undefined,
+                                        "size": undefined,
+                                      }
+                                    }
+                                    className="emotion-5"
+                                    dataCy="box"
+                                    display="inline-block"
+                                    onClick={[Function]}
+                                    onKeyPress={[Function]}
+                                    role="button"
+                                    tabIndex={0}
+                                    tag="span"
+                                  >
+                                    <span
+                                      className="emotion-4"
+                                      onClick={[Function]}
+                                      onKeyPress={[Function]}
+                                      role="button"
+                                      tabIndex={0}
+                                    >
+                                      <Icon
+                                        color="var(--themeTextColorPrimaryInverted, #FFFFFF)"
+                                        shape="system-clipboard"
+                                      >
+                                        <svg
+                                          aria-label="system-clipboard icon"
+                                          className="emotion-3"
+                                          data-cy="icon"
+                                          height={24}
+                                          preserveAspectRatio="xMinYMin meet"
+                                          role="img"
+                                          viewBox="0 0 24 24"
+                                          width={24}
+                                        >
+                                          <use
+                                            xlinkHref="#system-clipboard"
+                                          />
+                                        </svg>
+                                      </Icon>
+                                    </span>
+                                  </Box>
+                                </Clickable>
+                              </div>
+                            </Dropdownable>
+                          </span>
+                        </Tooltip>
+                      </div>
+                    </Box>
                   </ClickToCopy>
                 </ClickToCopyButton>
               </div>

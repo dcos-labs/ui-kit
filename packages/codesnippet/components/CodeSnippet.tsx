@@ -21,29 +21,38 @@ export interface CodeSnippetProps {
    * Function to execute after text has been copied
    */
   onCopy?: () => void;
+
+  /**
+   *
+   */
+  copyTooltipContent?: React.ReactNode;
 }
 
-const CodeSnippet = ({ children, textToCopy, onCopy }: CodeSnippetProps) => {
-  return (
-    <SpacingBox bgColor={greyDark} className={codeSnippet}>
-      <Flex>
-        <FlexItem>
-          <MonospaceText color={themeTextColorPrimaryInverted}>
-            {children}
-          </MonospaceText>
+const CodeSnippet: React.FC<CodeSnippetProps> = ({
+  children,
+  copyTooltipContent,
+  textToCopy,
+  onCopy
+}) => (
+  <SpacingBox bgColor={greyDark} className={codeSnippet}>
+    <Flex>
+      <FlexItem>
+        <MonospaceText color={themeTextColorPrimaryInverted}>
+          {children}
+        </MonospaceText>
+      </FlexItem>
+      {textToCopy ? (
+        <FlexItem flex="shrink">
+          <ClickToCopyButton
+            textToCopy={textToCopy}
+            onCopy={onCopy}
+            color={themeTextColorPrimaryInverted}
+            tooltipContent={copyTooltipContent}
+          />
         </FlexItem>
-        {textToCopy ? (
-          <FlexItem flex="shrink">
-            <ClickToCopyButton
-              textToCopy={textToCopy}
-              onCopy={onCopy}
-              color={themeTextColorPrimaryInverted}
-            />
-          </FlexItem>
-        ) : null}
-      </Flex>
-    </SpacingBox>
-  );
-};
+      ) : null}
+    </Flex>
+  </SpacingBox>
+);
 
 export default CodeSnippet;

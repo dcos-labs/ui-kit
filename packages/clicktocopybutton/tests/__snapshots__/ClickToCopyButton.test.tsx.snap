@@ -5,6 +5,11 @@ exports[`ClickToCopyButton renders default 1`] = `
   cursor: pointer;
 }
 
+.emotion-3 {
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
 .emotion-1 {
   background-repeat: no-repeat;
   display: inline-block;
@@ -22,92 +27,252 @@ exports[`ClickToCopyButton renders default 1`] = `
 
 <ClickToCopyButton
   textToCopy="text to copy"
+  tooltipContent="Copied to clipboard"
 >
   <ClickToCopy
     textToCopy="text to copy"
+    tooltipContent="Copied to clipboard"
   >
-    <Clickable
-      action={[Function]}
-      disableFocusOutline={false}
-      role="button"
-      tabIndex={0}
-    >
-      <Box
-        bgImageOptions={
-          Object {
-            "position": undefined,
-            "repeat": undefined,
-            "size": undefined,
-          }
+    <Box
+      bgImageOptions={
+        Object {
+          "position": undefined,
+          "repeat": undefined,
+          "size": undefined,
         }
-        className="emotion-2"
-        dataCy="box"
-        display="inline-block"
-        onClick={[Function]}
-        onKeyPress={[Function]}
-        role="button"
-        tabIndex={0}
-        tag="span"
+      }
+      dataCy="box"
+      display="inline-block"
+      tag="div"
+    >
+      <div
+        className="emotion-3"
+        data-cy="box"
       >
-        <span
-          className="emotion-1"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
-        >
-          <Icon
-            shape="system-clipboard"
-          >
-            <svg
-              aria-label="system-clipboard icon"
-              className="emotion-0"
-              data-cy="icon"
-              height={24}
-              preserveAspectRatio="xMinYMin meet"
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
+        <Tooltip
+          id="copyTooltip1"
+          open={false}
+          suppress={true}
+          trigger={
+            <Clickable
+              action={[Function]}
+              disableFocusOutline={false}
+              role="button"
+              tabIndex={0}
             >
-              <use
-                xlinkHref="#system-clipboard"
-              />
-            </svg>
-          </Icon>
-        </span>
-      </Box>
-    </Clickable>
+              <Box
+                bgImageOptions={
+                  Object {
+                    "position": undefined,
+                    "repeat": undefined,
+                    "size": undefined,
+                  }
+                }
+                dataCy="box"
+                display="inline-block"
+                tag="span"
+              >
+                <Icon
+                  shape="system-clipboard"
+                />
+              </Box>
+            </Clickable>
+          }
+        >
+          <span
+            data-cy="tooltip"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <Dropdownable
+              dropdown={
+                <TooltipContent
+                  id="copyTooltip1"
+                  open={false}
+                >
+                  Copied to clipboard
+                </TooltipContent>
+              }
+              open={false}
+              preferredDirections={
+                Array [
+                  "top",
+                  "top-start",
+                  "top-end",
+                  "bottom",
+                  "bottom-start",
+                  "bottom-end",
+                ]
+              }
+            >
+              <div>
+                <Clickable
+                  action={[Function]}
+                  disableFocusOutline={false}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <Box
+                    bgImageOptions={
+                      Object {
+                        "position": undefined,
+                        "repeat": undefined,
+                        "size": undefined,
+                      }
+                    }
+                    className="emotion-2"
+                    dataCy="box"
+                    display="inline-block"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex={0}
+                    tag="span"
+                  >
+                    <span
+                      className="emotion-1"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex={0}
+                    >
+                      <Icon
+                        shape="system-clipboard"
+                      >
+                        <svg
+                          aria-label="system-clipboard icon"
+                          className="emotion-0"
+                          data-cy="icon"
+                          height={24}
+                          preserveAspectRatio="xMinYMin meet"
+                          role="img"
+                          viewBox="0 0 24 24"
+                          width={24}
+                        >
+                          <use
+                            xlinkHref="#system-clipboard"
+                          />
+                        </svg>
+                      </Icon>
+                    </span>
+                  </Box>
+                </Clickable>
+              </div>
+            </Dropdownable>
+          </span>
+        </Tooltip>
+      </div>
+    </Box>
   </ClickToCopy>
 </ClickToCopyButton>
 `;
 
 exports[`ClickToCopyButton renders with custom children 1`] = `
+.emotion-1 {
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
 .emotion-0 {
   cursor: pointer;
 }
 
 <ClickToCopyButton
   textToCopy="text to copy"
+  tooltipContent="Copied to clipboard"
 >
   <ClickToCopy
     textToCopy="text to copy"
+    tooltipContent="Copied to clipboard"
   >
-    <Clickable
-      action={[Function]}
-      disableFocusOutline={false}
-      role="button"
-      tabIndex={0}
+    <Box
+      bgImageOptions={
+        Object {
+          "position": undefined,
+          "repeat": undefined,
+          "size": undefined,
+        }
+      }
+      dataCy="box"
+      display="inline-block"
+      tag="div"
     >
       <div
-        className="emotion-0"
-        onClick={[Function]}
-        onKeyPress={[Function]}
-        role="button"
-        tabIndex={0}
+        className="emotion-1"
+        data-cy="box"
       >
-        custom children
+        <Tooltip
+          id="copyTooltip2"
+          open={false}
+          suppress={true}
+          trigger={
+            <Clickable
+              action={[Function]}
+              disableFocusOutline={false}
+              role="button"
+              tabIndex={0}
+            >
+              <div
+                className="css-1ae7568"
+              >
+                custom children
+              </div>
+            </Clickable>
+          }
+        >
+          <span
+            data-cy="tooltip"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <Dropdownable
+              dropdown={
+                <TooltipContent
+                  id="copyTooltip2"
+                  open={false}
+                >
+                  Copied to clipboard
+                </TooltipContent>
+              }
+              open={false}
+              preferredDirections={
+                Array [
+                  "top",
+                  "top-start",
+                  "top-end",
+                  "bottom",
+                  "bottom-start",
+                  "bottom-end",
+                ]
+              }
+            >
+              <div>
+                <Clickable
+                  action={[Function]}
+                  disableFocusOutline={false}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <div
+                    className="emotion-0"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    custom children
+                  </div>
+                </Clickable>
+              </div>
+            </Dropdownable>
+          </span>
+        </Tooltip>
       </div>
-    </Clickable>
+    </Box>
   </ClickToCopy>
 </ClickToCopyButton>
 `;
