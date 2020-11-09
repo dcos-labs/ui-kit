@@ -1,6 +1,6 @@
 import * as React from "react";
 import { cx } from "emotion";
-import { Table, Column, HeaderCell, TextCell } from "../..";
+import { Table_Deprecated as Table, Column, HeaderCell, TextCell } from "../..";
 import { items } from "./mocks";
 import { listReset, padding } from "../../../shared/styles/styleUtils";
 

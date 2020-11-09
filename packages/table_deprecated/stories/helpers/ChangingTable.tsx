@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Table, Column, Cell, HeaderCell } from "../..";
+import { Table_Deprecated as Table, Column, Cell, HeaderCell } from "../..";
 import { width } from "./mocks";
 
 const itemCellRenderer = item => (

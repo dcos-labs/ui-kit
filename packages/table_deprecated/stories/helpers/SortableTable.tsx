@@ -1,6 +1,6 @@
 import * as React from "react";
 import {
-  Table,
+  Table_Deprecated as Table,
   Column,
   SortableHeaderCell,
   Cell,
