@@ -1,5 +1,5 @@
 import * as React from "react";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { Icon } from "../icon";
 import { SystemIcons } from "../icons/dist/system-icons-enum";
 import * as dt from "../design-tokens/build/js/designTokens";

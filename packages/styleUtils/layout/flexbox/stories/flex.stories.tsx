@@ -8,7 +8,7 @@ import Flex from "../components/Flex";
 import FlexItem from "../components/FlexItem";
 import styled from "@emotion/styled";
 import { SpaceSize } from "../../../../shared/styles/styleUtils/modifiers/modifierUtils";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 import readme from "../README.md";
 

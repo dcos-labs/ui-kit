@@ -1,9 +1,9 @@
 import * as React from "react";
-import serializer from "jest-emotion";
+import serializer from "@emotion/jest";
 import { shallow, mount, render } from "enzyme";
 import toJson from "enzyme-to-json";
 // tslint:disable:no-duplicate-imports
-import { css, cx } from "emotion";
+import { css, cx } from "@emotion/css";
 
 import TextInput from "../components/TextInput";
 import { InputAppearance } from "../../shared/types/inputAppearance";

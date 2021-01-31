@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import * as React from "react";
 import Clickable from "../../clickable/components/clickable";
 import { badge as badgeButton } from "../style";

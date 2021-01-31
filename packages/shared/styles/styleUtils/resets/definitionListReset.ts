@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 export const dlReset = css`
   margin-top: 0;

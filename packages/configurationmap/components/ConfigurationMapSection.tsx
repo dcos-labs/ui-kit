@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { margin } from "../../shared/styles/styleUtils";
 import { dlReset } from "../../shared/styles/styleUtils/resets/definitionListReset";
 

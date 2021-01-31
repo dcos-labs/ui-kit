@@ -1,4 +1,4 @@
-import { css, cx } from "emotion";
+import { css, cx } from "@emotion/css";
 import { border } from "../shared/styles/styleUtils";
 import {
   SpaceSizes,

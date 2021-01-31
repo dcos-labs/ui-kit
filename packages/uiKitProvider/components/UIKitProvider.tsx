@@ -2,7 +2,7 @@ import * as React from "react";
 import { LinkComponent } from "../../link/types";
 import { LinkComponentContext } from "../link/context";
 import { UIKitThemeProvider } from "../../themes";
-import { Theme } from "../../themes/types/appTheme";
+import { LocalTheme as Theme } from "../../themes/types/appTheme";
 
 export interface UIKitProviderProps {
   children?: React.ReactNode;

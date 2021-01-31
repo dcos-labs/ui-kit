@@ -1,4 +1,3 @@
-import { Theme } from "../themes/types/appTheme";
 import { BreakpointConfig } from "../shared/styles/breakpoints";
 import { SpaceSizes } from "../shared/styles/styleUtils/modifiers/modifierUtils";
 import { LinkProps } from "../link/types";
@@ -8,7 +7,7 @@ type BgColor = React.CSSProperties["backgroundColor"];
 type PaddingHoriz = SpaceSizes;
 type PaddingVert = SpaceSizes;
 
-export interface AppChromeTheme extends Theme {
+export interface AppChromeTheme {
   headerBackgroundColor?: BgColor;
   headerPaddingHor?: PaddingHoriz;
   headerPaddingVert?: PaddingVert;

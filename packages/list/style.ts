@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { padding, border } from "../shared/styles/styleUtils";
 const standardListItemPaddingSize = "xs";
 

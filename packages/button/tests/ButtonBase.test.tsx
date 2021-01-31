@@ -2,7 +2,7 @@ import React from "react";
 
 import ButtonBase, { ButtonAppearances } from "../components/ButtonBase";
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
-import serializer from "jest-emotion";
+import serializer from "@emotion/jest";
 import { shallow, mount } from "enzyme";
 import toJson from "enzyme-to-json";
 

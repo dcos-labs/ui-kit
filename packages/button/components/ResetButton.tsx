@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { buttonReset } from "../../shared/styles/styleUtils";
 import { keyboardFocus, pointerCursor } from "../style";
 

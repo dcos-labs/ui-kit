@@ -1,6 +1,6 @@
 import * as React from "react";
 import { borderedListStyle } from "../style";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { SharedListProps } from "./List";
 import { listReset } from "../../shared/styles/styleUtils";
 

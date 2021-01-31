@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { getResponsiveStyle } from "../";
 import { BreakpointConfig } from "../../breakpoints";
 import { getResponsiveSpacingStyle } from "./handleResponsiveStyle";

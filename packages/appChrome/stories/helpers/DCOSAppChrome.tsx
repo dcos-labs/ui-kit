@@ -1,5 +1,5 @@
 import * as React from "react";
-import { css, cx } from "emotion";
+import { css, cx } from "@emotion/css";
 import { AppChrome, HeaderBar, Sidebar } from "../../index";
 import Clickable from "../../../clickable/components/clickable";
 import { SidebarContent } from "./StorybookSidebarHelpers";

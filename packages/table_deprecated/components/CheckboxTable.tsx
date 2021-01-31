@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ThemeProvider } from "emotion-theming";
+import { ThemeProvider } from "@emotion/react";
 import { Table_Deprecated, Column, Cell, HeaderCell } from "..";
 import { TableProps } from "./Table";
 import CheckboxInput from "../../checkboxInput/components/CheckboxInput";

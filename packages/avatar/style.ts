@@ -1,5 +1,5 @@
 import * as React from "react";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { themeBgSecondary } from "../design-tokens/build/js/designTokens";
 
 export const avatarContainer = css`

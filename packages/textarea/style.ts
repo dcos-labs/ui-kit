@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { spaceM } from "../design-tokens/build/js/designTokens";
 
 export const textarea = css`

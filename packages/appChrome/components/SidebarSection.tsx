@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { sidebarSectionHeader, sidebarSectionList } from "../style";
 import {
   tintText,
@@ -10,7 +10,7 @@ import {
   flex
 } from "../../shared/styles/styleUtils";
 import { greyLightDarken3 } from "../../design-tokens/build/js/designTokens";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { AppChromeTheme } from "../types";
 
 export interface SidebarSectionProps {

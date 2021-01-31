@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { fontWeightNormal } from "../../../../design-tokens/build/js/designTokens";
 
 export const headingReset = css`

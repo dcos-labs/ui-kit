@@ -1,5 +1,5 @@
 import * as CSS from "csstype";
-import { css, cx } from "emotion";
+import { css, cx } from "@emotion/css";
 import { atMediaUp, BreakpointConfig } from "../../breakpoints";
 import { spaceSizes, SpaceSize } from "../modifiers/modifierUtils";
 

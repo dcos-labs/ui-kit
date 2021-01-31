@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 export const visuallyHidden = css`
   border: 0;

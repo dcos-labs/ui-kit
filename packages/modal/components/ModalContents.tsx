@@ -1,5 +1,5 @@
 import React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { modalWrapper } from "../style";
 import { flex } from "../../shared/styles/styleUtils";
 export interface ModalContentsProps {

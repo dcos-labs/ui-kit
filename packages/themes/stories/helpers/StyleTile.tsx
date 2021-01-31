@@ -8,7 +8,7 @@ import {
   NumberCell
 } from "../../../table_deprecated";
 import { items, width } from "../../../table_deprecated/stories/helpers/mocks";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { TextInput } from "../../../textInput";
 import { InputAppearance } from "../../../shared/types/inputAppearance";
 import { PrimaryButton, DangerButton, SuccessButton } from "../../../button";

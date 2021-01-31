@@ -1,5 +1,5 @@
 import * as React from "react";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 /* tslint:disable */
 const productIconSprite = require("!svg-inline-loader!../packages/icons/dist/product-icons-sprite.svg");

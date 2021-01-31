@@ -1,6 +1,6 @@
 import * as React from "react";
 import SecondaryButton from "../../button/components/SecondaryButton";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { flexItem } from "../../shared/styles/styleUtils";
 
 interface ConfigurationMapRowActionProps {

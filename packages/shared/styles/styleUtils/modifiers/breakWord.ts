@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 // word-wrap is needed to support browsers in languages other than English
 export const breakWord = css`

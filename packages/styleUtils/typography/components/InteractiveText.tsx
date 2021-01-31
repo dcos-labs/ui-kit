@@ -1,5 +1,5 @@
 import * as React from "react";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import Text from "./Text";
 import { BasicTextProps } from "../textTypes";
 import { themeTextColorInteractive } from "../../../design-tokens/build/js/designTokens";

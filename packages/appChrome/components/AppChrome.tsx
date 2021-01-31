@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { appChrome, appWrapper } from "../style";
 import {
   flex,
@@ -7,7 +7,7 @@ import {
   textSize,
   flush
 } from "../../shared/styles/styleUtils";
-import { ThemeProvider } from "emotion-theming";
+import { ThemeProvider } from "@emotion/react";
 import getCSSVarValue from "../../utilities/getCSSVarValue";
 import { themeBgPrimaryInverted } from "../../design-tokens/build/js/designTokens";
 import {

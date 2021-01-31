@@ -6,11 +6,11 @@ import {
   sidebarNavItem,
   spaceMenuIcon
 } from "../style";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { textSize, flex, tintContent } from "../../shared/styles/styleUtils";
 import Clickable from "../../clickable/components/clickable";
 import ResetLink from "../../link/components/ResetLink";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import getCSSVarValue from "../../utilities/getCSSVarValue";
 import {
   themeTextColorPrimary,

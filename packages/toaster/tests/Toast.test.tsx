@@ -1,6 +1,6 @@
 import * as React from "react";
 import { shallow, mount } from "enzyme";
-import serializer from "jest-emotion";
+import serializer from "@emotion/jest";
 import toJson from "enzyme-to-json";
 import { Toaster, Toast } from "../";
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { padding, border } from "../../shared/styles/styleUtils";
 import { configurationMapHeadingStyle } from "../style";
 import {

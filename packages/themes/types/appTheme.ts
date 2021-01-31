@@ -1,6 +1,12 @@
-type Color = React.CSSProperties["color"];
+import { AppChromeTheme } from "../../appChrome/types";
 
-export interface Theme {
+type Color = React.CSSProperties["color"];
+export type LocalTheme = AppChromeTheme & {
+  menuHasIcon: boolean;
+
+  coloredRows: any[];
+  mutedRows: any[];
+
   colors: {
     // Branding
     brandPrimary?: Color;
@@ -44,4 +50,10 @@ export interface Theme {
     shadow?: Color;
     shadowInverted?: Color;
   };
+};
+
+declare module "@emotion/react" {
+  export interface Theme extends LocalTheme {
+    _unused: true; // can not be empty
+  }
 }

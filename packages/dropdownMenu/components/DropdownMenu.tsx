@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import Downshift, { ControllerStateAndHelpers } from "downshift";
 import { Dropdownable } from "../../dropdownable";
 import { border, buttonReset, display } from "../../shared/styles/styleUtils";

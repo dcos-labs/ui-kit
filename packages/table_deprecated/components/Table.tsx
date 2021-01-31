@@ -1,6 +1,6 @@
 import * as React from "react";
 import Draggable from "react-draggable";
-import { cx, css } from "emotion";
+import { cx, css } from "@emotion/css";
 import memoizeOne from "memoize-one";
 import styled from "@emotion/styled";
 import {
@@ -141,15 +141,7 @@ export const fillColumns = (
   return copiedColWidths;
 };
 
-const ContentCell = styled<
-  "div",
-  {
-    theme: {
-      coloredRows: Pick<TableProps, "data">;
-      mutedRows: Pick<TableProps, "data">;
-    };
-  }
->("div")`
+const ContentCell = styled("div")`
   ${props => {
     return `${
       props.theme.coloredRows &&

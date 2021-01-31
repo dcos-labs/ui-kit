@@ -1,7 +1,7 @@
 import * as React from "react";
-import { ThemeProvider } from "emotion-theming";
+import { ThemeProvider } from "@emotion/react";
 import { injectCustomProperties } from "../../shared/styles/global";
-import { Theme } from "../types/appTheme";
+import { LocalTheme as Theme } from "../types/appTheme";
 
 interface UIKitThemeProviderProps {
   appTheme: Theme;
@@ -16,7 +16,7 @@ export class UIKitThemeProvider extends React.PureComponent<
     const { children, appTheme } = this.props;
     injectCustomProperties(appTheme);
 
-    return <ThemeProvider theme={{ appTheme }}>{children}</ThemeProvider>;
+    return <ThemeProvider theme={appTheme}>{children}</ThemeProvider>;
   }
 }
 

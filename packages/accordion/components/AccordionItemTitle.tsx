@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import ResetButton from "../../button/components/ResetButton";
 import { Context as AccordionItemContext } from "./AccordionItemContext";
 import { Context as AccordionContext } from "./AccordionContext";

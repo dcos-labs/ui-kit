@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { textWeight } from "../../shared/styles/styleUtils";
 import { headingReset } from "../../shared/styles/styleUtils/resets/headingReset";
 import ResetButton from "../../button/components/ResetButton";

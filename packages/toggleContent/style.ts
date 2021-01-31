@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 export const style = css`
   border-bottom: 1px dashed;

@@ -1,5 +1,5 @@
 import React from "react";
-import serializer from "jest-emotion";
+import serializer from "@emotion/jest";
 import { shallow } from "enzyme";
 import toJson from "enzyme-to-json";
 

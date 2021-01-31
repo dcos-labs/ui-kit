@@ -1,10 +1,10 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { Expandable } from "../../expandable";
 import { SidebarItemLabelProps } from "./SidebarItemLabel";
 import { sidebarNavItem, appChromeInsetContent } from "../style";
 import { listReset } from "../../shared/styles/styleUtils";
-import { useTheme, ThemeProvider } from "emotion-theming";
+import { useTheme, ThemeProvider } from "@emotion/react";
 import { AppChromeTheme } from "../types";
 import { IconSize } from "../../shared/types/iconSize";
 

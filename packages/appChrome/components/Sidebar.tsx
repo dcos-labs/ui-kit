@@ -1,6 +1,6 @@
 import * as React from "react";
-import { cx } from "emotion";
-import { ThemeProvider, useTheme } from "emotion-theming";
+import { cx } from "@emotion/css";
+import { ThemeProvider, useTheme } from "@emotion/react";
 import { sidebar, sidebarAnimator, sidebarContainer } from "../style";
 import { themeBgPrimaryInverted } from "../../design-tokens/build/js/designTokens";
 import getCSSVarValue from "../../utilities/getCSSVarValue";

@@ -6,7 +6,7 @@ import {
   themeBgPrimary,
   themeBgSecondary
 } from "../../../../design-tokens/build/js/designTokens";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 import readme from "../README.md";
 

@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { spaceM, spaceL } from "../design-tokens/build/js/designTokens";
 import { FieldListColumnSeparator } from "./components/FieldListColumn";
 import { visuallyHidden } from "../shared/styles/styleUtils";

@@ -1,4 +1,4 @@
-import { css, keyframes } from "emotion";
+import { css, keyframes } from "@emotion/css";
 import { padding } from "../shared/styles/styleUtils";
 import { iconSizeXl, greyLight } from "../design-tokens/build/js/designTokens";
 

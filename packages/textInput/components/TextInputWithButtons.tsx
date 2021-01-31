@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import TextInputWithIcon, { TextInputWithIconProps } from "./TextInputWithIcon";
 import FormFieldWrapper from "../../shared/components/FormFieldWrapper";
 import { flex, padding, flexItem } from "../../shared/styles/styleUtils";

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { TransitionGroup, Transition } from "react-transition-group";
 import { ToastProps, ToastId } from "./Toast";
 import { toaster, preTransitionStyle, transitionStyles } from "../style";

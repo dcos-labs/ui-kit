@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { GradientColors, GradientStyle } from "./types";
 import {
   blueLighten4,

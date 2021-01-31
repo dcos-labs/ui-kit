@@ -9,7 +9,7 @@ import {
   tintContentSecondary,
   padding
 } from "../../shared/styles/styleUtils";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { fullscreenModalTitle } from "../style";
 import { SecondaryButton, PrimaryButton } from "../../button";
 import { action } from "@storybook/addon-actions";
