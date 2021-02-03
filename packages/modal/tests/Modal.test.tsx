@@ -1,13 +1,13 @@
 import React from "react";
 import { mount } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 import ModalBase from "../components/ModalBase";
 import DialogModalWithFooter from "../components/DialogModalWithFooter";
 import FullscreenModal from "../components/FullscreenModal";
 import { PrimaryButton } from "../../button";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("Modal", () => {
   describe("ModalBase", () => {

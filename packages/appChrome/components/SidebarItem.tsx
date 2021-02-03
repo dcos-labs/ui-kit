@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { sidebarNavItem } from "../style";
 import Clickable from "../../clickable/components/clickable";
 import ResetLink from "../../link/components/ResetLink";
@@ -22,7 +22,7 @@ const SidebarItemComponent: React.FC<SidebarItemProps> = ({
   openInNewTab,
   url
 }) => {
-  const theme: AppChromeTheme = useTheme();
+  const theme = useTheme() as AppChromeTheme;
   const dataCy = [
     "sidebarItem",
     ...(isActive ? ["sidebarItem.active"] : [])

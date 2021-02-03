@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Popover renders a closed dropdown 1`] = `
-.emotion-1 {
+.emotion-0 {
   display: inline-block;
 }
 
-.emotion-0 {
+.emotion-1 {
   background: none;
   border: 0;
   color: inherit;
@@ -17,22 +17,22 @@ exports[`Popover renders a closed dropdown 1`] = `
   cursor: pointer;
 }
 
-.emotion-0::-moz-focus-inner {
+.emotion-1::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-0 > div:focus {
+.emotion-1>div:focus {
   outline: none;
 }
 
-.emotion-0:focus > div {
+.emotion-1:focus>div {
   outline-color: Highlight;
   outline-width: thin;
 }
 
-@media (-webkit-min-device-pixel-ratio:0) {
-  .emotion-0:focus > div {
+@media (-webkit-min-device-pixel-ratio: 0) {
+  .emotion-1:focus>div {
     outline-color: -webkit-focus-ring-color;
     outline-style: auto;
     outline-width: unset;
@@ -44,7 +44,7 @@ exports[`Popover renders a closed dropdown 1`] = `
   trigger="Dropdown trigger"
 >
   <div
-    className="emotion-1"
+    className="emotion-0"
   >
     <Dropdownable
       dropdown={
@@ -57,8 +57,12 @@ exports[`Popover renders a closed dropdown 1`] = `
           <FocusLockCombination
             disabled={true}
           >
-            <div
-              className="css-1y3xrxk"
+            .emotion-0:focus {
+  outline: none;
+}
+
+<div
+              className="emotion-0"
               tabIndex={-1}
             >
               <SpacingBox
@@ -97,7 +101,7 @@ exports[`Popover renders a closed dropdown 1`] = `
           <button
             aria-expanded={false}
             aria-owns="dropdown1"
-            className="emotion-0"
+            className="emotion-1"
             onBlur={[Function]}
             onClick={[Function]}
             onKeyDown={[Function]}
@@ -117,11 +121,11 @@ exports[`Popover renders a closed dropdown 1`] = `
 `;
 
 exports[`Popover renders a dropdown with a max width and max height 1`] = `
-.emotion-1 {
+.emotion-0 {
   display: inline-block;
 }
 
-.emotion-0 {
+.emotion-1 {
   background: none;
   border: 0;
   color: inherit;
@@ -133,22 +137,22 @@ exports[`Popover renders a dropdown with a max width and max height 1`] = `
   cursor: pointer;
 }
 
-.emotion-0::-moz-focus-inner {
+.emotion-1::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-0 > div:focus {
+.emotion-1>div:focus {
   outline: none;
 }
 
-.emotion-0:focus > div {
+.emotion-1:focus>div {
   outline-color: Highlight;
   outline-width: thin;
 }
 
-@media (-webkit-min-device-pixel-ratio:0) {
-  .emotion-0:focus > div {
+@media (-webkit-min-device-pixel-ratio: 0) {
+  .emotion-1:focus>div {
     outline-color: -webkit-focus-ring-color;
     outline-style: auto;
     outline-width: unset;
@@ -162,7 +166,7 @@ exports[`Popover renders a dropdown with a max width and max height 1`] = `
   trigger="Dropdown trigger"
 >
   <div
-    className="emotion-1"
+    className="emotion-0"
   >
     <Dropdownable
       dropdown={
@@ -177,8 +181,12 @@ exports[`Popover renders a dropdown with a max width and max height 1`] = `
           <FocusLockCombination
             disabled={true}
           >
-            <div
-              className="css-1y3xrxk"
+            .emotion-0:focus {
+  outline: none;
+}
+
+<div
+              className="emotion-0"
               tabIndex={-1}
             >
               <SpacingBox
@@ -217,7 +225,7 @@ exports[`Popover renders a dropdown with a max width and max height 1`] = `
           <button
             aria-expanded={false}
             aria-owns="dropdown3"
-            className="emotion-0"
+            className="emotion-1"
             onBlur={[Function]}
             onClick={[Function]}
             onKeyDown={[Function]}
@@ -237,15 +245,11 @@ exports[`Popover renders a dropdown with a max width and max height 1`] = `
 `;
 
 exports[`Popover renders an open dropdown 1`] = `
-.emotion-6 {
+.emotion-0 {
   display: inline-block;
 }
 
-.emotion-3:focus {
-  outline: none;
-}
-
-.emotion-0 {
+.emotion-1 {
   background: none;
   border: 0;
   color: inherit;
@@ -257,65 +261,87 @@ exports[`Popover renders an open dropdown 1`] = `
   cursor: pointer;
 }
 
-.emotion-0::-moz-focus-inner {
+.emotion-1::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-0 > div:focus {
+.emotion-1>div:focus {
   outline: none;
 }
 
-.emotion-0:focus > div {
+.emotion-1:focus>div {
   outline-color: Highlight;
   outline-width: thin;
 }
 
-@media (-webkit-min-device-pixel-ratio:0) {
-  .emotion-0:focus > div {
+@media (-webkit-min-device-pixel-ratio: 0) {
+  .emotion-1:focus>div {
     outline-color: -webkit-focus-ring-color;
     outline-style: auto;
     outline-width: unset;
   }
 }
 
-.emotion-4 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-2 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-style: solid;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   overflow-x: hidden;
 }
 
+.emotion-3:focus {
+  outline: none;
+}
+
+.emotion-4 {
+  padding: 16px;
+}
+
 .emotion-5 {
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
+  background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
+  padding: 16px;
+}
+
+.emotion-6 {
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  border-right: 1px solid var(--themeBorder,#DADDE2);
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+  border-right: 1px solid var(--themeBorder, #DADDE2);
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
   width: 10px;
-}
-
-.emotion-2 {
-  padding: 16px;
-}
-
-.emotion-1 {
-  background-repeat: no-repeat;
-  padding: 16px;
 }
 
 <Popover
@@ -324,7 +350,7 @@ exports[`Popover renders an open dropdown 1`] = `
   trigger="Dropdown trigger"
 >
   <div
-    className="emotion-6"
+    className="emotion-0"
   >
     <Dropdownable
       dropdown={
@@ -337,8 +363,12 @@ exports[`Popover renders an open dropdown 1`] = `
           <FocusLockCombination
             disabled={false}
           >
-            <div
-              className="emotion-3"
+            .emotion-0:focus {
+  outline: none;
+}
+
+<div
+              className="emotion-0"
               tabIndex={-1}
             >
               <SpacingBox
@@ -377,7 +407,7 @@ exports[`Popover renders an open dropdown 1`] = `
           <button
             aria-expanded={true}
             aria-owns="dropdown2"
-            className="emotion-0"
+            className="emotion-1"
             onBlur={[Function]}
             onClick={[Function]}
             onKeyDown={[Function]}
@@ -410,43 +440,61 @@ exports[`Popover renders an open dropdown 1`] = `
             <Overlay
               innerRef={[Function]}
               overlayRoot={
-                .emotion-1:focus {
+                .emotion-0 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-style: solid;
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
+  overflow-x: hidden;
+}
+
+.emotion-1:focus {
   outline: none;
 }
 
 .emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  overflow: auto;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-style: solid;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
-  overflow-x: hidden;
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
+  background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
+  padding: 16px;
 }
 
 .emotion-3 {
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  border-right: 1px solid var(--themeBorder,#DADDE2);
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+  border-right: 1px solid var(--themeBorder, #DADDE2);
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
   width: 10px;
-}
-
-.emotion-0 {
-  background-repeat: no-repeat;
-  padding: 16px;
 }
 
 <body>
@@ -455,7 +503,7 @@ exports[`Popover renders an open dropdown 1`] = `
                       style="z-index: 2; position: absolute; left: 0px; top: 0px;"
                     >
                       <div
-                        class="emotion-2"
+                        class="emotion-0"
                         data-cy="popover"
                         id="dropdown2"
                         role="dialog"
@@ -478,7 +526,7 @@ exports[`Popover renders an open dropdown 1`] = `
                             tabindex="-1"
                           >
                             <div
-                              class="emotion-0"
+                              class="emotion-2"
                               data-cy="spacingBox"
                             >
                               <div>
@@ -511,43 +559,61 @@ exports[`Popover renders an open dropdown 1`] = `
             >
               <Portal
                 containerInfo={
-                  .emotion-1:focus {
+                  .emotion-0 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-style: solid;
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
+  overflow-x: hidden;
+}
+
+.emotion-1:focus {
   outline: none;
 }
 
 .emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  overflow: auto;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-style: solid;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
-  overflow-x: hidden;
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
+  background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
+  padding: 16px;
 }
 
 .emotion-3 {
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  border-right: 1px solid var(--themeBorder,#DADDE2);
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+  border-right: 1px solid var(--themeBorder, #DADDE2);
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
   width: 10px;
-}
-
-.emotion-0 {
-  background-repeat: no-repeat;
-  padding: 16px;
 }
 
 <div>
@@ -555,7 +621,7 @@ exports[`Popover renders an open dropdown 1`] = `
                       style="z-index: 2; position: absolute; left: 0px; top: 0px;"
                     >
                       <div
-                        class="emotion-2"
+                        class="emotion-0"
                         data-cy="popover"
                         id="dropdown2"
                         role="dialog"
@@ -578,7 +644,7 @@ exports[`Popover renders an open dropdown 1`] = `
                             tabindex="-1"
                           >
                             <div
-                              class="emotion-0"
+                              class="emotion-2"
                               data-cy="spacingBox"
                             >
                               <div>
@@ -617,7 +683,7 @@ exports[`Popover renders an open dropdown 1`] = `
                     showPointerCaret={true}
                   >
                     <div
-                      className="emotion-4"
+                      className="emotion-2"
                       data-cy="popover"
                       id="dropdown2"
                       role="dialog"
@@ -683,12 +749,20 @@ exports[`Popover renders an open dropdown 1`] = `
                               autoFocus={true}
                               disabled={false}
                               observed={
-                                .emotion-1:focus {
+                                .emotion-0:focus {
   outline: none;
 }
 
-.emotion-0 {
+.emotion-1 {
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
   background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
   padding: 16px;
 }
 
@@ -696,11 +770,11 @@ exports[`Popover renders an open dropdown 1`] = `
                                   data-focus-lock-disabled="false"
                                 >
                                   <div
-                                    class="emotion-1"
+                                    class="emotion-0"
                                     tabindex="-1"
                                   >
                                     <div
-                                      class="emotion-0"
+                                      class="emotion-1"
                                       data-cy="spacingBox"
                                     >
                                       <div>
@@ -732,12 +806,20 @@ exports[`Popover renders an open dropdown 1`] = `
                                 autoFocus={true}
                                 disabled={false}
                                 observed={
-                                  .emotion-1:focus {
+                                  .emotion-0:focus {
   outline: none;
 }
 
-.emotion-0 {
+.emotion-1 {
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
   background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
   padding: 16px;
 }
 
@@ -745,11 +827,11 @@ exports[`Popover renders an open dropdown 1`] = `
                                     data-focus-lock-disabled="false"
                                   >
                                     <div
-                                      class="emotion-1"
+                                      class="emotion-0"
                                       tabindex="-1"
                                     >
                                       <div
-                                        class="emotion-0"
+                                        class="emotion-1"
                                         data-cy="spacingBox"
                                       >
                                         <div>
@@ -795,12 +877,12 @@ exports[`Popover renders an open dropdown 1`] = `
                                       "size": undefined,
                                     }
                                   }
-                                  className="emotion-2"
+                                  className="emotion-4"
                                   data-cy="spacingBox"
                                   tag="div"
                                 >
                                   <div
-                                    className="emotion-1"
+                                    className="emotion-5"
                                     data-cy="spacingBox"
                                   >
                                     <div>
@@ -830,7 +912,7 @@ exports[`Popover renders an open dropdown 1`] = `
                       </FocusLockCombination>
                     </div>
                     <div
-                      className="emotion-5"
+                      className="emotion-6"
                     />
                   </Popover>
                 </div>

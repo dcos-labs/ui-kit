@@ -1,10 +1,10 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { render, shallow } from "enzyme";
 import toJSON from "enzyme-to-json";
 import { HashMap } from "../";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("HashMap", () => {
   it("renders default", () => {

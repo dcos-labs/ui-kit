@@ -63,7 +63,7 @@ exports[`SelectInput should render all appearances focus 1`] = `
   font-weight: 500;
 }
 
-.emotion-4 {
+.emotion-1 {
   position: relative;
   border: 1px solid;
   border-radius: 4px;
@@ -78,58 +78,59 @@ exports[`SelectInput should render all appearances focus 1`] = `
   display: flex;
 }
 
-.emotion-4::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4 input {
+.emotion-1 input {
   font-size: inherit;
   color: inherit;
 }
 
-.emotion-4 input::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1 input::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4 input::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1 input::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4 input:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1 input:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-4 input::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-1 input::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   border: 0;
   box-shadow: none;
   padding: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   color: inherit;
   font-size: inherit;
@@ -138,16 +139,16 @@ exports[`SelectInput should render all appearances focus 1`] = `
   display: block;
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: 0;
 }
 
-.emotion-1:-moz-focusring {
+.emotion-2:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 var(--themeTextColorPrimary,#1B2029);
+  text-shadow: 0 0 0 var(--themeTextColorPrimary, #1B2029);
 }
 
-.emotion-1::-ms-expand {
+.emotion-2::-ms-expand {
   display: none;
 }
 
@@ -158,18 +159,19 @@ exports[`SelectInput should render all appearances focus 1`] = `
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-left: 16px;
   padding-right: 16px;
 }
 
-.emotion-2 {
+.emotion-4 {
   vertical-align: middle;
   fill: inherit;
 }
 
-.emotion-2 use {
+.emotion-4 use {
   pointer-events: none;
 }
 
@@ -227,12 +229,12 @@ exports[`SelectInput should render all appearances focus 1`] = `
         Atmosphere layer
       </label>
       <span
-        className="emotion-4"
+        className="emotion-1"
       >
         <select
           aria-describedby=""
           aria-invalid={false}
-          className="emotion-1"
+          className="emotion-2"
           data-cy="selectInput-select selectInput-select.[object Object]"
           id="layers"
           onBlur={[Function]}
@@ -286,7 +288,7 @@ exports[`SelectInput should render all appearances focus 1`] = `
           >
             <svg
               aria-label="system-triangle-down icon"
-              className="emotion-2"
+              className="emotion-4"
               data-cy="icon"
               height={16}
               preserveAspectRatio="xMinYMin meet"

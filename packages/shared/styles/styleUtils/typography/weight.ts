@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { fontWeights } from "../../typography";
 
 export type FontWeights = keyof typeof fontWeights;

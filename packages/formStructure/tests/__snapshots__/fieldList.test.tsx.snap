@@ -3,23 +3,23 @@
 exports[`FieldList renders 1`] = `
 <div>
   <div
-    class="css-m7nb2t"
+    class="css-1olmsyh"
     data-cy="spacingBox"
   >
     <div
-      class="rmTextMargins css-1xq9107"
+      class="rmTextMargins css-49hn1i"
       data-cy="fieldList-columnHeader"
     >
       Name
     </div>
     <div
-      class="rmTextMargins css-6pwokj"
+      class="rmTextMargins css-4tue1l"
       data-cy="fieldList-columnHeader"
     >
       :
     </div>
     <div
-      class="rmTextMargins css-1xq9107"
+      class="rmTextMargins css-49hn1i"
       data-cy="fieldList-columnHeader"
     >
       Role
@@ -52,7 +52,7 @@ exports[`FieldList renders 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid="false"
-                class="css-p0cbyv"
+                class="css-1w8it3t"
                 data-cy="textInput-input"
                 id="name-0"
                 type="text"
@@ -92,7 +92,7 @@ exports[`FieldList renders 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid="false"
-                class="css-p0cbyv"
+                class="css-1w8it3t"
                 data-cy="textInput-input"
                 id="role-0"
                 type="text"
@@ -107,7 +107,7 @@ exports[`FieldList renders 1`] = `
       </div>
       <div>
         <button
-          class="css-1c1l20i"
+          class="css-gvfau5"
           data-cy="fieldList-removeButton"
           disabled=""
           type="button"
@@ -117,7 +117,7 @@ exports[`FieldList renders 1`] = `
           >
             <svg
               aria-label="system-close icon"
-              class="css-1q5he24"
+              class="css-xp6z5l"
               data-cy="icon"
               height="16"
               preserveAspectRatio="xMinYMin meet"
@@ -157,7 +157,7 @@ exports[`FieldList renders 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid="false"
-                class="css-p0cbyv"
+                class="css-1w8it3t"
                 data-cy="textInput-input"
                 id="name-1"
                 type="text"
@@ -197,7 +197,7 @@ exports[`FieldList renders 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid="false"
-                class="css-p0cbyv"
+                class="css-1w8it3t"
                 data-cy="textInput-input"
                 id="role-1"
                 type="text"
@@ -212,7 +212,7 @@ exports[`FieldList renders 1`] = `
       </div>
       <div>
         <button
-          class="css-p8ocxc"
+          class="css-1smnoyq"
           data-cy="fieldList-removeButton"
           type="button"
         >
@@ -221,7 +221,7 @@ exports[`FieldList renders 1`] = `
           >
             <svg
               aria-label="system-close icon"
-              class="css-1qtjntg"
+              class="css-k06270"
               data-cy="icon"
               height="16"
               preserveAspectRatio="xMinYMin meet"
@@ -261,7 +261,7 @@ exports[`FieldList renders 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid="false"
-                class="css-p0cbyv"
+                class="css-1w8it3t"
                 data-cy="textInput-input"
                 id="name-2"
                 type="text"
@@ -301,7 +301,7 @@ exports[`FieldList renders 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid="false"
-                class="css-p0cbyv"
+                class="css-1w8it3t"
                 data-cy="textInput-input"
                 id="role-2"
                 type="text"
@@ -316,7 +316,7 @@ exports[`FieldList renders 1`] = `
       </div>
       <div>
         <button
-          class="css-p8ocxc"
+          class="css-1smnoyq"
           data-cy="fieldList-removeButton"
           type="button"
         >
@@ -325,7 +325,7 @@ exports[`FieldList renders 1`] = `
           >
             <svg
               aria-label="system-close icon"
-              class="css-1qtjntg"
+              class="css-k06270"
               data-cy="icon"
               height="16"
               preserveAspectRatio="xMinYMin meet"
@@ -342,7 +342,7 @@ exports[`FieldList renders 1`] = `
       </div>
     </div>
     <button
-      class="css-8g34zf"
+      class="css-1qbr1ah"
       data-cy="secondaryButton"
       tabindex="0"
       type="button"
@@ -351,11 +351,11 @@ exports[`FieldList renders 1`] = `
         class="css-1hesotu"
       >
         <span
-          class="css-ew6x4b"
+          class="css-16x89v1"
         >
           <svg
             aria-label="system-plus icon"
-            class="css-1psudu0"
+            class="css-1naj4ae"
             data-cy="icon"
             height="16"
             preserveAspectRatio="xMinYMin meet"
@@ -369,7 +369,7 @@ exports[`FieldList renders 1`] = `
           </svg>
         </span>
         <span
-          class="css-1tbd6ha"
+          class="css-mzjeix"
         >
           Add row
         </span>

@@ -1,5 +1,5 @@
 import React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { ExpandedLinkProps } from "../types";
 import { linkReset } from "../../shared/styles/styleUtils/resets/linkReset";
 import UnstyledLink from "./UnstyledLink";

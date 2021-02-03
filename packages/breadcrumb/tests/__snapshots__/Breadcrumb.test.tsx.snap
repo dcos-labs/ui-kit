@@ -5,7 +5,7 @@ exports[`Breadcrumb default 1`] = `
   class="css-cldwuj"
 >
   <div
-    class="css-1x1yem1"
+    class="css-zsjup2"
     data-cy="breadcrumb"
   >
     <span>
@@ -13,12 +13,12 @@ exports[`Breadcrumb default 1`] = `
     </span>
   </div>
   <div
-    class="css-1v7r6e"
+    class="css-10fubqe"
     data-cy="breadcrumb"
   >
     <svg
       aria-label="system-caret-right icon"
-      class="css-zgvqkl"
+      class="css-jbdp75"
       data-cy="icon"
       height="16"
       preserveAspectRatio="xMinYMin meet"
@@ -32,7 +32,7 @@ exports[`Breadcrumb default 1`] = `
     </svg>
   </div>
   <div
-    class="css-1v7r6e"
+    class="css-10fubqe"
     data-cy="breadcrumb"
   >
     <span>

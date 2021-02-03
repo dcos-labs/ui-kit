@@ -2,14 +2,6 @@
 
 exports[`TextInput should display icon with tooltip if tooltipText is set 1`] = `
 .emotion-0 {
-  display: block;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 500;
-}
-
-.emotion-2 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -18,12 +10,13 @@ exports[`TextInput should display icon with tooltip if tooltipText is set 1`] = 
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -33,11 +26,19 @@ exports[`TextInput should display icon with tooltip if tooltipText is set 1`] = 
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-0>div {
   width: auto;
 }
 
 .emotion-1 {
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.emotion-2 {
   margin-left: 8px;
   margin-bottom: 4px;
 }
@@ -46,17 +47,17 @@ exports[`TextInput should display icon with tooltip if tooltipText is set 1`] = 
   data-cy="textInput textInput.standard"
 >
   <div
-    className="emotion-2"
+    className="emotion-0"
   >
     <label
-      className="emotion-0"
+      className="emotion-1"
       data-cy="textInput-label"
       htmlFor="input.with.tooltip"
     >
       Tooltip Message Test
     </label>
     <span
-      className="emotion-1"
+      className="emotion-2"
     >
       <Tooltip
         id="labelTooltip-input.with.tooltip"
@@ -88,8 +89,8 @@ exports[`TextInput should display validation message if set & appearance == Erro
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <div
@@ -119,7 +120,6 @@ exports[`TextInput should display validation message if set & appearance == Erro
 exports[`TextInput should hide label if \`showInputLabel\` set to false 1`] = `
 .emotion-0 {
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -188,7 +188,7 @@ exports[`TextInput should render all appearances focus 1`] = `
   font-weight: 500;
 }
 
-.emotion-2 {
+.emotion-1 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -197,12 +197,13 @@ exports[`TextInput should render all appearances focus 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -212,11 +213,11 @@ exports[`TextInput should render all appearances focus 1`] = `
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   border: 0;
   box-shadow: none;
@@ -240,62 +241,62 @@ exports[`TextInput should render all appearances focus 1`] = `
   font-size: inherit;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-color: var(--themeBorder,#DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-color: var(--themeBorder, #DADDE2);
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: 0;
 }
 
-.emotion-1::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input {
+.emotion-2 input {
   font-size: inherit;
   color: inherit;
 }
 
-.emotion-1 input::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   background-color: rgba(125,88,255,0.05);
-  border-color: var(--themeBrandPrimary,#7D58FF);
+  border-color: var(--themeBrandPrimary, #7D58FF);
 }
 
 <TextInput
@@ -317,12 +318,12 @@ exports[`TextInput should render all appearances focus 1`] = `
     >
       <div>
         <div
-          className="emotion-2"
+          className="emotion-1"
         >
           <input
             aria-describedby=""
             aria-invalid={false}
-            className="emotion-1"
+            className="emotion-2"
             data-cy="textInput-input"
             id="test.input"
             type="text"
@@ -344,11 +345,11 @@ exports[`TextInput should render all appearances focus 2`] = `
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
-.emotion-2 {
+.emotion-1 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -357,12 +358,13 @@ exports[`TextInput should render all appearances focus 2`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -372,11 +374,11 @@ exports[`TextInput should render all appearances focus 2`] = `
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   border: 0;
   box-shadow: none;
@@ -400,60 +402,60 @@ exports[`TextInput should render all appearances focus 2`] = `
   font-size: inherit;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-color: var(--themeError,#EB293A);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-color: var(--themeError, #EB293A);
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: 0;
 }
 
-.emotion-1::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input {
+.emotion-2 input {
   font-size: inherit;
   color: inherit;
 }
 
-.emotion-1 input::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   background-color: rgba(235,41,58,0.05);
 }
 
@@ -476,12 +478,12 @@ exports[`TextInput should render all appearances focus 2`] = `
     >
       <div>
         <div
-          className="emotion-2"
+          className="emotion-1"
         >
           <input
             aria-describedby=""
             aria-invalid={false}
-            className="emotion-1"
+            className="emotion-2"
             data-cy="textInput-input textInput-input.error"
             id="test.input"
             type="text"
@@ -505,7 +507,7 @@ exports[`TextInput should render all appearances focus 3`] = `
   font-weight: 500;
 }
 
-.emotion-2 {
+.emotion-1 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -514,12 +516,13 @@ exports[`TextInput should render all appearances focus 3`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -529,11 +532,11 @@ exports[`TextInput should render all appearances focus 3`] = `
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   border: 0;
   box-shadow: none;
@@ -557,60 +560,60 @@ exports[`TextInput should render all appearances focus 3`] = `
   font-size: inherit;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-color: var(--themeSuccess,#14C684);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-color: var(--themeSuccess, #14C684);
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: 0;
 }
 
-.emotion-1::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input {
+.emotion-2 input {
   font-size: inherit;
   color: inherit;
 }
 
-.emotion-1 input::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   background-color: rgba(20,198,132,0.05);
 }
 
@@ -633,12 +636,12 @@ exports[`TextInput should render all appearances focus 3`] = `
     >
       <div>
         <div
-          className="emotion-2"
+          className="emotion-1"
         >
           <input
             aria-describedby=""
             aria-invalid={false}
-            className="emotion-1"
+            className="emotion-2"
             data-cy="textInput-input textInput-input.success"
             id="test.input"
             type="text"
@@ -687,8 +690,8 @@ exports[`TextInput should render all appearances with props 2`] = `
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <div

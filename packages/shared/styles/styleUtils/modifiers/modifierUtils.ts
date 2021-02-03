@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import * as CSS from "csstype";
 import {
   spaceXxs,

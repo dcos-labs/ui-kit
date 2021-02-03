@@ -14,7 +14,7 @@ exports[`Loading indicators renders InlineLoadingIndicator 1`] = `
 exports[`Loading indicators renders SectionLoadingIndicator 1`] = `
 <svg
   aria-label="system-spinner icon"
-  class="css-zgvqkl"
+  class="css-jbdp75"
   data-cy="icon inlineLoadingIndicator"
   height="16"
   preserveAspectRatio="xMinYMin meet"

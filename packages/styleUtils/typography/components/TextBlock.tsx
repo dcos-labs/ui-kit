@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { textBlock } from "../style";
 import { Stack } from "../../layout";
 

@@ -66,9 +66,7 @@ exports[`Dropdownable is visible after opening 1`] = `
             tabIndex={0}
             type="button"
           >
-            <span
-              className=""
-            >
+            <span>
               Click me
             </span>
           </button>
@@ -145,9 +143,7 @@ exports[`Dropdownable is visible after opening 2`] = `
             tabIndex={0}
             type="button"
           >
-            <span
-              className=""
-            >
+            <span>
               Click me
             </span>
           </button>

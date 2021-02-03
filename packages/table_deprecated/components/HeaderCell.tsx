@@ -1,5 +1,5 @@
 import React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { useId } from "react-id-generator";
 
 import Cell, { CellProps } from "./Cell";

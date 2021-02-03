@@ -2,7 +2,7 @@
 
 exports[`Promos renders PromoBanner 1`] = `
 <div
-  class="css-1l9o2e0"
+  class="css-10e62zl"
   data-cy="spacingBox"
 >
   <div
@@ -10,7 +10,7 @@ exports[`Promos renders PromoBanner 1`] = `
     data-cy="promoContent"
   >
     <button
-      class="css-1ylfqc6"
+      class="css-x6qgaa"
       type="button"
     >
       <div
@@ -18,7 +18,7 @@ exports[`Promos renders PromoBanner 1`] = `
       >
         <svg
           aria-label="system-close icon"
-          class="css-zgvqkl"
+          class="css-jbdp75"
           data-cy="icon"
           height="16"
           preserveAspectRatio="xMinYMin meet"
@@ -33,7 +33,7 @@ exports[`Promos renders PromoBanner 1`] = `
       </div>
     </button>
     <div
-      class="css-10l8rda"
+      class="css-npch7t"
       data-cy="flex"
     >
       <div
@@ -41,22 +41,22 @@ exports[`Promos renders PromoBanner 1`] = `
         data-cy="flexItem"
       >
         <div
-          class="css-18axn3y"
+          class="css-1uaiqzh"
           data-cy="spacingBox"
         >
           <div
-            class="css-ilu7d6"
+            class="css-lkxn4w"
             data-cy="spacingBox"
           >
             <h3
-              class="rmTextMargins css-178l9ir"
+              class="rmTextMargins css-11i5m9i"
               data-cy="headingText1"
             >
               Promo Banner
             </h3>
           </div>
           <div
-            class="css-fpj0jb"
+            class="css-1qm58jc"
             data-cy="spacingBox"
           >
             Some promo details
@@ -85,15 +85,15 @@ exports[`Promos renders PromoBanner 1`] = `
         </div>
       </div>
       <div
-        class="css-c5uz38"
+        class="css-6fsnjg"
         data-cy="flexItem"
       >
         <div
-          class="css-111p8uk"
+          class="css-6t140l"
           data-cy="spacingBox"
         >
           <div
-            class="css-7j3xjb"
+            class="css-1xuu4fu"
             data-cy="box"
           />
         </div>
@@ -103,7 +103,7 @@ exports[`Promos renders PromoBanner 1`] = `
         data-cy="flexItem"
       >
         <div
-          class="css-1jnujn3"
+          class="css-198r098"
           data-cy="spacingBox"
         >
           <div
@@ -111,14 +111,14 @@ exports[`Promos renders PromoBanner 1`] = `
             data-cy="checkboxInput"
           >
             <label
-              class="css-14bj381"
+              class="css-apdwp9"
               for="dismissPromoCheckbox1"
             >
               <div
-                class="css-ew6x4b"
+                class="css-16x89v1"
               >
                 <div
-                  class="css-1iuiyz2"
+                  class="css-1xxu3sr"
                 >
                   <input
                     aria-describedby=""
@@ -131,7 +131,7 @@ exports[`Promos renders PromoBanner 1`] = `
                 </div>
               </div>
               <div
-                class="css-19gm8iw"
+                class="css-8vfaan"
               >
                 Do not show again
               </div>
@@ -146,7 +146,7 @@ exports[`Promos renders PromoBanner 1`] = `
 
 exports[`Promos renders PromoBanner with a custom background color 1`] = `
 <div
-  class="css-13jwadp"
+  class="css-1ww4dpf"
   data-cy="spacingBox"
 >
   <div
@@ -154,7 +154,7 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
     data-cy="promoContent"
   >
     <button
-      class="css-1ylfqc6"
+      class="css-x6qgaa"
       type="button"
     >
       <div
@@ -162,7 +162,7 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
       >
         <svg
           aria-label="system-close icon"
-          class="css-zgvqkl"
+          class="css-jbdp75"
           data-cy="icon"
           height="16"
           preserveAspectRatio="xMinYMin meet"
@@ -177,7 +177,7 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
       </div>
     </button>
     <div
-      class="css-10l8rda"
+      class="css-npch7t"
       data-cy="flex"
     >
       <div
@@ -185,22 +185,22 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
         data-cy="flexItem"
       >
         <div
-          class="css-18axn3y"
+          class="css-1uaiqzh"
           data-cy="spacingBox"
         >
           <div
-            class="css-ilu7d6"
+            class="css-lkxn4w"
             data-cy="spacingBox"
           >
             <h3
-              class="rmTextMargins css-178l9ir"
+              class="rmTextMargins css-11i5m9i"
               data-cy="headingText1"
             >
               Promo Banner
             </h3>
           </div>
           <div
-            class="css-fpj0jb"
+            class="css-1qm58jc"
             data-cy="spacingBox"
           >
             Some promo details
@@ -229,15 +229,15 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
         </div>
       </div>
       <div
-        class="css-c5uz38"
+        class="css-6fsnjg"
         data-cy="flexItem"
       >
         <div
-          class="css-111p8uk"
+          class="css-6t140l"
           data-cy="spacingBox"
         >
           <div
-            class="css-7j3xjb"
+            class="css-1xuu4fu"
             data-cy="box"
           />
         </div>
@@ -247,7 +247,7 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
         data-cy="flexItem"
       >
         <div
-          class="css-1jnujn3"
+          class="css-198r098"
           data-cy="spacingBox"
         >
           <div
@@ -255,14 +255,14 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
             data-cy="checkboxInput"
           >
             <label
-              class="css-14bj381"
+              class="css-apdwp9"
               for="dismissPromoCheckbox3"
             >
               <div
-                class="css-ew6x4b"
+                class="css-16x89v1"
               >
                 <div
-                  class="css-1iuiyz2"
+                  class="css-1xxu3sr"
                 >
                   <input
                     aria-describedby=""
@@ -275,7 +275,7 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
                 </div>
               </div>
               <div
-                class="css-19gm8iw"
+                class="css-8vfaan"
               >
                 Do not show again
               </div>
@@ -290,7 +290,7 @@ exports[`Promos renders PromoBanner with a custom background color 1`] = `
 
 exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
 <div
-  class="css-cht2m7"
+  class="css-1rx0ja0"
   data-cy="spacingBox"
 >
   <div
@@ -298,7 +298,7 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
     data-cy="promoContent"
   >
     <button
-      class="css-1ylfqc6"
+      class="css-x6qgaa"
       type="button"
     >
       <div
@@ -306,7 +306,7 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
       >
         <svg
           aria-label="system-close icon"
-          class="css-zgvqkl"
+          class="css-jbdp75"
           data-cy="icon"
           height="16"
           preserveAspectRatio="xMinYMin meet"
@@ -321,7 +321,7 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
       </div>
     </button>
     <div
-      class="css-10l8rda"
+      class="css-npch7t"
       data-cy="flex"
     >
       <div
@@ -329,22 +329,22 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
         data-cy="flexItem"
       >
         <div
-          class="css-18axn3y"
+          class="css-1uaiqzh"
           data-cy="spacingBox"
         >
           <div
-            class="css-ilu7d6"
+            class="css-lkxn4w"
             data-cy="spacingBox"
           >
             <h3
-              class="rmTextMargins css-178l9ir"
+              class="rmTextMargins css-11i5m9i"
               data-cy="headingText1"
             >
               Promo Banner
             </h3>
           </div>
           <div
-            class="css-fpj0jb"
+            class="css-1qm58jc"
             data-cy="spacingBox"
           >
             Some promo details
@@ -373,15 +373,15 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
         </div>
       </div>
       <div
-        class="css-c5uz38"
+        class="css-6fsnjg"
         data-cy="flexItem"
       >
         <div
-          class="css-111p8uk"
+          class="css-6t140l"
           data-cy="spacingBox"
         >
           <div
-            class="css-7j3xjb"
+            class="css-1xuu4fu"
             data-cy="box"
           />
         </div>
@@ -391,7 +391,7 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
         data-cy="flexItem"
       >
         <div
-          class="css-1jnujn3"
+          class="css-198r098"
           data-cy="spacingBox"
         >
           <div
@@ -399,14 +399,14 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
             data-cy="checkboxInput"
           >
             <label
-              class="css-14bj381"
+              class="css-apdwp9"
               for="dismissPromoCheckbox2"
             >
               <div
-                class="css-ew6x4b"
+                class="css-16x89v1"
               >
                 <div
-                  class="css-1iuiyz2"
+                  class="css-1xxu3sr"
                 >
                   <input
                     aria-describedby=""
@@ -419,7 +419,7 @@ exports[`Promos renders PromoBanner with a gradientStyle 1`] = `
                 </div>
               </div>
               <div
-                class="css-19gm8iw"
+                class="css-8vfaan"
               >
                 Do not show again
               </div>
@@ -441,7 +441,7 @@ exports[`Promos renders PromoInline 1`] = `
     class="css-1xsu0i2"
   >
     <div
-      class="css-1o6stfp"
+      class="css-1bmvt7c"
       data-cy="spacingBox"
     >
       <div
@@ -449,7 +449,7 @@ exports[`Promos renders PromoInline 1`] = `
         data-cy="promoContent"
       >
         <button
-          class="css-1ylfqc6"
+          class="css-x6qgaa"
           type="button"
         >
           <div
@@ -457,7 +457,7 @@ exports[`Promos renders PromoInline 1`] = `
           >
             <svg
               aria-label="system-close icon"
-              class="css-zgvqkl"
+              class="css-jbdp75"
               data-cy="icon"
               height="16"
               preserveAspectRatio="xMinYMin meet"
@@ -472,7 +472,7 @@ exports[`Promos renders PromoInline 1`] = `
           </div>
         </button>
         <div
-          class="css-10l8rda"
+          class="css-npch7t"
           data-cy="flex"
         >
           <div
@@ -480,22 +480,22 @@ exports[`Promos renders PromoInline 1`] = `
             data-cy="flexItem"
           >
             <div
-              class="css-18axn3y"
+              class="css-1uaiqzh"
               data-cy="spacingBox"
             >
               <div
-                class="css-ilu7d6"
+                class="css-lkxn4w"
                 data-cy="spacingBox"
               >
                 <h3
-                  class="rmTextMargins css-178l9ir"
+                  class="rmTextMargins css-11i5m9i"
                   data-cy="headingText1"
                 >
                   Promo Inline
                 </h3>
               </div>
               <div
-                class="css-fpj0jb"
+                class="css-1qm58jc"
                 data-cy="spacingBox"
               >
                 Some promo details
@@ -524,15 +524,15 @@ exports[`Promos renders PromoInline 1`] = `
             </div>
           </div>
           <div
-            class="css-c5uz38"
+            class="css-6fsnjg"
             data-cy="flexItem"
           >
             <div
-              class="css-111p8uk"
+              class="css-6t140l"
               data-cy="spacingBox"
             >
               <div
-                class="css-7j3xjb"
+                class="css-1xuu4fu"
                 data-cy="box"
               />
             </div>
@@ -542,7 +542,7 @@ exports[`Promos renders PromoInline 1`] = `
             data-cy="flexItem"
           >
             <div
-              class="css-1jnujn3"
+              class="css-198r098"
               data-cy="spacingBox"
             >
               <div
@@ -550,14 +550,14 @@ exports[`Promos renders PromoInline 1`] = `
                 data-cy="checkboxInput"
               >
                 <label
-                  class="css-14bj381"
+                  class="css-apdwp9"
                   for="dismissPromoCheckbox4"
                 >
                   <div
-                    class="css-ew6x4b"
+                    class="css-16x89v1"
                   >
                     <div
-                      class="css-1iuiyz2"
+                      class="css-1xxu3sr"
                     >
                       <input
                         aria-describedby=""
@@ -570,7 +570,7 @@ exports[`Promos renders PromoInline 1`] = `
                     </div>
                   </div>
                   <div
-                    class="css-19gm8iw"
+                    class="css-8vfaan"
                   >
                     Do not show again
                   </div>

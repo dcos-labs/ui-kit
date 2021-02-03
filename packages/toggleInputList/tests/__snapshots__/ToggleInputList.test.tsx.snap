@@ -1,7 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ToggleInputList renders as a radio group 1`] = `
-.emotion-22 {
+.emotion-0 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 {
+  padding: 0;
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.emotion-2 {
   list-style: none;
   margin-left: 0;
   margin-top: 0;
@@ -9,13 +24,11 @@ exports[`ToggleInputList renders as a radio group 1`] = `
   padding-left: 0;
 }
 
-.emotion-23 {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.emotion-3 {
+  padding-top: 8px;
 }
 
-.emotion-6 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -24,34 +37,9 @@ exports[`ToggleInputList renders as a radio group 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
-}
-
-.emotion-1 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-7 {
-  padding-top: 8px;
-}
-
-.emotion-0 {
-  padding: 0;
-  display: block;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 500;
 }
 
 .emotion-5 {
@@ -70,14 +58,14 @@ exports[`ToggleInputList renders as a radio group 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-5 > div {
+.emotion-5>div {
   width: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -93,7 +81,29 @@ exports[`ToggleInputList renders as a radio group 1`] = `
   display: inherit;
 }
 
-.emotion-4 {
+.emotion-7 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-style: solid;
+  border-width: 1px;
+  height: 14px;
+  width: 14px;
+  border-radius: 999px;
+  position: relative;
+}
+
+.emotion-8 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-9 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -105,17 +115,6 @@ exports[`ToggleInputList renders as a radio group 1`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-}
-
-.emotion-2 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-style: solid;
-  border-width: 1px;
-  height: 14px;
-  width: 14px;
-  border-radius: 999px;
-  position: relative;
 }
 
 <ToggleInputList
@@ -152,19 +151,19 @@ exports[`ToggleInputList renders as a radio group 1`] = `
     <fieldset
       aria-describedby=""
       aria-invalid={false}
-      className="emotion-23"
+      className="emotion-0"
       role="listbox"
     >
       <legend
-        className="emotion-0"
+        className="emotion-1"
       >
         Sample legend
       </legend>
       <ul
-        className="emotion-22"
+        className="emotion-2"
       >
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.1"
         >
           <RadioInput
@@ -192,7 +191,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="radioInput"
                 >
                   <label
@@ -200,16 +199,16 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="radioInput-input"
                           id="id.1"
                           name="radio"
@@ -222,7 +221,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -233,7 +232,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
           </RadioInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.2"
         >
           <RadioInput
@@ -261,7 +260,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="radioInput"
                 >
                   <label
@@ -269,16 +268,16 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="radioInput-input"
                           id="id.2"
                           name="radio"
@@ -291,7 +290,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -302,7 +301,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
           </RadioInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.3"
         >
           <RadioInput
@@ -330,7 +329,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="radioInput"
                 >
                   <label
@@ -338,16 +337,16 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="radioInput-input"
                           id="id.3"
                           name="radio"
@@ -360,7 +359,7 @@ exports[`ToggleInputList renders as a radio group 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -377,7 +376,22 @@ exports[`ToggleInputList renders as a radio group 1`] = `
 `;
 
 exports[`ToggleInputList renders default 1`] = `
-.emotion-22 {
+.emotion-0 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 {
+  padding: 0;
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.emotion-2 {
   list-style: none;
   margin-left: 0;
   margin-top: 0;
@@ -385,13 +399,11 @@ exports[`ToggleInputList renders default 1`] = `
   padding-left: 0;
 }
 
-.emotion-23 {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.emotion-3 {
+  padding-top: 8px;
 }
 
-.emotion-6 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -400,34 +412,9 @@ exports[`ToggleInputList renders default 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
-}
-
-.emotion-1 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-7 {
-  padding-top: 8px;
-}
-
-.emotion-0 {
-  padding: 0;
-  display: block;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 500;
 }
 
 .emotion-5 {
@@ -446,14 +433,14 @@ exports[`ToggleInputList renders default 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-5 > div {
+.emotion-5>div {
   width: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -469,9 +456,9 @@ exports[`ToggleInputList renders default 1`] = `
   display: inherit;
 }
 
-.emotion-2 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-7 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -480,7 +467,18 @@ exports[`ToggleInputList renders default 1`] = `
   position: relative;
 }
 
-.emotion-4 {
+.emotion-8 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-9 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -527,19 +525,19 @@ exports[`ToggleInputList renders default 1`] = `
     <fieldset
       aria-describedby=""
       aria-invalid={false}
-      className="emotion-23"
+      className="emotion-0"
       role="listbox"
     >
       <legend
-        className="emotion-0"
+        className="emotion-1"
       >
         Sample legend
       </legend>
       <ul
-        className="emotion-22"
+        className="emotion-2"
       >
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.1"
         >
           <CheckboxInput
@@ -567,7 +565,7 @@ exports[`ToggleInputList renders default 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -575,16 +573,16 @@ exports[`ToggleInputList renders default 1`] = `
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.1"
                           name="checkbox"
@@ -597,7 +595,7 @@ exports[`ToggleInputList renders default 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -608,7 +606,7 @@ exports[`ToggleInputList renders default 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.2"
         >
           <CheckboxInput
@@ -636,7 +634,7 @@ exports[`ToggleInputList renders default 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -644,16 +642,16 @@ exports[`ToggleInputList renders default 1`] = `
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.2"
                           name="checkbox"
@@ -666,7 +664,7 @@ exports[`ToggleInputList renders default 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -677,7 +675,7 @@ exports[`ToggleInputList renders default 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.3"
         >
           <CheckboxInput
@@ -705,7 +703,7 @@ exports[`ToggleInputList renders default 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -713,16 +711,16 @@ exports[`ToggleInputList renders default 1`] = `
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.3"
                           name="checkbox"
@@ -735,7 +733,7 @@ exports[`ToggleInputList renders default 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -752,7 +750,24 @@ exports[`ToggleInputList renders default 1`] = `
 `;
 
 exports[`ToggleInputList renders with error label appearance 1`] = `
-.emotion-22 {
+.emotion-0 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 {
+  padding: 0;
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
+}
+
+.emotion-2 {
   list-style: none;
   margin-left: 0;
   margin-top: 0;
@@ -760,13 +775,11 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
   padding-left: 0;
 }
 
-.emotion-26 {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.emotion-3 {
+  padding-top: 8px;
 }
 
-.emotion-6 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -775,25 +788,9 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
-}
-
-.emotion-1 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-7 {
-  padding-top: 8px;
 }
 
 .emotion-5 {
@@ -812,14 +809,14 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-5 > div {
+.emotion-5>div {
   width: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -835,9 +832,9 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
   display: inherit;
 }
 
-.emotion-2 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-7 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -846,7 +843,18 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
   position: relative;
 }
 
-.emotion-4 {
+.emotion-8 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-9 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -860,29 +868,18 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
   padding-left: 12px;
 }
 
-.emotion-25 {
+.emotion-24 {
   padding: 0;
   margin: 0;
   font-size: 12px;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
-.emotion-23 {
+.emotion-25 {
   text-indent: 0;
   list-style-type: none;
   padding-top: 4px;
-}
-
-.emotion-0 {
-  padding: 0;
-  display: block;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
 }
 
 <ToggleInputList
@@ -930,19 +927,19 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
     <fieldset
       aria-describedby="checkbox-errorMsg0 checkbox-errorMsg1"
       aria-invalid={true}
-      className="emotion-26"
+      className="emotion-0"
       role="listbox"
     >
       <legend
-        className="emotion-0"
+        className="emotion-1"
       >
         Sample legend
       </legend>
       <ul
-        className="emotion-22"
+        className="emotion-2"
       >
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.1"
         >
           <CheckboxInput
@@ -970,7 +967,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -978,16 +975,16 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.1"
                           name="checkbox"
@@ -1000,7 +997,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1011,7 +1008,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.2"
         >
           <CheckboxInput
@@ -1039,7 +1036,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1047,16 +1044,16 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.2"
                           name="checkbox"
@@ -1069,7 +1066,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1080,7 +1077,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.3"
         >
           <CheckboxInput
@@ -1108,7 +1105,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1116,16 +1113,16 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.3"
                           name="checkbox"
@@ -1138,7 +1135,7 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1150,17 +1147,17 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
         </li>
       </ul>
       <ul
-        className="emotion-25"
+        className="emotion-24"
       >
         <li
-          className="emotion-23"
+          className="emotion-25"
           id="checkbox-errorMsg0"
           key="0"
         >
           error.1
         </li>
         <li
-          className="emotion-23"
+          className="emotion-25"
           id="checkbox-errorMsg1"
           key="1"
         >
@@ -1173,7 +1170,22 @@ exports[`ToggleInputList renders with error label appearance 1`] = `
 `;
 
 exports[`ToggleInputList renders with errors 1`] = `
-.emotion-22 {
+.emotion-0 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 {
+  padding: 0;
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.emotion-2 {
   list-style: none;
   margin-left: 0;
   margin-top: 0;
@@ -1181,13 +1193,11 @@ exports[`ToggleInputList renders with errors 1`] = `
   padding-left: 0;
 }
 
-.emotion-26 {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.emotion-3 {
+  padding-top: 8px;
 }
 
-.emotion-6 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1196,34 +1206,9 @@ exports[`ToggleInputList renders with errors 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
-}
-
-.emotion-1 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-7 {
-  padding-top: 8px;
-}
-
-.emotion-0 {
-  padding: 0;
-  display: block;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 500;
 }
 
 .emotion-5 {
@@ -1242,14 +1227,14 @@ exports[`ToggleInputList renders with errors 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-5 > div {
+.emotion-5>div {
   width: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -1265,9 +1250,9 @@ exports[`ToggleInputList renders with errors 1`] = `
   display: inherit;
 }
 
-.emotion-2 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-7 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -1276,7 +1261,18 @@ exports[`ToggleInputList renders with errors 1`] = `
   position: relative;
 }
 
-.emotion-4 {
+.emotion-8 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-9 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1290,15 +1286,15 @@ exports[`ToggleInputList renders with errors 1`] = `
   padding-left: 12px;
 }
 
-.emotion-25 {
+.emotion-24 {
   padding: 0;
   margin: 0;
   font-size: 12px;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
-.emotion-23 {
+.emotion-25 {
   text-indent: 0;
   list-style-type: none;
   padding-top: 4px;
@@ -1349,19 +1345,19 @@ exports[`ToggleInputList renders with errors 1`] = `
     <fieldset
       aria-describedby="checkbox-errorMsg0 checkbox-errorMsg1"
       aria-invalid={true}
-      className="emotion-26"
+      className="emotion-0"
       role="listbox"
     >
       <legend
-        className="emotion-0"
+        className="emotion-1"
       >
         Sample legend
       </legend>
       <ul
-        className="emotion-22"
+        className="emotion-2"
       >
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.1"
         >
           <CheckboxInput
@@ -1389,7 +1385,7 @@ exports[`ToggleInputList renders with errors 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1397,16 +1393,16 @@ exports[`ToggleInputList renders with errors 1`] = `
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.1"
                           name="checkbox"
@@ -1419,7 +1415,7 @@ exports[`ToggleInputList renders with errors 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1430,7 +1426,7 @@ exports[`ToggleInputList renders with errors 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.2"
         >
           <CheckboxInput
@@ -1458,7 +1454,7 @@ exports[`ToggleInputList renders with errors 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1466,16 +1462,16 @@ exports[`ToggleInputList renders with errors 1`] = `
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.2"
                           name="checkbox"
@@ -1488,7 +1484,7 @@ exports[`ToggleInputList renders with errors 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1499,7 +1495,7 @@ exports[`ToggleInputList renders with errors 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.3"
         >
           <CheckboxInput
@@ -1527,7 +1523,7 @@ exports[`ToggleInputList renders with errors 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1535,16 +1531,16 @@ exports[`ToggleInputList renders with errors 1`] = `
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.3"
                           name="checkbox"
@@ -1557,7 +1553,7 @@ exports[`ToggleInputList renders with errors 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1569,17 +1565,17 @@ exports[`ToggleInputList renders with errors 1`] = `
         </li>
       </ul>
       <ul
-        className="emotion-25"
+        className="emotion-24"
       >
         <li
-          className="emotion-23"
+          className="emotion-25"
           id="checkbox-errorMsg0"
           key="0"
         >
           error.1
         </li>
         <li
-          className="emotion-23"
+          className="emotion-25"
           id="checkbox-errorMsg1"
           key="1"
         >
@@ -1592,37 +1588,15 @@ exports[`ToggleInputList renders with errors 1`] = `
 `;
 
 exports[`ToggleInputList renders with hidden label 1`] = `
-.emotion-22 {
-  list-style: none;
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.emotion-23 {
+.emotion-0 {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-.emotion-6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .emotion-1 {
+  padding: 0;
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -1632,8 +1606,30 @@ exports[`ToggleInputList renders with hidden label 1`] = `
   height: 1px;
 }
 
-.emotion-7 {
+.emotion-2 {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.emotion-3 {
   padding-top: 8px;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .emotion-5 {
@@ -1652,14 +1648,14 @@ exports[`ToggleInputList renders with hidden label 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-5 > div {
+.emotion-5>div {
   width: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -1675,9 +1671,9 @@ exports[`ToggleInputList renders with hidden label 1`] = `
   display: inherit;
 }
 
-.emotion-2 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-7 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -1686,7 +1682,18 @@ exports[`ToggleInputList renders with hidden label 1`] = `
   position: relative;
 }
 
-.emotion-4 {
+.emotion-8 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-9 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1698,19 +1705,6 @@ exports[`ToggleInputList renders with hidden label 1`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-}
-
-.emotion-0 {
-  padding: 0;
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
 }
 
 <ToggleInputList
@@ -1746,19 +1740,19 @@ exports[`ToggleInputList renders with hidden label 1`] = `
     <fieldset
       aria-describedby=""
       aria-invalid={false}
-      className="emotion-23"
+      className="emotion-0"
       role="listbox"
     >
       <legend
-        className="emotion-0"
+        className="emotion-1"
       >
         Sample legend
       </legend>
       <ul
-        className="emotion-22"
+        className="emotion-2"
       >
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.1"
         >
           <CheckboxInput
@@ -1786,7 +1780,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1794,16 +1788,16 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.1"
                           name="checkbox"
@@ -1816,7 +1810,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1827,7 +1821,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.2"
         >
           <CheckboxInput
@@ -1855,7 +1849,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1863,16 +1857,16 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.2"
                           name="checkbox"
@@ -1885,7 +1879,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1896,7 +1890,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-7"
+          className="emotion-3"
           key="id.3"
         >
           <CheckboxInput
@@ -1924,7 +1918,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-6"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -1932,16 +1926,16 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-3"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-2"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.3"
                           name="checkbox"
@@ -1954,7 +1948,7 @@ exports[`ToggleInputList renders with hidden label 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-4"
+                      className="emotion-9"
                     >
                       Sample label
                     </div>
@@ -1971,48 +1965,10 @@ exports[`ToggleInputList renders with hidden label 1`] = `
 `;
 
 exports[`ToggleInputList renders with required 1`] = `
-.emotion-23 {
-  list-style: none;
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.emotion-24 {
+.emotion-0 {
   border: 0;
   margin: 0;
   padding: 0;
-}
-
-.emotion-7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.emotion-2 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-8 {
-  padding-top: 8px;
 }
 
 .emotion-1 {
@@ -2022,6 +1978,41 @@ exports[`ToggleInputList renders with required 1`] = `
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
+}
+
+.emotion-2 {
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
+  text-align: inherit;
+}
+
+.emotion-3 {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.emotion-4 {
+  padding-top: 8px;
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .emotion-6 {
@@ -2040,14 +2031,14 @@ exports[`ToggleInputList renders with required 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-6 > div {
+.emotion-6>div {
   width: auto;
 }
 
-.emotion-4 {
+.emotion-7 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -2063,9 +2054,9 @@ exports[`ToggleInputList renders with required 1`] = `
   display: inherit;
 }
 
-.emotion-3 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-8 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -2074,7 +2065,18 @@ exports[`ToggleInputList renders with required 1`] = `
   position: relative;
 }
 
-.emotion-5 {
+.emotion-9 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-10 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -2086,15 +2088,6 @@ exports[`ToggleInputList renders with required 1`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-}
-
-.emotion-0 {
-  line-height: 1.4;
-  font-weight: 400;
-  font-size: 14px;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
-  text-align: inherit;
 }
 
 <ToggleInputList
@@ -2132,7 +2125,7 @@ exports[`ToggleInputList renders with required 1`] = `
       aria-describedby=""
       aria-invalid={false}
       aria-required={true}
-      className="emotion-24"
+      className="emotion-0"
       role="listbox"
     >
       <legend
@@ -2156,7 +2149,7 @@ exports[`ToggleInputList renders with required 1`] = `
             wrap="wrap"
           >
             <span
-              className="rmTextMargins emotion-0"
+              className="rmTextMargins emotion-2"
               data-cy="dangerText"
             >
                *
@@ -2165,10 +2158,10 @@ exports[`ToggleInputList renders with required 1`] = `
         </DangerText>
       </legend>
       <ul
-        className="emotion-23"
+        className="emotion-3"
       >
         <li
-          className="emotion-8"
+          className="emotion-4"
           key="id.1"
         >
           <CheckboxInput
@@ -2196,7 +2189,7 @@ exports[`ToggleInputList renders with required 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-7"
+                  className="emotion-5"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -2204,16 +2197,16 @@ exports[`ToggleInputList renders with required 1`] = `
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-4"
+                      className="emotion-7"
                     >
                       <div
-                        className="emotion-3"
+                        className="emotion-8"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-2"
+                          className="emotion-9"
                           data-cy="checkboxInput-input"
                           id="id.1"
                           name="checkbox"
@@ -2226,7 +2219,7 @@ exports[`ToggleInputList renders with required 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-5"
+                      className="emotion-10"
                     >
                       Sample label
                     </div>
@@ -2237,7 +2230,7 @@ exports[`ToggleInputList renders with required 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-8"
+          className="emotion-4"
           key="id.2"
         >
           <CheckboxInput
@@ -2265,7 +2258,7 @@ exports[`ToggleInputList renders with required 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-7"
+                  className="emotion-5"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -2273,16 +2266,16 @@ exports[`ToggleInputList renders with required 1`] = `
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-4"
+                      className="emotion-7"
                     >
                       <div
-                        className="emotion-3"
+                        className="emotion-8"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-2"
+                          className="emotion-9"
                           data-cy="checkboxInput-input"
                           id="id.2"
                           name="checkbox"
@@ -2295,7 +2288,7 @@ exports[`ToggleInputList renders with required 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-5"
+                      className="emotion-10"
                     >
                       Sample label
                     </div>
@@ -2306,7 +2299,7 @@ exports[`ToggleInputList renders with required 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-8"
+          className="emotion-4"
           key="id.3"
         >
           <CheckboxInput
@@ -2334,7 +2327,7 @@ exports[`ToggleInputList renders with required 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-7"
+                  className="emotion-5"
                   data-cy="checkboxInput"
                 >
                   <label
@@ -2342,16 +2335,16 @@ exports[`ToggleInputList renders with required 1`] = `
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-4"
+                      className="emotion-7"
                     >
                       <div
-                        className="emotion-3"
+                        className="emotion-8"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-2"
+                          className="emotion-9"
                           data-cy="checkboxInput-input"
                           id="id.3"
                           name="checkbox"
@@ -2364,7 +2357,7 @@ exports[`ToggleInputList renders with required 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-5"
+                      className="emotion-10"
                     >
                       Sample label
                     </div>
@@ -2381,51 +2374,13 @@ exports[`ToggleInputList renders with required 1`] = `
 `;
 
 exports[`ToggleInputList renders with selected items 1`] = `
-.emotion-26 {
-  list-style: none;
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.emotion-27 {
+.emotion-0 {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-.emotion-8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .emotion-1 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-9 {
-  padding-top: 8px;
-}
-
-.emotion-0 {
   padding: 0;
   display: block;
   padding-top: 0;
@@ -2434,7 +2389,33 @@ exports[`ToggleInputList renders with selected items 1`] = `
   font-weight: 500;
 }
 
-.emotion-7 {
+.emotion-2 {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.emotion-3 {
+  padding-top: 8px;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2450,14 +2431,14 @@ exports[`ToggleInputList renders with selected items 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-7 > div {
+.emotion-5>div {
   width: auto;
 }
 
-.emotion-5 {
+.emotion-6 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -2473,18 +2454,57 @@ exports[`ToggleInputList renders with selected items 1`] = `
   display: inherit;
 }
 
-.emotion-20 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-7 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
   width: 14px;
+  background-color: var(--themeBrandPrimary, #7D58FF);
+  border-color: var(--themeBrandPrimary, #7D58FF);
   border-radius: 4px;
   position: relative;
 }
 
-.emotion-6 {
+.emotion-8 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 2px;
+  position: absolute;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.emotion-9 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.emotion-10 {
+  vertical-align: middle;
+  fill: var(--themeBgPrimary, #FFFFFF);
+}
+
+.emotion-10 use {
+  pointer-events: none;
+}
+
+.emotion-11 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -2498,43 +2518,15 @@ exports[`ToggleInputList renders with selected items 1`] = `
   padding-left: 12px;
 }
 
-.emotion-3 {
-  box-sizing: border-box;
-  height: 100%;
-  padding: 2px;
-  position: absolute;
-  width: 100%;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.emotion-3 svg {
-  height: 100%;
-  width: 100%;
-}
-
-.emotion-4 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-25 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
   width: 14px;
-  background-color: var(--themeBrandPrimary,#7D58FF);
-  border-color: var(--themeBrandPrimary,#7D58FF);
   border-radius: 4px;
   position: relative;
-}
-
-.emotion-2 {
-  vertical-align: middle;
-  fill: var(--themeBgPrimary,#FFFFFF);
-}
-
-.emotion-2 use {
-  pointer-events: none;
 }
 
 <ToggleInputList
@@ -2575,19 +2567,19 @@ exports[`ToggleInputList renders with selected items 1`] = `
     <fieldset
       aria-describedby=""
       aria-invalid={false}
-      className="emotion-27"
+      className="emotion-0"
       role="listbox"
     >
       <legend
-        className="emotion-0"
+        className="emotion-1"
       >
         Sample legend
       </legend>
       <ul
-        className="emotion-26"
+        className="emotion-2"
       >
         <li
-          className="emotion-9"
+          className="emotion-3"
           key="id.1"
         >
           <CheckboxInput
@@ -2615,24 +2607,24 @@ exports[`ToggleInputList renders with selected items 1`] = `
                 id="id.1"
               >
                 <div
-                  className="emotion-8"
+                  className="emotion-4"
                   data-cy="checkboxInput checkboxInput.checked"
                 >
                   <label
-                    className="emotion-7"
+                    className="emotion-5"
                     htmlFor="id.1"
                   >
                     <div
-                      className="emotion-5"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-4"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={true}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input checkboxInput-input.checked"
                           id="id.1"
                           name="checkbox"
@@ -2643,7 +2635,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                           value="value.1"
                         />
                         <span
-                          className="emotion-3"
+                          className="emotion-9"
                         >
                           <Icon
                             color="var(--themeBgPrimary, #FFFFFF)"
@@ -2652,7 +2644,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                           >
                             <svg
                               aria-label="system-check icon"
-                              className="emotion-2"
+                              className="emotion-10"
                               data-cy="icon"
                               height={16}
                               preserveAspectRatio="xMinYMin meet"
@@ -2669,7 +2661,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-6"
+                      className="emotion-11"
                     >
                       Sample label
                     </div>
@@ -2680,7 +2672,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-9"
+          className="emotion-3"
           key="id.2"
         >
           <CheckboxInput
@@ -2708,24 +2700,24 @@ exports[`ToggleInputList renders with selected items 1`] = `
                 id="id.2"
               >
                 <div
-                  className="emotion-8"
+                  className="emotion-4"
                   data-cy="checkboxInput checkboxInput.checked"
                 >
                   <label
-                    className="emotion-7"
+                    className="emotion-5"
                     htmlFor="id.2"
                   >
                     <div
-                      className="emotion-5"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-4"
+                        className="emotion-7"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={true}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input checkboxInput-input.checked"
                           id="id.2"
                           name="checkbox"
@@ -2736,7 +2728,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                           value="value.2"
                         />
                         <span
-                          className="emotion-3"
+                          className="emotion-9"
                         >
                           <Icon
                             color="var(--themeBgPrimary, #FFFFFF)"
@@ -2745,7 +2737,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                           >
                             <svg
                               aria-label="system-check icon"
-                              className="emotion-2"
+                              className="emotion-10"
                               data-cy="icon"
                               height={16}
                               preserveAspectRatio="xMinYMin meet"
@@ -2762,7 +2754,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-6"
+                      className="emotion-11"
                     >
                       Sample label
                     </div>
@@ -2773,7 +2765,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
           </CheckboxInput>
         </li>
         <li
-          className="emotion-9"
+          className="emotion-3"
           key="id.3"
         >
           <CheckboxInput
@@ -2801,24 +2793,24 @@ exports[`ToggleInputList renders with selected items 1`] = `
                 id="id.3"
               >
                 <div
-                  className="emotion-8"
+                  className="emotion-4"
                   data-cy="checkboxInput"
                 >
                   <label
-                    className="emotion-7"
+                    className="emotion-5"
                     htmlFor="id.3"
                   >
                     <div
-                      className="emotion-5"
+                      className="emotion-6"
                     >
                       <div
-                        className="emotion-20"
+                        className="emotion-25"
                       >
                         <input
                           aria-describedby=""
                           aria-invalid={false}
                           checked={false}
-                          className="emotion-1"
+                          className="emotion-8"
                           data-cy="checkboxInput-input"
                           id="id.3"
                           name="checkbox"
@@ -2831,7 +2823,7 @@ exports[`ToggleInputList renders with selected items 1`] = `
                       </div>
                     </div>
                     <div
-                      className="emotion-6"
+                      className="emotion-11"
                     >
                       Sample label
                     </div>

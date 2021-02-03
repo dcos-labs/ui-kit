@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { IconSize } from "../../shared/types/iconSize";
 import { iconSizes } from "../../shared/styles/styleUtils/layout/iconSizes";
 import { avatarContainer, avatarSize, avatarImg } from "../style";

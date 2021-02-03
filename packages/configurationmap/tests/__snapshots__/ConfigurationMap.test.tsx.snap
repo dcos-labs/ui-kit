@@ -1,199 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ConfigurationMap renders default 1`] = `
-.emotion-9 {
+.emotion-0 {
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 24px;
-}
-
-.emotion-2 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-2:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-2 > div {
-  width: auto;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 }
 
 .emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-<div
-  data-cy="configurationMap"
->
-  <div
-    class="emotion-9"
-    data-cy="configurationMapSection"
-  >
-    <div
-      class="emotion-2"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        Name
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        Jane Doe
-      </div>
-    </div>
-    <div
-      class="emotion-2"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        Role
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        UX Designer
-      </div>
-    </div>
-    <div
-      class="emotion-2"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        City
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        San Francisco
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`ConfigurationMap renders with actions 1`] = `
-.emotion-15 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-4 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-bottom-style: solid;
   -webkit-align-items: flex;
   -webkit-box-align: flex;
@@ -203,12 +19,13 @@ exports[`ConfigurationMap renders with actions 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -220,390 +37,11 @@ exports[`ConfigurationMap renders with actions 1`] = `
   padding-bottom: 8px;
 }
 
-.emotion-4 .static_configurationMapRowAction {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4:hover .static_configurationMapRowAction {
-  -webkit-clip: initial;
-  clip: initial;
-  position: static;
-  overflow: visible;
-  margin: 0;
-  width: auto;
-  height: auto;
-}
-
-.emotion-4:last-of-type {
+.emotion-1:last-of-type {
   border-bottom-width: 0;
 }
 
-.emotion-4 > div {
-  width: auto;
-}
-
-.emotion-3 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-}
-
-.emotion-2 {
-  background: none;
-  border: 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
-  text-align: inherit;
-  color: var(--themeTextColorInteractive,#7D58FF);
-  fill: var(--themeTextColorInteractive,#7D58FF);
-  cursor: pointer;
-  display: inline-block;
-  outline: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.emotion-2::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-.emotion-2:hover {
-  color: #704fe5;
-  fill: #704fe5;
-}
-
-.emotion-2:active {
-  color: #6446cc;
-  fill: #6446cc;
-}
-
-.emotion-2[href],
-.emotion-2[href]:visited {
-  color: var(--themeTextColorInteractive,#7D58FF);
-  fill: var(--themeTextColorInteractive,#7D58FF);
-}
-
-<div
-  data-cy="configurationMap"
->
-  <div
-    class="emotion-15"
-    data-cy="configurationMapSection"
-  >
-    <div
-      class="emotion-4"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        Name
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        Jane Doe
-      </div>
-      <span
-        class="static_configurationMapRowAction emotion-3"
-        data-cy="configrationMapRowAction"
-      >
-        <button
-          class="emotion-2"
-          data-cy="secondaryButton"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class=""
-          >
-            Action
-          </span>
-        </button>
-      </span>
-    </div>
-    <div
-      class="emotion-4"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        Role
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        UX Designer
-      </div>
-      <span
-        class="static_configurationMapRowAction emotion-3"
-        data-cy="configrationMapRowAction"
-      >
-        <button
-          class="emotion-2"
-          data-cy="secondaryButton"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class=""
-          >
-            Action
-          </span>
-        </button>
-      </span>
-    </div>
-    <div
-      class="emotion-4"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        City
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        San Francisco
-      </div>
-      <span
-        class="static_configurationMapRowAction emotion-3"
-        data-cy="configrationMapRowAction"
-      >
-        <button
-          class="emotion-2"
-          data-cy="secondaryButton"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class=""
-          >
-            Action
-          </span>
-        </button>
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`ConfigurationMap renders with default value 1`] = `
-.emotion-9 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-2 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-2:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-2 > div {
-  width: auto;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-<div
-  data-cy="configurationMap"
->
-  <div
-    class="emotion-9"
-    data-cy="configurationMapSection"
-  >
-    <div
-      class="emotion-2"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        Name
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        Jane Doe
-      </div>
-    </div>
-    <div
-      class="emotion-2"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        Role
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        —
-      </div>
-    </div>
-    <div
-      class="emotion-2"
-      data-cy="configurationMapRow"
-    >
-      <div
-        class="emotion-0"
-        data-cy="configurationMapLabel"
-      >
-        City
-      </div>
-      <div
-        class="emotion-1"
-        data-cy="configurationMapValue"
-      >
-        —
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`ConfigurationMap renders with headline 1`] = `
-.emotion-11 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-4 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-4:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -622,7 +60,7 @@ exports[`ConfigurationMap renders with headline 1`] = `
 }
 
 .emotion-2,
-.emotion-2 > * {
+.emotion-2>* {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -646,43 +84,15 @@ exports[`ConfigurationMap renders with headline 1`] = `
   word-wrap: break-word;
 }
 
-.emotion-1 {
-  margin: 1em 0;
-  padding-bottom: 8px;
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-}
-
-.emotion-0 {
-  line-height: 1.4;
-  font-weight: 500;
-  font-size: 24px;
-  color: var(--themeTextColorPrimary,#1B2029);
-  fill: var(--themeTextColorPrimary,#1B2029);
-  text-align: inherit;
-}
-
 <div
   data-cy="configurationMap"
 >
   <div
-    class="emotion-11"
+    class="emotion-0"
     data-cy="configurationMapSection"
   >
     <div
       class="emotion-1"
-      data-cy="configurationMapHeading"
-    >
-      <h1
-        class="rmTextMargins emotion-0"
-        data-cy="headingText1"
-      >
-        Jane Doe Info
-      </h1>
-    </div>
-    <div
-      class="emotion-4"
       data-cy="configurationMapRow"
     >
       <div
@@ -699,7 +109,7 @@ exports[`ConfigurationMap renders with headline 1`] = `
       </div>
     </div>
     <div
-      class="emotion-4"
+      class="emotion-1"
       data-cy="configurationMapRow"
     >
       <div
@@ -716,7 +126,7 @@ exports[`ConfigurationMap renders with headline 1`] = `
       </div>
     </div>
     <div
-      class="emotion-4"
+      class="emotion-1"
       data-cy="configurationMapRow"
     >
       <div
@@ -727,6 +137,598 @@ exports[`ConfigurationMap renders with headline 1`] = `
       </div>
       <div
         class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        San Francisco
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ConfigurationMap renders with actions 1`] = `
+.emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.emotion-1 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-1 .static_configurationMapRowAction {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-1:hover .static_configurationMapRowAction {
+  clip: initial;
+  position: static;
+  overflow: visible;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.emotion-1:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-1>div {
+  width: auto;
+}
+
+.emotion-2 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-2,
+.emotion-2>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-3 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+}
+
+.emotion-5 {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  text-align: inherit;
+  color: var(--themeTextColorInteractive, #7D58FF);
+  fill: var(--themeTextColorInteractive, #7D58FF);
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.emotion-5::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.emotion-5:hover {
+  color: #704fe5;
+  fill: #704fe5;
+}
+
+.emotion-5:active {
+  color: #6446cc;
+  fill: #6446cc;
+}
+
+.emotion-5[href],
+.emotion-5[href]:visited {
+  color: var(--themeTextColorInteractive, #7D58FF);
+  fill: var(--themeTextColorInteractive, #7D58FF);
+}
+
+<div
+  data-cy="configurationMap"
+>
+  <div
+    class="emotion-0"
+    data-cy="configurationMapSection"
+  >
+    <div
+      class="emotion-1"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-2"
+        data-cy="configurationMapLabel"
+      >
+        Name
+      </div>
+      <div
+        class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        Jane Doe
+      </div>
+      <span
+        class="static_configurationMapRowAction emotion-4"
+        data-cy="configrationMapRowAction"
+      >
+        <button
+          class="emotion-5"
+          data-cy="secondaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class=""
+          >
+            Action
+          </span>
+        </button>
+      </span>
+    </div>
+    <div
+      class="emotion-1"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-2"
+        data-cy="configurationMapLabel"
+      >
+        Role
+      </div>
+      <div
+        class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        UX Designer
+      </div>
+      <span
+        class="static_configurationMapRowAction emotion-4"
+        data-cy="configrationMapRowAction"
+      >
+        <button
+          class="emotion-5"
+          data-cy="secondaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class=""
+          >
+            Action
+          </span>
+        </button>
+      </span>
+    </div>
+    <div
+      class="emotion-1"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-2"
+        data-cy="configurationMapLabel"
+      >
+        City
+      </div>
+      <div
+        class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        San Francisco
+      </div>
+      <span
+        class="static_configurationMapRowAction emotion-4"
+        data-cy="configrationMapRowAction"
+      >
+        <button
+          class="emotion-5"
+          data-cy="secondaryButton"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class=""
+          >
+            Action
+          </span>
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ConfigurationMap renders with default value 1`] = `
+.emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.emotion-1 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-1:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-1>div {
+  width: auto;
+}
+
+.emotion-2 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-2,
+.emotion-2>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-3 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+<div
+  data-cy="configurationMap"
+>
+  <div
+    class="emotion-0"
+    data-cy="configurationMapSection"
+  >
+    <div
+      class="emotion-1"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-2"
+        data-cy="configurationMapLabel"
+      >
+        Name
+      </div>
+      <div
+        class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        Jane Doe
+      </div>
+    </div>
+    <div
+      class="emotion-1"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-2"
+        data-cy="configurationMapLabel"
+      >
+        Role
+      </div>
+      <div
+        class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        —
+      </div>
+    </div>
+    <div
+      class="emotion-1"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-2"
+        data-cy="configurationMapLabel"
+      >
+        City
+      </div>
+      <div
+        class="emotion-3"
+        data-cy="configurationMapValue"
+      >
+        —
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ConfigurationMap renders with headline 1`] = `
+.emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.emotion-1 {
+  margin: 1em 0;
+  padding-bottom: 8px;
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+}
+
+.emotion-2 {
+  line-height: 1.4;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--themeTextColorPrimary, #1B2029);
+  fill: var(--themeTextColorPrimary, #1B2029);
+  text-align: inherit;
+}
+
+.emotion-3 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-3:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-3>div {
+  width: auto;
+}
+
+.emotion-4 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-4,
+.emotion-4>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-5 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+<div
+  data-cy="configurationMap"
+>
+  <div
+    class="emotion-0"
+    data-cy="configurationMapSection"
+  >
+    <div
+      class="emotion-1"
+      data-cy="configurationMapHeading"
+    >
+      <h1
+        class="rmTextMargins emotion-2"
+        data-cy="headingText1"
+      >
+        Jane Doe Info
+      </h1>
+    </div>
+    <div
+      class="emotion-3"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-4"
+        data-cy="configurationMapLabel"
+      >
+        Name
+      </div>
+      <div
+        class="emotion-5"
+        data-cy="configurationMapValue"
+      >
+        Jane Doe
+      </div>
+    </div>
+    <div
+      class="emotion-3"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-4"
+        data-cy="configurationMapLabel"
+      >
+        Role
+      </div>
+      <div
+        class="emotion-5"
+        data-cy="configurationMapValue"
+      >
+        UX Designer
+      </div>
+    </div>
+    <div
+      class="emotion-3"
+      data-cy="configurationMapRow"
+    >
+      <div
+        class="emotion-4"
+        data-cy="configurationMapLabel"
+      >
+        City
+      </div>
+      <div
+        class="emotion-5"
         data-cy="configurationMapValue"
       >
         San Francisco

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ButtonBase renders all appearances with props 1`] = `
-.emotion-4 {
+.emotion-0 {
   background: none;
   border: 0;
   color: inherit;
@@ -23,54 +23,54 @@ exports[`ButtonBase renders all appearances with props 1`] = `
   font-weight: 500;
   text-align: center;
   width: 100%;
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
   cursor: default;
   pointer-events: none;
-  background-color: var(--themeBgDisabled,#E8EAED);
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-.emotion-4::-moz-focus-inner {
+.emotion-0::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-4[href],
-.emotion-4[href]:visited {
+.emotion-0[href],
+.emotion-0[href]:visited {
   color: #FFFFFF;
   fill: #FFFFFF;
 }
 
-.emotion-4:hover {
+.emotion-0:hover {
   background-color: #704fe5;
 }
 
-.emotion-4:active {
+.emotion-0:active {
   background-color: #6446cc;
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  background-color: var(--themeBgDisabled,#E8EAED);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-.emotion-3 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   height: auto;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   box-sizing: border-box;
   display: -webkit-box;
@@ -80,11 +80,11 @@ exports[`ButtonBase renders all appearances with props 1`] = `
   min-height: 0;
 }
 
-.emotion-3 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -100,7 +100,7 @@ exports[`ButtonBase renders all appearances with props 1`] = `
   display: inherit;
 }
 
-.emotion-1 {
+.emotion-3 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -116,11 +116,11 @@ exports[`ButtonBase renders all appearances with props 1`] = `
   padding-left: 8px;
 }
 
-.emotion-1:after {
+.emotion-3:after {
   content: "...";
 }
 
-.emotion-2 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -142,17 +142,17 @@ exports[`ButtonBase renders all appearances with props 1`] = `
 >
   <button
     ariaHaspopup={true}
-    className="emotion-4"
+    className="emotion-0"
     disabled={true}
     onClick={[Function]}
     tabIndex={0}
     type="submit"
   >
     <span
-      className="emotion-3"
+      className="emotion-1"
     >
       <span
-        className="emotion-0"
+        className="emotion-2"
       >
         <IconPropAdapter
           color="inherit"
@@ -161,12 +161,12 @@ exports[`ButtonBase renders all appearances with props 1`] = `
         />
       </span>
       <span
-        className="emotion-1"
+        className="emotion-3"
       >
         Button
       </span>
       <span
-        className="emotion-2"
+        className="emotion-4"
       >
         <IconPropAdapter
           color="inherit"
@@ -180,15 +180,68 @@ exports[`ButtonBase renders all appearances with props 1`] = `
 `;
 
 exports[`ButtonBase renders all appearances with props 2`] = `
-.emotion-3 {
+.emotion-0 {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  text-align: inherit;
+  color: var(--themeTextColorInteractive, #7D58FF);
+  fill: var(--themeTextColorInteractive, #7D58FF);
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
+  cursor: default;
+  pointer-events: none;
+}
+
+.emotion-0::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.emotion-0:hover {
+  color: #704fe5;
+  fill: #704fe5;
+}
+
+.emotion-0:active {
+  color: #6446cc;
+  fill: #6446cc;
+}
+
+.emotion-0[href],
+.emotion-0[href]:visited {
+  color: var(--themeTextColorInteractive, #7D58FF);
+  fill: var(--themeTextColorInteractive, #7D58FF);
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
+}
+
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   height: auto;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   box-sizing: border-box;
   display: -webkit-box;
@@ -198,44 +251,8 @@ exports[`ButtonBase renders all appearances with props 2`] = `
   min-height: 0;
 }
 
-.emotion-3 > div {
+.emotion-1>div {
   width: auto;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  display: inherit;
-}
-
-.emotion-1 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  padding-left: 8px;
-}
-
-.emotion-1:after {
-  content: "...";
 }
 
 .emotion-2 {
@@ -252,60 +269,43 @@ exports[`ButtonBase renders all appearances with props 2`] = `
   flex-shrink: 0;
   width: initial;
   display: inherit;
-  padding-left: 4px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  padding-left: 8px;
+}
+
+.emotion-3:after {
+  content: "...";
 }
 
 .emotion-4 {
-  background: none;
-  border: 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
-  text-align: inherit;
-  color: var(--themeTextColorInteractive,#7D58FF);
-  fill: var(--themeTextColorInteractive,#7D58FF);
-  cursor: pointer;
-  display: inline-block;
-  outline: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 500;
-  text-align: center;
-  width: 100%;
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
-  cursor: default;
-  pointer-events: none;
-}
-
-.emotion-4::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-.emotion-4:hover {
-  color: #704fe5;
-  fill: #704fe5;
-}
-
-.emotion-4:active {
-  color: #6446cc;
-  fill: #6446cc;
-}
-
-.emotion-4[href],
-.emotion-4[href]:visited {
-  color: var(--themeTextColorInteractive,#7D58FF);
-  fill: var(--themeTextColorInteractive,#7D58FF);
-}
-
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  display: inherit;
+  padding-left: 4px;
 }
 
 <FocusStyleManager
@@ -313,17 +313,17 @@ exports[`ButtonBase renders all appearances with props 2`] = `
 >
   <button
     ariaHaspopup={true}
-    className="emotion-4"
+    className="emotion-0"
     disabled={true}
     onClick={[Function]}
     tabIndex={0}
     type="submit"
   >
     <span
-      className="emotion-3"
+      className="emotion-1"
     >
       <span
-        className="emotion-0"
+        className="emotion-2"
       >
         <IconPropAdapter
           color="inherit"
@@ -332,12 +332,12 @@ exports[`ButtonBase renders all appearances with props 2`] = `
         />
       </span>
       <span
-        className="emotion-1"
+        className="emotion-3"
       >
         Button
       </span>
       <span
-        className="emotion-2"
+        className="emotion-4"
       >
         <IconPropAdapter
           color="inherit"
@@ -351,82 +351,7 @@ exports[`ButtonBase renders all appearances with props 2`] = `
 `;
 
 exports[`ButtonBase renders all appearances with props 3`] = `
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-}
-
-.emotion-3 > div {
-  width: auto;
-}
-
 .emotion-0 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  display: inherit;
-}
-
-.emotion-1 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  padding-left: 8px;
-}
-
-.emotion-1:after {
-  content: "...";
-}
-
-.emotion-2 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  display: inherit;
-  padding-left: 4px;
-}
-
-.emotion-4 {
   background: none;
   border: 0;
   color: inherit;
@@ -448,97 +373,54 @@ exports[`ButtonBase renders all appearances with props 3`] = `
   font-weight: 500;
   text-align: center;
   width: 100%;
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
   cursor: default;
   pointer-events: none;
-  background-color: var(--themeBgDisabled,#E8EAED);
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-.emotion-4::-moz-focus-inner {
+.emotion-0::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-4[href],
-.emotion-4[href]:visited {
+.emotion-0[href],
+.emotion-0[href]:visited {
   color: #1B2029;
   fill: #1B2029;
 }
 
-.emotion-4:hover {
+.emotion-0:hover {
   background-color: #c4c6cb;
 }
 
-.emotion-4:active {
+.emotion-0:active {
   background-color: #aeb0b4;
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  background-color: var(--themeBgDisabled,#E8EAED);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-<FocusStyleManager
-  focusEnabledClass="css-bwvukd"
->
-  <button
-    ariaHaspopup={true}
-    className="emotion-4"
-    disabled={true}
-    onClick={[Function]}
-    tabIndex={0}
-    type="submit"
-  >
-    <span
-      className="emotion-3"
-    >
-      <span
-        className="emotion-0"
-      >
-        <IconPropAdapter
-          color="inherit"
-          icon="system-check"
-          size="xs"
-        />
-      </span>
-      <span
-        className="emotion-1"
-      >
-        Button
-      </span>
-      <span
-        className="emotion-2"
-      >
-        <IconPropAdapter
-          color="inherit"
-          icon="system-check"
-          size="xs"
-        />
-      </span>
-    </span>
-  </button>
-</FocusStyleManager>
-`;
-
-exports[`ButtonBase renders all appearances with props 4`] = `
-.emotion-3 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   height: auto;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   box-sizing: border-box;
   display: -webkit-box;
@@ -548,44 +430,8 @@ exports[`ButtonBase renders all appearances with props 4`] = `
   min-height: 0;
 }
 
-.emotion-3 > div {
+.emotion-1>div {
   width: auto;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  display: inherit;
-}
-
-.emotion-1 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  padding-left: 8px;
-}
-
-.emotion-1:after {
-  content: "...";
 }
 
 .emotion-2 {
@@ -602,10 +448,89 @@ exports[`ButtonBase renders all appearances with props 4`] = `
   flex-shrink: 0;
   width: initial;
   display: inherit;
-  padding-left: 4px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  padding-left: 8px;
+}
+
+.emotion-3:after {
+  content: "...";
 }
 
 .emotion-4 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  display: inherit;
+  padding-left: 4px;
+}
+
+<FocusStyleManager
+  focusEnabledClass="css-bwvukd"
+>
+  <button
+    ariaHaspopup={true}
+    className="emotion-0"
+    disabled={true}
+    onClick={[Function]}
+    tabIndex={0}
+    type="submit"
+  >
+    <span
+      className="emotion-1"
+    >
+      <span
+        className="emotion-2"
+      >
+        <IconPropAdapter
+          color="inherit"
+          icon="system-check"
+          size="xs"
+        />
+      </span>
+      <span
+        className="emotion-3"
+      >
+        Button
+      </span>
+      <span
+        className="emotion-4"
+      >
+        <IconPropAdapter
+          color="inherit"
+          icon="system-check"
+          size="xs"
+        />
+      </span>
+    </span>
+  </button>
+</FocusStyleManager>
+`;
+
+exports[`ButtonBase renders all appearances with props 4`] = `
+.emotion-0 {
   background: none;
   border: 0;
   color: inherit;
@@ -627,97 +552,54 @@ exports[`ButtonBase renders all appearances with props 4`] = `
   font-weight: 500;
   text-align: center;
   width: 100%;
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
   cursor: default;
   pointer-events: none;
-  background-color: var(--themeBgDisabled,#E8EAED);
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-.emotion-4::-moz-focus-inner {
+.emotion-0::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-4[href],
-.emotion-4[href]:visited {
+.emotion-0[href],
+.emotion-0[href]:visited {
   color: #FFFFFF;
   fill: #FFFFFF;
 }
 
-.emotion-4:hover {
+.emotion-0:hover {
   background-color: #d32434;
 }
 
-.emotion-4:active {
+.emotion-0:active {
   background-color: #bc202e;
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  background-color: var(--themeBgDisabled,#E8EAED);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-<FocusStyleManager
-  focusEnabledClass="css-txv5vz"
->
-  <button
-    ariaHaspopup={true}
-    className="emotion-4"
-    disabled={true}
-    onClick={[Function]}
-    tabIndex={0}
-    type="submit"
-  >
-    <span
-      className="emotion-3"
-    >
-      <span
-        className="emotion-0"
-      >
-        <IconPropAdapter
-          color="inherit"
-          icon="system-check"
-          size="xs"
-        />
-      </span>
-      <span
-        className="emotion-1"
-      >
-        Button
-      </span>
-      <span
-        className="emotion-2"
-      >
-        <IconPropAdapter
-          color="inherit"
-          icon="system-check"
-          size="xs"
-        />
-      </span>
-    </span>
-  </button>
-</FocusStyleManager>
-`;
-
-exports[`ButtonBase renders all appearances with props 5`] = `
-.emotion-3 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   height: auto;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   box-sizing: border-box;
   display: -webkit-box;
@@ -727,44 +609,8 @@ exports[`ButtonBase renders all appearances with props 5`] = `
   min-height: 0;
 }
 
-.emotion-3 > div {
+.emotion-1>div {
   width: auto;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  display: inherit;
-}
-
-.emotion-1 {
-  box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  padding-left: 8px;
-}
-
-.emotion-1:after {
-  content: "...";
 }
 
 .emotion-2 {
@@ -781,10 +627,89 @@ exports[`ButtonBase renders all appearances with props 5`] = `
   flex-shrink: 0;
   width: initial;
   display: inherit;
-  padding-left: 4px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  padding-left: 8px;
+}
+
+.emotion-3:after {
+  content: "...";
 }
 
 .emotion-4 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  display: inherit;
+  padding-left: 4px;
+}
+
+<FocusStyleManager
+  focusEnabledClass="css-txv5vz"
+>
+  <button
+    ariaHaspopup={true}
+    className="emotion-0"
+    disabled={true}
+    onClick={[Function]}
+    tabIndex={0}
+    type="submit"
+  >
+    <span
+      className="emotion-1"
+    >
+      <span
+        className="emotion-2"
+      >
+        <IconPropAdapter
+          color="inherit"
+          icon="system-check"
+          size="xs"
+        />
+      </span>
+      <span
+        className="emotion-3"
+      >
+        Button
+      </span>
+      <span
+        className="emotion-4"
+      >
+        <IconPropAdapter
+          color="inherit"
+          icon="system-check"
+          size="xs"
+        />
+      </span>
+    </span>
+  </button>
+</FocusStyleManager>
+`;
+
+exports[`ButtonBase renders all appearances with props 5`] = `
+.emotion-0 {
   background: none;
   border: 0;
   color: inherit;
@@ -806,43 +731,118 @@ exports[`ButtonBase renders all appearances with props 5`] = `
   font-weight: 500;
   text-align: center;
   width: 100%;
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
   cursor: default;
   pointer-events: none;
-  background-color: var(--themeBgDisabled,#E8EAED);
+  background-color: var(--themeBgDisabled, #E8EAED);
 }
 
-.emotion-4::-moz-focus-inner {
+.emotion-0::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-4[href],
-.emotion-4[href]:visited {
+.emotion-0[href],
+.emotion-0[href]:visited {
   color: #FFFFFF;
   fill: #FFFFFF;
 }
 
-.emotion-4:hover {
+.emotion-0:hover {
   background-color: #12b276;
 }
 
-.emotion-4:active {
+.emotion-0:active {
   background-color: #109e69;
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  color: var(--themeTextColorDisabled,#AEB0B4);
-  fill: var(--themeTextColorDisabled,#AEB0B4);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: var(--themeTextColorDisabled, #AEB0B4);
+  fill: var(--themeTextColorDisabled, #AEB0B4);
 }
 
-.emotion-4:hover,
-.emotion-4:focus,
-.emotion-4:active {
-  background-color: var(--themeBgDisabled,#E8EAED);
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  background-color: var(--themeBgDisabled, #E8EAED);
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+}
+
+.emotion-1>div {
+  width: auto;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  display: inherit;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  padding-left: 8px;
+}
+
+.emotion-3:after {
+  content: "...";
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  display: inherit;
+  padding-left: 4px;
 }
 
 <FocusStyleManager
@@ -850,17 +850,17 @@ exports[`ButtonBase renders all appearances with props 5`] = `
 >
   <button
     ariaHaspopup={true}
-    className="emotion-4"
+    className="emotion-0"
     disabled={true}
     onClick={[Function]}
     tabIndex={0}
     type="submit"
   >
     <span
-      className="emotion-3"
+      className="emotion-1"
     >
       <span
-        className="emotion-0"
+        className="emotion-2"
       >
         <IconPropAdapter
           color="inherit"
@@ -869,12 +869,12 @@ exports[`ButtonBase renders all appearances with props 5`] = `
         />
       </span>
       <span
-        className="emotion-1"
+        className="emotion-3"
       >
         Button
       </span>
       <span
-        className="emotion-2"
+        className="emotion-4"
       >
         <IconPropAdapter
           color="inherit"

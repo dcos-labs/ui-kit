@@ -7,7 +7,7 @@ import {
   buttonCardFocused,
   buttonCardFocusedActive
 } from "../style";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 
 export interface ButtonCardProps extends CardProps {
   /**

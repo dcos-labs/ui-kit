@@ -1,11 +1,11 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { mount } from "enzyme";
 import toJson from "enzyme-to-json";
 
 import { ClickToCopyButton } from "../";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 const textToCopy = "text to copy";
 

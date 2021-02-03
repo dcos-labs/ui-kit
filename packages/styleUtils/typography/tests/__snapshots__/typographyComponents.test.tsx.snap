@@ -234,7 +234,7 @@ exports[`Typography TextBlock renders all props 1`] = `
   max-width: 100%;
 }
 
-.emotion-0 > img {
+.emotion-0>img {
   display: block;
   margin-right: auto;
 }
@@ -285,8 +285,8 @@ exports[`Typography renders all default 1`] = `
   line-height: 1.4;
   font-weight: 400;
   font-size: 14px;
-  color: var(--themeTextColorPrimary,#1B2029);
-  fill: var(--themeTextColorPrimary,#1B2029);
+  color: var(--themeTextColorPrimary, #1B2029);
+  fill: var(--themeTextColorPrimary, #1B2029);
   text-align: left;
 }
 

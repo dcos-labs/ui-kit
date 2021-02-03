@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { tooltip, getTooltipArrow } from "../style";
 import { inverseColorMode, padding } from "../../shared/styles/styleUtils";
 import { alignContainerWithCaretStyles } from "../../shared/styles/containerWithCaret";

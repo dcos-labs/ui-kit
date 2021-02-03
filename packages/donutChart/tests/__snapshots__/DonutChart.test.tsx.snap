@@ -52,14 +52,14 @@ exports[`DonutChart renders default 1`] = `
 
 exports[`DonutChart renders with text and label 1`] = `
 .emotion-0 {
-  color: var(--themeTextColorSecondary,#76797E);
-  fill: var(--themeTextColorSecondary,#76797E);
+  color: var(--themeTextColorSecondary, #76797E);
+  fill: var(--themeTextColorSecondary, #76797E);
 }
 
 .inverseColorMode .emotion-0,
 .emotion-0.inverseColorMode {
-  color: var(--themeTextColorSecondaryInverted,#AEB0B4);
-  fill: var(--themeTextColorSecondaryInverted,#AEB0B4);
+  color: var(--themeTextColorSecondaryInverted, #AEB0B4);
+  fill: var(--themeTextColorSecondaryInverted, #AEB0B4);
 }
 
 <svg

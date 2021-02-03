@@ -1,7 +1,7 @@
 import * as React from "react";
 import Text from "./Text";
 import { BasicTextProps } from "../textTypes";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import {
   themeTextColorPrimary,
   fontFamilyMonospace

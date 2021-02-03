@@ -2,37 +2,11 @@
 
 exports[`CheckboxTable renders default 1`] = `
 Array [
-  .emotion-5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-76 {
+  .emotion-0 {
   font-weight: normal;
 }
 
-.emotion-76::after {
+.emotion-0::after {
   content: "";
   height: 100%;
   left: 0;
@@ -42,46 +16,18 @@ Array [
   width: 100%;
 }
 
-.emotion-75 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
+.emotion-1 {
+  overflow: unset!important;
 }
 
-.emotion-58 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+.emotion-1 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
-.emotion-58::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-6 {
-  display: inline-block;
-}
-
-.emotion-35 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-35::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-35 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-18 {
-  overflow: unset !important;
-}
-
-.emotion-18 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-13 {
+.emotion-2 {
   box-sizing: border-box;
-  border-top: 1px solid var(--themeBorderHeavy,#1B2029);
-  border-bottom: 1px solid var(--themeBorderHeavy,#1B2029);
+  border-top: 1px solid var(--themeBorderHeavy, #1B2029);
+  border-bottom: 1px solid var(--themeBorderHeavy, #1B2029);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -90,17 +36,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-13:hover .staticClass_dragHandleWrapper,
-.emotion-13:active .staticClass_dragHandleWrapper {
+.emotion-2:hover .staticClass_dragHandleWrapper,
+.emotion-2:active .staticClass_dragHandleWrapper {
   visibility: visible;
 }
 
-.emotion-12 {
+.emotion-3 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -109,12 +55,13 @@ Array [
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -124,11 +71,11 @@ Array [
   min-height: 0;
 }
 
-.emotion-12 > div {
+.emotion-3>div {
   width: auto;
 }
 
-.emotion-10 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -141,25 +88,18 @@ Array [
   width: auto;
 }
 
-.emotion-11 {
+.emotion-5 {
+  height: auto;
   box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  mix-blend-mode: multiply;
-  position: relative;
-  z-index: 1;
+  padding: 7px;
+  z-index: 2;
+  text-align: left;
+  padding-right: ;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
-.emotion-8 {
+.emotion-6 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -191,17 +131,25 @@ Array [
   padding-right: 4px;
 }
 
-.emotion-9 {
-  height: auto;
-  box-sizing: border-box;
-  padding: 7px;
-  z-index: 2;
-  text-align: left;
-  text-transform: capitalize;
-  font-weight: bold;
+.emotion-8 {
+  display: inline-block;
 }
 
-.emotion-4 {
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -217,14 +165,14 @@ Array [
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-10>div {
   width: auto;
 }
 
-.emotion-2 {
+.emotion-11 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -240,9 +188,9 @@ Array [
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-12 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -251,7 +199,18 @@ Array [
   position: relative;
 }
 
-.emotion-3 {
+.emotion-13 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-14 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -264,7 +223,6 @@ Array [
   width: auto;
   padding-left: 12px;
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -274,9 +232,47 @@ Array [
   height: 1px;
 }
 
-.emotion-43 {
+.emotion-15 {
   box-sizing: border-box;
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  mix-blend-mode: multiply;
+  position: relative;
+  z-index: 1;
+}
+
+.emotion-20 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-20::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-20 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
+.emotion-37 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-37::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-38 {
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
   white-space: nowrap;
   display: -webkit-box;
   display: -webkit-flex;
@@ -286,21 +282,26 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-42 {
+.emotion-40 {
   height: auto;
   box-sizing: border-box;
   padding: 7px;
   z-index: 2;
   text-align: left;
+  padding-right: ;
+}
+
+.emotion-60 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
 <div
-    class="emotion-76"
+    class="emotion-0"
     style="overflow:visible;height:0;width:0"
   >
     <div
@@ -312,7 +313,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-18"
+          class="ReactVirtualized__Grid emotion-1"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:194px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:0;top:0"
         >
@@ -322,47 +323,47 @@ Array [
             style="width:194px;height:35px;max-width:194px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-13"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col0 table-headerCell.row0"
               style="height:35px;left:0;position:absolute;top:0;width:24px"
             >
               <div
-                class="emotion-12"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-10"
+                  class="emotion-4"
                 >
                   <div
-                    class="emotion-9"
+                    class="emotion-5"
                   >
                     <div
-                      class="emotion-8"
+                      class="emotion-6"
                     >
                       <div
                         class="emotion-7"
                       >
                         <div
-                          class="emotion-6"
+                          class="emotion-8"
                           data-cy="checkboxTable-headerCheckboxWrapper"
                         >
                           <div
-                            class="emotion-5"
+                            class="emotion-9"
                             data-cy="checkboxInput"
                           >
                             <label
-                              class="emotion-4"
+                              class="emotion-10"
                               for="headerCheckbox"
                             >
                               <div
-                                class="emotion-2"
+                                class="emotion-11"
                               >
                                 <div
-                                  class="emotion-1"
+                                  class="emotion-12"
                                 >
                                   <input
                                     aria-describedby=""
                                     aria-invalid="false"
-                                    class="emotion-0"
+                                    class="emotion-13"
                                     data-cy="checkboxInput-input"
                                     id="headerCheckbox"
                                     type="checkbox"
@@ -370,7 +371,7 @@ Array [
                                 </div>
                               </div>
                               <div
-                                class="emotion-3"
+                                class="emotion-14"
                               >
                                 Toggle all rows
                               </div>
@@ -382,25 +383,25 @@ Array [
                   </div>
                 </div>
                 <div
-                  class="emotion-11"
+                  class="emotion-15"
                 />
               </div>
             </div>
             <div
-              class="emotion-13"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col1 table-headerCell.row0"
               style="height:35px;left:24px;position:absolute;top:0;width:170px"
             >
               <div
-                class="emotion-12"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-10"
+                  class="emotion-4"
                 >
                   name
                 </div>
                 <div
-                  class="emotion-11"
+                  class="emotion-15"
                 />
               </div>
             </div>
@@ -413,7 +414,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-35"
+            class="ReactVirtualized__Grid emotion-20"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:830px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:0;top:0"
           >
@@ -423,74 +424,74 @@ Array [
               style="width:680px;height:35px;max-width:680px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col2 table-headerCell.row0"
                 style="height:35px;left:0;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     role
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col3 table-headerCell.row0"
                 style="height:35px;left:170px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     state
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col4 table-headerCell.row0"
                 style="height:35px;left:340px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     zipcode
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col5 table-headerCell.row0"
                 style="height:35px;left:510px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     city
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
@@ -508,7 +509,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-58"
+            class="ReactVirtualized__Grid emotion-37"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:194px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:auto;left:0"
           >
@@ -518,33 +519,33 @@ Array [
               style="width:194px;height:70px;max-width:194px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-43 emotion-44"
+                class="emotion-38 emotion-39"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:0;position:absolute;top:0;width:24px"
               >
                 <div
-                  class="emotion-42"
+                  class="emotion-40"
                   data-cy="table-checkboxCell table-checkboxCell.row0"
                 >
                   <div
-                    class="emotion-5"
+                    class="emotion-9"
                     data-cy="checkboxInput"
                   >
                     <label
-                      class="emotion-4"
+                      class="emotion-10"
                       for="0"
                     >
                       <div
-                        class="emotion-2"
+                        class="emotion-11"
                       >
                         <div
-                          class="emotion-1"
+                          class="emotion-12"
                         >
                           <input
                             aria-describedby=""
                             aria-invalid="false"
-                            class="emotion-0"
+                            class="emotion-13"
                             data-cy="checkboxInput-input"
                             id="0"
                             type="checkbox"
@@ -552,7 +553,7 @@ Array [
                         </div>
                       </div>
                       <div
-                        class="emotion-3"
+                        class="emotion-14"
                       >
                         Toggle row 0
                       </div>
@@ -561,7 +562,7 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-43 emotion-44"
+                class="emotion-38 emotion-39"
                 data-cy="table-contentCell table-contentCell.col1 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:24px;position:absolute;top:0;width:170px"
@@ -571,33 +572,33 @@ Array [
                 </strong>
               </div>
               <div
-                class="emotion-43 emotion-44"
+                class="emotion-38 emotion-39"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:0;position:absolute;top:35px;width:24px"
               >
                 <div
-                  class="emotion-42"
+                  class="emotion-40"
                   data-cy="table-checkboxCell table-checkboxCell.row1"
                 >
                   <div
-                    class="emotion-5"
+                    class="emotion-9"
                     data-cy="checkboxInput"
                   >
                     <label
-                      class="emotion-4"
+                      class="emotion-10"
                       for="1"
                     >
                       <div
-                        class="emotion-2"
+                        class="emotion-11"
                       >
                         <div
-                          class="emotion-1"
+                          class="emotion-12"
                         >
                           <input
                             aria-describedby=""
                             aria-invalid="false"
-                            class="emotion-0"
+                            class="emotion-13"
                             data-cy="checkboxInput-input"
                             id="1"
                             type="checkbox"
@@ -605,7 +606,7 @@ Array [
                         </div>
                       </div>
                       <div
-                        class="emotion-3"
+                        class="emotion-14"
                       >
                         Toggle row 1
                       </div>
@@ -614,7 +615,7 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-43 emotion-44"
+                class="emotion-38 emotion-39"
                 data-cy="table-contentCell table-contentCell.col1 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:24px;position:absolute;top:35px;width:170px"
@@ -629,7 +630,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-75"
+          class="ReactVirtualized__Grid emotion-60"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:830px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:194px"
           tabindex="0"
@@ -640,7 +641,7 @@ Array [
             style="width:680px;height:70px;max-width:680px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:0;position:absolute;top:0;width:170px"
@@ -650,7 +651,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:170px;position:absolute;top:0;width:170px"
@@ -660,7 +661,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:340px;position:absolute;top:0;width:170px"
@@ -670,7 +671,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col5 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:510px;position:absolute;top:0;width:170px"
@@ -680,7 +681,7 @@ Array [
               </strong>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:0;position:absolute;top:35px;width:170px"
@@ -690,7 +691,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:170px;position:absolute;top:35px;width:170px"
@@ -700,7 +701,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:340px;position:absolute;top:35px;width:170px"
@@ -710,7 +711,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-43 emotion-44"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col5 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:510px;position:absolute;top:35px;width:170px"
@@ -743,37 +744,11 @@ Array [
 
 exports[`CheckboxTable renders with checked row 1`] = `
 Array [
-  .emotion-7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-80 {
+  .emotion-0 {
   font-weight: normal;
 }
 
-.emotion-80::after {
+.emotion-0::after {
   content: "";
   height: 100%;
   left: 0;
@@ -783,46 +758,18 @@ Array [
   width: 100%;
 }
 
-.emotion-79 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
+.emotion-1 {
+  overflow: unset!important;
 }
 
-.emotion-62 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+.emotion-1 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
-.emotion-62::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-8 {
-  display: inline-block;
-}
-
-.emotion-37 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-37::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-37 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-20 {
-  overflow: unset !important;
-}
-
-.emotion-20 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-15 {
+.emotion-2 {
   box-sizing: border-box;
-  border-top: 1px solid var(--themeBorderHeavy,#1B2029);
-  border-bottom: 1px solid var(--themeBorderHeavy,#1B2029);
+  border-top: 1px solid var(--themeBorderHeavy, #1B2029);
+  border-bottom: 1px solid var(--themeBorderHeavy, #1B2029);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -831,17 +778,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-15:hover .staticClass_dragHandleWrapper,
-.emotion-15:active .staticClass_dragHandleWrapper {
+.emotion-2:hover .staticClass_dragHandleWrapper,
+.emotion-2:active .staticClass_dragHandleWrapper {
   visibility: visible;
 }
 
-.emotion-14 {
+.emotion-3 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -850,12 +797,13 @@ Array [
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -865,11 +813,11 @@ Array [
   min-height: 0;
 }
 
-.emotion-14 > div {
+.emotion-3>div {
   width: auto;
 }
 
-.emotion-12 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -882,25 +830,18 @@ Array [
   width: auto;
 }
 
-.emotion-13 {
+.emotion-5 {
+  height: auto;
   box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  mix-blend-mode: multiply;
-  position: relative;
-  z-index: 1;
+  padding: 7px;
+  z-index: 2;
+  text-align: left;
+  padding-right: ;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
-.emotion-10 {
+.emotion-6 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -914,7 +855,7 @@ Array [
   z-index: 2;
 }
 
-.emotion-9 {
+.emotion-7 {
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
   text-overflow: ellipsis;
@@ -932,17 +873,25 @@ Array [
   padding-right: 4px;
 }
 
-.emotion-11 {
-  height: auto;
-  box-sizing: border-box;
-  padding: 7px;
-  z-index: 2;
-  text-align: left;
-  text-transform: capitalize;
-  font-weight: bold;
+.emotion-8 {
+  display: inline-block;
 }
 
-.emotion-6 {
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -958,14 +907,14 @@ Array [
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-6 > div {
+.emotion-10>div {
   width: auto;
 }
 
-.emotion-4 {
+.emotion-11 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -981,18 +930,57 @@ Array [
   display: inherit;
 }
 
-.emotion-52 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-12 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
   width: 14px;
+  background-color: var(--themeBrandPrimary, #7D58FF);
+  border-color: var(--themeBrandPrimary, #7D58FF);
   border-radius: 4px;
   position: relative;
 }
 
-.emotion-5 {
+.emotion-13 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-14 {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 2px;
+  position: absolute;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.emotion-14 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.emotion-15 {
+  vertical-align: middle;
+  fill: var(--themeBgPrimary, #FFFFFF);
+}
+
+.emotion-15 use {
+  pointer-events: none;
+}
+
+.emotion-16 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1005,7 +993,6 @@ Array [
   width: auto;
   padding-left: 12px;
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -1015,9 +1002,47 @@ Array [
   height: 1px;
 }
 
-.emotion-47 {
+.emotion-17 {
   box-sizing: border-box;
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  mix-blend-mode: multiply;
+  position: relative;
+  z-index: 1;
+}
+
+.emotion-22 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-22::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-22 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
+.emotion-39 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-39::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-40 {
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
   white-space: nowrap;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1027,66 +1052,43 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-46 {
+.emotion-41 {
+  background-color: var(--themeBgHover, #F7F8F9);
+  mix-blend-mode: multiply;
+  will-change: left;
+}
+
+.emotion-42 {
   height: auto;
   box-sizing: border-box;
   padding: 7px;
   z-index: 2;
   text-align: left;
+  padding-right: ;
 }
 
-.emotion-2 {
-  box-sizing: border-box;
-  height: 100%;
-  padding: 2px;
-  position: absolute;
-  width: 100%;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.emotion-2 svg {
-  height: 100%;
-  width: 100%;
-}
-
-.emotion-3 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-59 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
   width: 14px;
-  background-color: var(--themeBrandPrimary,#7D58FF);
-  border-color: var(--themeBrandPrimary,#7D58FF);
   border-radius: 4px;
   position: relative;
 }
 
-.emotion-1 {
-  vertical-align: middle;
-  fill: var(--themeBgPrimary,#FFFFFF);
-}
-
-.emotion-1 use {
-  pointer-events: none;
-}
-
-.emotion-48 {
-  background-color: var(--themeBgHover,#F7F8F9);
-  mix-blend-mode: multiply;
-  will-change: left;
+.emotion-64 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
 <div
-    class="emotion-80"
+    class="emotion-0"
     style="overflow:visible;height:0;width:0"
   >
     <div
@@ -1098,7 +1100,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-20"
+          class="ReactVirtualized__Grid emotion-1"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:194px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:0;top:0"
         >
@@ -1108,57 +1110,57 @@ Array [
             style="width:194px;height:35px;max-width:194px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-15"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col0 table-headerCell.row0"
               style="height:35px;left:0;position:absolute;top:0;width:24px"
             >
               <div
-                class="emotion-14"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-4"
                 >
                   <div
-                    class="emotion-11"
+                    class="emotion-5"
                   >
                     <div
-                      class="emotion-10"
+                      class="emotion-6"
                     >
                       <div
-                        class="emotion-9"
+                        class="emotion-7"
                       >
                         <div
                           class="emotion-8"
                           data-cy="checkboxTable-headerCheckboxWrapper"
                         >
                           <div
-                            class="emotion-7"
+                            class="emotion-9"
                             data-cy="checkboxInput checkboxInput.indeterminate"
                           >
                             <label
-                              class="emotion-6"
+                              class="emotion-10"
                               for="headerCheckbox"
                             >
                               <div
-                                class="emotion-4"
+                                class="emotion-11"
                               >
                                 <div
-                                  class="emotion-3"
+                                  class="emotion-12"
                                 >
                                   <input
                                     aria-describedby=""
                                     aria-invalid="false"
-                                    class="emotion-0"
+                                    class="emotion-13"
                                     data-cy="checkboxInput-input checkboxInput-input.indeterminate"
                                     id="headerCheckbox"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="emotion-2"
+                                    class="emotion-14"
                                   >
                                     <svg
                                       aria-label="system-minus icon"
-                                      class="emotion-1"
+                                      class="emotion-15"
                                       data-cy="icon"
                                       height="16"
                                       preserveAspectRatio="xMinYMin meet"
@@ -1174,7 +1176,7 @@ Array [
                                 </div>
                               </div>
                               <div
-                                class="emotion-5"
+                                class="emotion-16"
                               >
                                 Toggle all rows
                               </div>
@@ -1186,25 +1188,25 @@ Array [
                   </div>
                 </div>
                 <div
-                  class="emotion-13"
+                  class="emotion-17"
                 />
               </div>
             </div>
             <div
-              class="emotion-15"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col1 table-headerCell.row0"
               style="height:35px;left:24px;position:absolute;top:0;width:170px"
             >
               <div
-                class="emotion-14"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-4"
                 >
                   name
                 </div>
                 <div
-                  class="emotion-13"
+                  class="emotion-17"
                 />
               </div>
             </div>
@@ -1217,7 +1219,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-37"
+            class="ReactVirtualized__Grid emotion-22"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:830px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:0;top:0"
           >
@@ -1227,74 +1229,74 @@ Array [
               style="width:680px;height:35px;max-width:680px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-15"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col2 table-headerCell.row0"
                 style="height:35px;left:0;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-14"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-12"
+                    class="emotion-4"
                   >
                     role
                   </div>
                   <div
-                    class="emotion-13"
+                    class="emotion-17"
                   />
                 </div>
               </div>
               <div
-                class="emotion-15"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col3 table-headerCell.row0"
                 style="height:35px;left:170px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-14"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-12"
+                    class="emotion-4"
                   >
                     state
                   </div>
                   <div
-                    class="emotion-13"
+                    class="emotion-17"
                   />
                 </div>
               </div>
               <div
-                class="emotion-15"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col4 table-headerCell.row0"
                 style="height:35px;left:340px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-14"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-12"
+                    class="emotion-4"
                   >
                     zipcode
                   </div>
                   <div
-                    class="emotion-13"
+                    class="emotion-17"
                   />
                 </div>
               </div>
               <div
-                class="emotion-15"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col5 table-headerCell.row0"
                 style="height:35px;left:510px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-14"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-12"
+                    class="emotion-4"
                   >
                     city
                   </div>
                   <div
-                    class="emotion-13"
+                    class="emotion-17"
                   />
                 </div>
               </div>
@@ -1312,7 +1314,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-62"
+            class="ReactVirtualized__Grid emotion-39"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:194px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:auto;left:0"
           >
@@ -1322,44 +1324,44 @@ Array [
               style="width:194px;height:70px;max-width:194px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-47 emotion-48"
+                class="emotion-40 emotion-41"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:0;position:absolute;top:0;width:24px"
               >
                 <div
-                  class="emotion-46"
+                  class="emotion-42"
                   data-cy="table-checkboxCell table-checkboxCell.row0"
                 >
                   <div
-                    class="emotion-7"
+                    class="emotion-9"
                     data-cy="checkboxInput checkboxInput.checked"
                   >
                     <label
-                      class="emotion-6"
+                      class="emotion-10"
                       for="0"
                     >
                       <div
-                        class="emotion-4"
+                        class="emotion-11"
                       >
                         <div
-                          class="emotion-3"
+                          class="emotion-12"
                         >
                           <input
                             aria-describedby=""
                             aria-invalid="false"
                             checked=""
-                            class="emotion-0"
+                            class="emotion-13"
                             data-cy="checkboxInput-input checkboxInput-input.checked"
                             id="0"
                             type="checkbox"
                           />
                           <span
-                            class="emotion-2"
+                            class="emotion-14"
                           >
                             <svg
                               aria-label="system-check icon"
-                              class="emotion-1"
+                              class="emotion-15"
                               data-cy="icon"
                               height="16"
                               preserveAspectRatio="xMinYMin meet"
@@ -1375,7 +1377,7 @@ Array [
                         </div>
                       </div>
                       <div
-                        class="emotion-5"
+                        class="emotion-16"
                       >
                         Toggle row 0
                       </div>
@@ -1384,7 +1386,7 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-47 emotion-48"
+                class="emotion-40 emotion-41"
                 data-cy="table-contentCell table-contentCell.col1 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:24px;position:absolute;top:0;width:170px"
@@ -1394,33 +1396,33 @@ Array [
                 </strong>
               </div>
               <div
-                class="emotion-47 emotion-59"
+                class="emotion-40 emotion-54"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:0;position:absolute;top:35px;width:24px"
               >
                 <div
-                  class="emotion-46"
+                  class="emotion-42"
                   data-cy="table-checkboxCell table-checkboxCell.row1"
                 >
                   <div
-                    class="emotion-7"
+                    class="emotion-9"
                     data-cy="checkboxInput"
                   >
                     <label
-                      class="emotion-6"
+                      class="emotion-10"
                       for="1"
                     >
                       <div
-                        class="emotion-4"
+                        class="emotion-11"
                       >
                         <div
-                          class="emotion-52"
+                          class="emotion-59"
                         >
                           <input
                             aria-describedby=""
                             aria-invalid="false"
-                            class="emotion-0"
+                            class="emotion-13"
                             data-cy="checkboxInput-input"
                             id="1"
                             type="checkbox"
@@ -1428,7 +1430,7 @@ Array [
                         </div>
                       </div>
                       <div
-                        class="emotion-5"
+                        class="emotion-16"
                       >
                         Toggle row 1
                       </div>
@@ -1437,7 +1439,7 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-47 emotion-59"
+                class="emotion-40 emotion-54"
                 data-cy="table-contentCell table-contentCell.col1 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:24px;position:absolute;top:35px;width:170px"
@@ -1452,7 +1454,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-79"
+          class="ReactVirtualized__Grid emotion-64"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:830px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:194px"
           tabindex="0"
@@ -1463,7 +1465,7 @@ Array [
             style="width:680px;height:70px;max-width:680px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-47 emotion-48"
+              class="emotion-40 emotion-41"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:0;position:absolute;top:0;width:170px"
@@ -1473,7 +1475,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-47 emotion-48"
+              class="emotion-40 emotion-41"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:170px;position:absolute;top:0;width:170px"
@@ -1483,7 +1485,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-47 emotion-48"
+              class="emotion-40 emotion-41"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:340px;position:absolute;top:0;width:170px"
@@ -1493,7 +1495,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-47 emotion-48"
+              class="emotion-40 emotion-41"
               data-cy="table-contentCell table-contentCell.col5 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:510px;position:absolute;top:0;width:170px"
@@ -1503,7 +1505,7 @@ Array [
               </strong>
             </div>
             <div
-              class="emotion-47 emotion-59"
+              class="emotion-40 emotion-54"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:0;position:absolute;top:35px;width:170px"
@@ -1513,7 +1515,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-47 emotion-59"
+              class="emotion-40 emotion-54"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:170px;position:absolute;top:35px;width:170px"
@@ -1523,7 +1525,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-47 emotion-59"
+              class="emotion-40 emotion-54"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:340px;position:absolute;top:35px;width:170px"
@@ -1533,7 +1535,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-47 emotion-59"
+              class="emotion-40 emotion-54"
               data-cy="table-contentCell table-contentCell.col5 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:510px;position:absolute;top:35px;width:170px"
@@ -1566,37 +1568,11 @@ Array [
 
 exports[`CheckboxTable renders with disabled and muted row 1`] = `
 Array [
-  .emotion-5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-69 {
+  .emotion-0 {
   font-weight: normal;
 }
 
-.emotion-69::after {
+.emotion-0::after {
   content: "";
   height: 100%;
   left: 0;
@@ -1606,46 +1582,18 @@ Array [
   width: 100%;
 }
 
-.emotion-68 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
+.emotion-1 {
+  overflow: unset!important;
 }
 
-.emotion-51 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+.emotion-1 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
-.emotion-51::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-6 {
-  display: inline-block;
-}
-
-.emotion-35 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-35::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-35 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-18 {
-  overflow: unset !important;
-}
-
-.emotion-18 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-13 {
+.emotion-2 {
   box-sizing: border-box;
-  border-top: 1px solid var(--themeBorderHeavy,#1B2029);
-  border-bottom: 1px solid var(--themeBorderHeavy,#1B2029);
+  border-top: 1px solid var(--themeBorderHeavy, #1B2029);
+  border-bottom: 1px solid var(--themeBorderHeavy, #1B2029);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1654,17 +1602,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-13:hover .staticClass_dragHandleWrapper,
-.emotion-13:active .staticClass_dragHandleWrapper {
+.emotion-2:hover .staticClass_dragHandleWrapper,
+.emotion-2:active .staticClass_dragHandleWrapper {
   visibility: visible;
 }
 
-.emotion-12 {
+.emotion-3 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -1673,12 +1621,13 @@ Array [
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -1688,11 +1637,11 @@ Array [
   min-height: 0;
 }
 
-.emotion-12 > div {
+.emotion-3>div {
   width: auto;
 }
 
-.emotion-10 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1705,25 +1654,18 @@ Array [
   width: auto;
 }
 
-.emotion-11 {
+.emotion-5 {
+  height: auto;
   box-sizing: border-box;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: initial;
-  mix-blend-mode: multiply;
-  position: relative;
-  z-index: 1;
+  padding: 7px;
+  z-index: 2;
+  text-align: left;
+  padding-right: ;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
-.emotion-8 {
+.emotion-6 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1755,17 +1697,25 @@ Array [
   padding-right: 4px;
 }
 
-.emotion-9 {
-  height: auto;
-  box-sizing: border-box;
-  padding: 7px;
-  z-index: 2;
-  text-align: left;
-  text-transform: capitalize;
-  font-weight: bold;
+.emotion-8 {
+  display: inline-block;
 }
 
-.emotion-4 {
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1781,14 +1731,14 @@ Array [
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-10>div {
   width: auto;
 }
 
-.emotion-2 {
+.emotion-11 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -1804,9 +1754,9 @@ Array [
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-12 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -1815,7 +1765,18 @@ Array [
   position: relative;
 }
 
-.emotion-3 {
+.emotion-13 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-14 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1828,7 +1789,6 @@ Array [
   width: auto;
   padding-left: 12px;
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -1838,9 +1798,47 @@ Array [
   height: 1px;
 }
 
-.emotion-36 {
+.emotion-15 {
   box-sizing: border-box;
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: initial;
+  mix-blend-mode: multiply;
+  position: relative;
+  z-index: 1;
+}
+
+.emotion-20 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-20::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-20 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
+.emotion-37 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-37::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-38 {
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
   white-space: nowrap;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1850,25 +1848,30 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-46 {
+.emotion-39 {
+  color: var(--themeTextColorSecondary, #76797E);
+}
+
+.emotion-44 {
   height: auto;
   box-sizing: border-box;
   padding: 7px;
   z-index: 2;
   text-align: left;
+  padding-right: ;
 }
 
-.emotion-37 {
-  color: var(--themeTextColorSecondary,#76797E);
+.emotion-53 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
 <div
-    class="emotion-69"
+    class="emotion-0"
     style="overflow:visible;height:0;width:0"
   >
     <div
@@ -1880,7 +1883,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-18"
+          class="ReactVirtualized__Grid emotion-1"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:194px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:0;top:0"
         >
@@ -1890,47 +1893,47 @@ Array [
             style="width:194px;height:35px;max-width:194px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-13"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col0 table-headerCell.row0"
               style="height:35px;left:0;position:absolute;top:0;width:24px"
             >
               <div
-                class="emotion-12"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-10"
+                  class="emotion-4"
                 >
                   <div
-                    class="emotion-9"
+                    class="emotion-5"
                   >
                     <div
-                      class="emotion-8"
+                      class="emotion-6"
                     >
                       <div
                         class="emotion-7"
                       >
                         <div
-                          class="emotion-6"
+                          class="emotion-8"
                           data-cy="checkboxTable-headerCheckboxWrapper"
                         >
                           <div
-                            class="emotion-5"
+                            class="emotion-9"
                             data-cy="checkboxInput"
                           >
                             <label
-                              class="emotion-4"
+                              class="emotion-10"
                               for="headerCheckbox"
                             >
                               <div
-                                class="emotion-2"
+                                class="emotion-11"
                               >
                                 <div
-                                  class="emotion-1"
+                                  class="emotion-12"
                                 >
                                   <input
                                     aria-describedby=""
                                     aria-invalid="false"
-                                    class="emotion-0"
+                                    class="emotion-13"
                                     data-cy="checkboxInput-input"
                                     id="headerCheckbox"
                                     type="checkbox"
@@ -1938,7 +1941,7 @@ Array [
                                 </div>
                               </div>
                               <div
-                                class="emotion-3"
+                                class="emotion-14"
                               >
                                 Toggle all rows
                               </div>
@@ -1950,25 +1953,25 @@ Array [
                   </div>
                 </div>
                 <div
-                  class="emotion-11"
+                  class="emotion-15"
                 />
               </div>
             </div>
             <div
-              class="emotion-13"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col1 table-headerCell.row0"
               style="height:35px;left:24px;position:absolute;top:0;width:170px"
             >
               <div
-                class="emotion-12"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-10"
+                  class="emotion-4"
                 >
                   name
                 </div>
                 <div
-                  class="emotion-11"
+                  class="emotion-15"
                 />
               </div>
             </div>
@@ -1981,7 +1984,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-35"
+            class="ReactVirtualized__Grid emotion-20"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:830px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:0;top:0"
           >
@@ -1991,74 +1994,74 @@ Array [
               style="width:680px;height:35px;max-width:680px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col2 table-headerCell.row0"
                 style="height:35px;left:0;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     role
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col3 table-headerCell.row0"
                 style="height:35px;left:170px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     state
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col4 table-headerCell.row0"
                 style="height:35px;left:340px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     zipcode
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
               <div
-                class="emotion-13"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col5 table-headerCell.row0"
                 style="height:35px;left:510px;position:absolute;top:0;width:170px"
               >
                 <div
-                  class="emotion-12"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-10"
+                    class="emotion-4"
                   >
                     city
                   </div>
                   <div
-                    class="emotion-11"
+                    class="emotion-15"
                   />
                 </div>
               </div>
@@ -2076,7 +2079,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-51"
+            class="ReactVirtualized__Grid emotion-37"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:194px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:auto;left:0"
           >
@@ -2086,13 +2089,13 @@ Array [
               style="width:194px;height:70px;max-width:194px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-36 emotion-37"
+                class="emotion-38 emotion-39"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:0;position:absolute;top:0;width:24px"
               />
               <div
-                class="emotion-36 emotion-37"
+                class="emotion-38 emotion-39"
                 data-cy="table-contentCell table-contentCell.col1 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:24px;position:absolute;top:0;width:170px"
@@ -2102,33 +2105,33 @@ Array [
                 </strong>
               </div>
               <div
-                class="emotion-36 emotion-48"
+                class="emotion-38 emotion-43"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:0;position:absolute;top:35px;width:24px"
               >
                 <div
-                  class="emotion-46"
+                  class="emotion-44"
                   data-cy="table-checkboxCell table-checkboxCell.row1"
                 >
                   <div
-                    class="emotion-5"
+                    class="emotion-9"
                     data-cy="checkboxInput"
                   >
                     <label
-                      class="emotion-4"
+                      class="emotion-10"
                       for="1"
                     >
                       <div
-                        class="emotion-2"
+                        class="emotion-11"
                       >
                         <div
-                          class="emotion-1"
+                          class="emotion-12"
                         >
                           <input
                             aria-describedby=""
                             aria-invalid="false"
-                            class="emotion-0"
+                            class="emotion-13"
                             data-cy="checkboxInput-input"
                             id="1"
                             type="checkbox"
@@ -2136,7 +2139,7 @@ Array [
                         </div>
                       </div>
                       <div
-                        class="emotion-3"
+                        class="emotion-14"
                       >
                         Toggle row 1
                       </div>
@@ -2145,7 +2148,7 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-36 emotion-48"
+                class="emotion-38 emotion-43"
                 data-cy="table-contentCell table-contentCell.col1 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:24px;position:absolute;top:35px;width:170px"
@@ -2160,7 +2163,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-68"
+          class="ReactVirtualized__Grid emotion-53"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:830px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:194px"
           tabindex="0"
@@ -2171,7 +2174,7 @@ Array [
             style="width:680px;height:70px;max-width:680px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-36 emotion-37"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:0;position:absolute;top:0;width:170px"
@@ -2181,7 +2184,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-36 emotion-37"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:170px;position:absolute;top:0;width:170px"
@@ -2191,7 +2194,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-36 emotion-37"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:340px;position:absolute;top:0;width:170px"
@@ -2201,7 +2204,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-36 emotion-37"
+              class="emotion-38 emotion-39"
               data-cy="table-contentCell table-contentCell.col5 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:510px;position:absolute;top:0;width:170px"
@@ -2211,7 +2214,7 @@ Array [
               </strong>
             </div>
             <div
-              class="emotion-36 emotion-48"
+              class="emotion-38 emotion-43"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:0;position:absolute;top:35px;width:170px"
@@ -2221,7 +2224,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-36 emotion-48"
+              class="emotion-38 emotion-43"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:170px;position:absolute;top:35px;width:170px"
@@ -2231,7 +2234,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-36 emotion-48"
+              class="emotion-38 emotion-43"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:340px;position:absolute;top:35px;width:170px"
@@ -2241,7 +2244,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-36 emotion-48"
+              class="emotion-38 emotion-43"
               data-cy="table-contentCell table-contentCell.col5 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:510px;position:absolute;top:35px;width:170px"

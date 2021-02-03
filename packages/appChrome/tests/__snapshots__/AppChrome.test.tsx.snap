@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AppChrome renders with the app chrome regions 1`] = `
-.emotion-3 {
+.emotion-0 {
   height: 100%;
   overflow: hidden;
   font-size: 14px;
@@ -17,11 +17,11 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
   min-height: 0;
 }
 
-.emotion-3 > div {
+.emotion-0>div {
   width: 100%;
 }
 
-.emotion-2 {
+.emotion-1 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -30,12 +30,13 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -47,11 +48,11 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
   overflow: auto;
 }
 
-.emotion-2 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -66,7 +67,7 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
   width: initial;
 }
 
-.emotion-1 {
+.emotion-3 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -93,7 +94,7 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
   }
 >
   <div
-    className="emotion-3"
+    className="emotion-0"
     data-cy="appChrome"
   >
     <div
@@ -104,10 +105,10 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
       </div>
     </div>
     <div
-      className="emotion-2"
+      className="emotion-1"
     >
       <div
-        className="emotion-0"
+        className="emotion-2"
         data-cy="sidebar"
       >
         <div>
@@ -115,7 +116,7 @@ exports[`AppChrome renders with the app chrome regions 1`] = `
         </div>
       </div>
       <main
-        className="emotion-1"
+        className="emotion-3"
         data-cy="main"
       >
         <div>

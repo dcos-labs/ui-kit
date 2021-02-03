@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ThemeProvider } from "emotion-theming";
+import { ThemeProvider } from "@emotion/react";
 import { injectCustomProperties } from "../../shared/styles/global";
 import { Theme } from "../types/appTheme";
 

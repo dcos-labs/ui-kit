@@ -1,6 +1,6 @@
 import * as React from "react";
 import { cardBase } from "../style";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { preserveAspectRatio, padding } from "../../shared/styles/styleUtils";
 import { SpaceSize } from "../../shared/styles/styleUtils/modifiers/modifierUtils";
 

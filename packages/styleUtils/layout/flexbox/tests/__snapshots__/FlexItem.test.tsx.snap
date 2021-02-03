@@ -52,7 +52,7 @@ exports[`FlexItem renders with all props 1`] = `
 `;
 
 exports[`FlexItem renders with responsive props 1`] = `
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     box-sizing: border-box;
     -webkit-flex-basis: auto;
@@ -69,7 +69,7 @@ exports[`FlexItem renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     box-sizing: border-box;
     -webkit-flex-basis: 0;
@@ -84,7 +84,7 @@ exports[`FlexItem renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
@@ -93,7 +93,7 @@ exports[`FlexItem renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     -webkit-box-flex: 2;
     -webkit-flex-grow: 2;
@@ -102,7 +102,7 @@ exports[`FlexItem renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     -webkit-order: 1;
     -ms-flex-order: 1;
@@ -110,7 +110,7 @@ exports[`FlexItem renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     -webkit-order: 2;
     -ms-flex-order: 2;

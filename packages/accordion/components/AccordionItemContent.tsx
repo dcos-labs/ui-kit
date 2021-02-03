@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Context as AccordionItemContext } from "./AccordionItemContext";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import {
   visuallyHidden,
   border,

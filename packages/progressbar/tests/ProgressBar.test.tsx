@@ -1,9 +1,9 @@
 import React from "react";
 import { shallow } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 import { ProgressBar } from "../";
 import { ProgressBarSizes } from "../components/ProgressBar";

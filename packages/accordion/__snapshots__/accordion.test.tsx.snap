@@ -14,7 +14,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
       tag="div"
     >
       <div
-        className="css-1h7en16"
+        className="css-15twc3j"
         data-cy="accordion"
       >
         <AccordionItem
@@ -39,20 +39,20 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                   isExpanded={false}
                 >
                   <div
-                    className="css-1khdlw2"
+                    className="css-1nin987"
                     data-cy="accordionItemTitle accordionItemTitle.danger"
                   >
                     <ResetButton
                       aria-controls="customId-content"
                       aria-expanded={false}
-                      className="css-3bwp7q"
+                      className="css-jd8ubb"
                       data-cy="accordionItemTitle-button"
                       onClick={[Function]}
                     >
                       <button
                         aria-controls="customId-content"
                         aria-expanded={false}
-                        className="css-8x73u2"
+                        className="css-odh0fh"
                         data-cy="accordionItemTitle-button"
                         onClick={[Function]}
                         type="button"
@@ -67,7 +67,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                       isInteractive={true}
                     >
                       <span
-                        className="css-og12hz"
+                        className="css-1nhhn1w"
                       >
                         <span
                           className="css-1321nl5"
@@ -78,7 +78,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                           >
                             <svg
                               aria-label="system-triangle-right icon"
-                              className="css-zgvqkl"
+                              className="css-jbdp75"
                               data-cy="icon"
                               height={16}
                               preserveAspectRatio="xMinYMin meet"
@@ -96,7 +96,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                           className="css-bleycz"
                         >
                           <h3
-                            className="css-n00hzg"
+                            className="css-fmvpil"
                             data-cy="accordionItemTitle-heading"
                             id="customId-heading"
                           >
@@ -119,7 +119,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
               >
                 <div
                   aria-labelledby="customId-heading"
-                  className="css-16wkd0c"
+                  className="css-13hugf8"
                   data-cy="accordionItemContent"
                   hidden={true}
                   id="customId-content"
@@ -151,20 +151,20 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                   isExpanded={false}
                 >
                   <div
-                    className="css-1khdlw2"
+                    className="css-1nin987"
                     data-cy="accordionItemTitle accordionItemTitle.danger"
                   >
                     <ResetButton
                       aria-controls="accordionItem5-content"
                       aria-expanded={false}
-                      className="css-3bwp7q"
+                      className="css-jd8ubb"
                       data-cy="accordionItemTitle-button"
                       onClick={[Function]}
                     >
                       <button
                         aria-controls="accordionItem5-content"
                         aria-expanded={false}
-                        className="css-8x73u2"
+                        className="css-odh0fh"
                         data-cy="accordionItemTitle-button"
                         onClick={[Function]}
                         type="button"
@@ -179,7 +179,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                       isInteractive={true}
                     >
                       <span
-                        className="css-og12hz"
+                        className="css-1nhhn1w"
                       >
                         <span
                           className="css-1321nl5"
@@ -190,7 +190,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                           >
                             <svg
                               aria-label="system-triangle-right icon"
-                              className="css-zgvqkl"
+                              className="css-jbdp75"
                               data-cy="icon"
                               height={16}
                               preserveAspectRatio="xMinYMin meet"
@@ -237,7 +237,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
               >
                 <div
                   aria-labelledby="accordionItem5-heading"
-                  className="css-16wkd0c"
+                  className="css-13hugf8"
                   data-cy="accordionItemContent"
                   hidden={true}
                   id="accordionItem5-content"
@@ -269,13 +269,13 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                   isExpanded={false}
                 >
                   <div
-                    className="css-1tnc4bw"
+                    className="css-cf9h7f"
                     data-cy="accordionItemTitle accordionItemTitle.disabled"
                   >
                     <ResetButton
                       aria-controls="accordionItem6-content"
                       aria-expanded={false}
-                      className="css-3bwp7q"
+                      className="css-jd8ubb"
                       data-cy="accordionItemTitle-button"
                       disabled={true}
                       onClick={[Function]}
@@ -283,7 +283,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                       <button
                         aria-controls="accordionItem6-content"
                         aria-expanded={false}
-                        className="css-1urm9n8"
+                        className="css-1tjctub"
                         data-cy="accordionItemTitle-button"
                         disabled={true}
                         onClick={[Function]}
@@ -299,7 +299,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                       isInteractive={true}
                     >
                       <span
-                        className="css-og12hz"
+                        className="css-1nhhn1w"
                       >
                         <span
                           className="css-1321nl5"
@@ -310,7 +310,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                           >
                             <svg
                               aria-label="system-triangle-right icon"
-                              className="css-zgvqkl"
+                              className="css-jbdp75"
                               data-cy="icon"
                               height={16}
                               preserveAspectRatio="xMinYMin meet"
@@ -328,7 +328,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
                           className="css-bleycz"
                         >
                           <h3
-                            className="css-n00hzg"
+                            className="css-fmvpil"
                             data-cy="accordionItemTitle-heading"
                             id="accordionItem6-heading"
                           >
@@ -351,7 +351,7 @@ exports[`Accordion rendering renders an item with interactive content 1`] = `
               >
                 <div
                   aria-labelledby="accordionItem6-heading"
-                  className="css-16wkd0c"
+                  className="css-13hugf8"
                   data-cy="accordionItemContent"
                   hidden={true}
                   id="accordionItem6-content"
@@ -396,7 +396,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
       tag="div"
     >
       <div
-        className="css-1h7en16"
+        className="css-15twc3j"
         data-cy="accordion"
       >
         <AccordionItem
@@ -425,11 +425,11 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                   isExpanded={true}
                 >
                   <div
-                    className="css-3n1jto"
+                    className="css-duvnlo"
                     data-cy="accordionItemTitle"
                   >
                     <h3
-                      className="css-n00hzg"
+                      className="css-fmvpil"
                       data-cy="accordionItemTitle-heading"
                       id="panel1-heading"
                     >
@@ -443,7 +443,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                         <button
                           aria-controls="panel1-content"
                           aria-expanded="false"
-                          className="css-1sg7lln"
+                          className="css-1gh59q1"
                           data-cy="accordionItemTitle-button"
                           onClick={[Function]}
                           type="button"
@@ -455,7 +455,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                               isExpanded={true}
                             >
                               <span
-                                className="css-11c46d8"
+                                className="css-13atth2"
                               >
                                 <span
                                   className="css-1321nl5"
@@ -466,7 +466,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                                   >
                                     <svg
                                       aria-label="system-triangle-down icon"
-                                      className="css-zgvqkl"
+                                      className="css-jbdp75"
                                       data-cy="icon"
                                       height={16}
                                       preserveAspectRatio="xMinYMin meet"
@@ -500,7 +500,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
               >
                 <div
                   aria-labelledby="panel1-heading"
-                  className="css-hv2xnk"
+                  className="css-72kisv"
                   data-cy="accordionItemContent"
                   hidden={false}
                   id="panel1-content"
@@ -537,11 +537,11 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                   isExpanded={true}
                 >
                   <div
-                    className="css-3n1jto"
+                    className="css-duvnlo"
                     data-cy="accordionItemTitle"
                   >
                     <h3
-                      className="css-n00hzg"
+                      className="css-fmvpil"
                       data-cy="accordionItemTitle-heading"
                       id="panel2-heading"
                     >
@@ -555,7 +555,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                         <button
                           aria-controls="panel2-content"
                           aria-expanded="false"
-                          className="css-1sg7lln"
+                          className="css-1gh59q1"
                           data-cy="accordionItemTitle-button"
                           onClick={[Function]}
                           type="button"
@@ -567,7 +567,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                               isExpanded={true}
                             >
                               <span
-                                className="css-11c46d8"
+                                className="css-13atth2"
                               >
                                 <span
                                   className="css-1321nl5"
@@ -578,7 +578,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                                   >
                                     <svg
                                       aria-label="system-triangle-down icon"
-                                      className="css-zgvqkl"
+                                      className="css-jbdp75"
                                       data-cy="icon"
                                       height={16}
                                       preserveAspectRatio="xMinYMin meet"
@@ -612,7 +612,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
               >
                 <div
                   aria-labelledby="panel2-heading"
-                  className="css-hv2xnk"
+                  className="css-72kisv"
                   data-cy="accordionItemContent"
                   hidden={false}
                   id="panel2-content"
@@ -649,11 +649,11 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                   isExpanded={true}
                 >
                   <div
-                    className="css-3n1jto"
+                    className="css-duvnlo"
                     data-cy="accordionItemTitle"
                   >
                     <h3
-                      className="css-n00hzg"
+                      className="css-fmvpil"
                       data-cy="accordionItemTitle-heading"
                       id="panel3-heading"
                     >
@@ -667,7 +667,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                         <button
                           aria-controls="panel3-content"
                           aria-expanded="false"
-                          className="css-1sg7lln"
+                          className="css-1gh59q1"
                           data-cy="accordionItemTitle-button"
                           onClick={[Function]}
                           type="button"
@@ -679,7 +679,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                               isExpanded={true}
                             >
                               <span
-                                className="css-11c46d8"
+                                className="css-13atth2"
                               >
                                 <span
                                   className="css-1321nl5"
@@ -690,7 +690,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
                                   >
                                     <svg
                                       aria-label="system-triangle-down icon"
-                                      className="css-zgvqkl"
+                                      className="css-jbdp75"
                                       data-cy="icon"
                                       height={16}
                                       preserveAspectRatio="xMinYMin meet"
@@ -724,7 +724,7 @@ exports[`Accordion rendering renders with expanded items 1`] = `
               >
                 <div
                   aria-labelledby="panel3-heading"
-                  className="css-hv2xnk"
+                  className="css-72kisv"
                   data-cy="accordionItemContent"
                   hidden={false}
                   id="panel3-content"
@@ -755,7 +755,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
       tag="div"
     >
       <div
-        className="css-1h7en16"
+        className="css-15twc3j"
         data-cy="accordion"
       >
         <AccordionItem
@@ -780,11 +780,11 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                   isExpanded={false}
                 >
                   <div
-                    className="css-1khdlw2"
+                    className="css-1nin987"
                     data-cy="accordionItemTitle accordionItemTitle.danger"
                   >
                     <h3
-                      className="css-n00hzg"
+                      className="css-fmvpil"
                       data-cy="accordionItemTitle-heading"
                       id="customId-heading"
                     >
@@ -798,7 +798,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                         <button
                           aria-controls="customId-content"
                           aria-expanded="false"
-                          className="css-1sg7lln"
+                          className="css-1gh59q1"
                           data-cy="accordionItemTitle-button"
                           onClick={[Function]}
                           type="button"
@@ -810,7 +810,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                               isExpanded={false}
                             >
                               <span
-                                className="css-11c46d8"
+                                className="css-13atth2"
                               >
                                 <span
                                   className="css-1321nl5"
@@ -821,7 +821,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                                   >
                                     <svg
                                       aria-label="system-triangle-right icon"
-                                      className="css-zgvqkl"
+                                      className="css-jbdp75"
                                       data-cy="icon"
                                       height={16}
                                       preserveAspectRatio="xMinYMin meet"
@@ -855,7 +855,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
               >
                 <div
                   aria-labelledby="customId-heading"
-                  className="css-16wkd0c"
+                  className="css-13hugf8"
                   data-cy="accordionItemContent"
                   hidden={true}
                   id="customId-content"
@@ -887,11 +887,11 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                   isExpanded={false}
                 >
                   <div
-                    className="css-1tnc4bw"
+                    className="css-cf9h7f"
                     data-cy="accordionItemTitle accordionItemTitle.disabled"
                   >
                     <h3
-                      className="css-n00hzg"
+                      className="css-fmvpil"
                       data-cy="accordionItemTitle-heading"
                       id="accordionItem2-heading"
                     >
@@ -906,7 +906,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                         <button
                           aria-controls="accordionItem2-content"
                           aria-expanded="false"
-                          className="css-p13jo5"
+                          className="css-1l66126"
                           data-cy="accordionItemTitle-button"
                           disabled={true}
                           onClick={[Function]}
@@ -919,7 +919,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                               isExpanded={false}
                             >
                               <span
-                                className="css-11c46d8"
+                                className="css-13atth2"
                               >
                                 <span
                                   className="css-1321nl5"
@@ -930,7 +930,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                                   >
                                     <svg
                                       aria-label="system-triangle-right icon"
-                                      className="css-zgvqkl"
+                                      className="css-jbdp75"
                                       data-cy="icon"
                                       height={16}
                                       preserveAspectRatio="xMinYMin meet"
@@ -964,7 +964,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
               >
                 <div
                   aria-labelledby="accordionItem2-heading"
-                  className="css-16wkd0c"
+                  className="css-13hugf8"
                   data-cy="accordionItemContent"
                   hidden={true}
                   id="accordionItem2-content"
@@ -994,11 +994,11 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                   isExpanded={false}
                 >
                   <div
-                    className="css-49v3w5"
+                    className="css-1uett59"
                     data-cy="accordionItemTitle"
                   >
                     <h2
-                      className="css-n00hzg"
+                      className="css-fmvpil"
                       data-cy="accordionItemTitle-heading"
                       id="accordionItem3-heading"
                     >
@@ -1012,7 +1012,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                         <button
                           aria-controls="accordionItem3-content"
                           aria-expanded="false"
-                          className="css-1sg7lln"
+                          className="css-1gh59q1"
                           data-cy="accordionItemTitle-button"
                           onClick={[Function]}
                           type="button"
@@ -1024,7 +1024,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                               isExpanded={false}
                             >
                               <span
-                                className="css-11c46d8"
+                                className="css-13atth2"
                               >
                                 <span
                                   className="css-1321nl5"
@@ -1035,7 +1035,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
                                   >
                                     <svg
                                       aria-label="system-triangle-right icon"
-                                      className="css-zgvqkl"
+                                      className="css-jbdp75"
                                       data-cy="icon"
                                       height={16}
                                       preserveAspectRatio="xMinYMin meet"
@@ -1069,7 +1069,7 @@ exports[`Accordion rendering renders with no expanded items 1`] = `
               >
                 <div
                   aria-labelledby="accordionItem3-heading"
-                  className="css-16wkd0c"
+                  className="css-13hugf8"
                   data-cy="accordionItemContent"
                   hidden={true}
                   id="accordionItem3-content"

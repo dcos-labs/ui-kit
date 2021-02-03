@@ -10,12 +10,13 @@ exports[`Flex renders default 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -28,12 +29,12 @@ exports[`Flex renders default 1`] = `
   row-gap: 0;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-0 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-0>*:not(:last-child) {
     padding-right: 0;
     padding-bottom: 0;
   }
@@ -66,12 +67,13 @@ exports[`Flex renders with all props 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   box-sizing: border-box;
   display: -webkit-box;
@@ -84,12 +86,12 @@ exports[`Flex renders with all props 1`] = `
   row-gap: 24px;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   width: 100%;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-0 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-0>*:not(:last-child) {
     padding-right: 0;
     padding-bottom: 24px;
   }
@@ -122,7 +124,7 @@ exports[`Flex renders with responsive props 1`] = `
   min-height: 0;
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     -webkit-align-items: flex-start;
     -webkit-box-align: flex-start;
@@ -131,7 +133,7 @@ exports[`Flex renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     -webkit-align-items: center;
     -webkit-box-align: center;
@@ -140,19 +142,19 @@ exports[`Flex renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     height: 100%;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     height: auto;
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -160,7 +162,7 @@ exports[`Flex renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
@@ -168,102 +170,104 @@ exports[`Flex renders with responsive props 1`] = `
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
+    -webkit-box-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
+    -webkit-box-flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
     justify-content: flex-start;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 }
 
-@media (min-width:0) {
-  .emotion-0 > div {
+@media (min-width: 0) {
+  .emotion-0>div {
     width: 100%;
   }
 }
 
-@media (min-width:900px) {
-  .emotion-0 > div {
+@media (min-width: 900px) {
+  .emotion-0>div {
     width: auto;
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     -webkit-column-gap: 0;
     column-gap: 0;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     -webkit-column-gap: 16px;
     column-gap: 16px;
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     row-gap: 12px;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     row-gap: 0;
   }
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-@media (min-width:0) {
-    .emotion-0 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  @media (min-width: 0) {
+    .emotion-0>*:not(:last-child) {
       padding-right: 0;
     }
-}
+  }
 
-@media (min-width:900px) {
-    .emotion-0 > *:not(:last-child) {
+  @media (min-width: 900px) {
+    .emotion-0>*:not(:last-child) {
       padding-right: 16px;
     }
-}
+  }
 
-@media (min-width:0) {
-    .emotion-0 > *:not(:last-child) {
+  @media (min-width: 0) {
+    .emotion-0>*:not(:last-child) {
       padding-bottom: 12px;
     }
-}
+  }
 
-@media (min-width:900px) {
-    .emotion-0 > *:not(:last-child) {
+  @media (min-width: 900px) {
+    .emotion-0>*:not(:last-child) {
       padding-bottom: 0;
     }
-}
+  }
 }
 
 <div

@@ -2,8 +2,11 @@
 
 exports[`ToggleWrapper renders 1`] = `
 .emotion-0 {
+  display: block;
+}
+
+.emotion-1 {
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -13,21 +16,17 @@ exports[`ToggleWrapper renders 1`] = `
   height: 1px;
 }
 
-.emotion-1 {
-  display: block;
-}
-
 <ToggleWrapper
   isActive={true}
   type="checkbox"
 >
   <label
-    className="emotion-1"
+    className="emotion-0"
   >
     <input
       aria-checked={true}
       checked={true}
-      className="emotion-0"
+      className="emotion-1"
       data-cy="toggleWrapper-input"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -42,8 +41,11 @@ exports[`ToggleWrapper renders 1`] = `
 
 exports[`ToggleWrapper renders as a radio input 1`] = `
 .emotion-0 {
+  display: block;
+}
+
+.emotion-1 {
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -53,21 +55,17 @@ exports[`ToggleWrapper renders as a radio input 1`] = `
   height: 1px;
 }
 
-.emotion-1 {
-  display: block;
-}
-
 <ToggleWrapper
   isActive={true}
   type="radio"
 >
   <label
-    className="emotion-1"
+    className="emotion-0"
   >
     <input
       aria-checked={true}
       checked={true}
-      className="emotion-0"
+      className="emotion-1"
       data-cy="toggleWrapper-input"
       onBlur={[Function]}
       onFocus={[Function]}

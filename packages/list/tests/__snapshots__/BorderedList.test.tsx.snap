@@ -9,17 +9,17 @@ exports[`BorderedList renders default 1`] = `
   padding-left: 0;
 }
 
-.emotion-0 > li:not(:last-child) {
+.emotion-0>li:not(:last-child) {
   padding-bottom: 16px;
 }
 
-.emotion-0 > li:not(:last-child) {
+.emotion-0>li:not(:last-child) {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-bottom-style: solid;
 }
 
-.emotion-0 > li:not(:first-child) {
+.emotion-0>li:not(:first-child) {
   padding-top: 16px;
 }
 

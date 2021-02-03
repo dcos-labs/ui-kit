@@ -1,7 +1,7 @@
 import * as React from "react";
 import Delegate from "react-delegate-component";
 import { useId } from "react-id-generator";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { Flex, FlexItem } from "../styleUtils/layout";
 import { Icon } from "../icon";
 import { ResetButton } from "../button";

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import CheckboxInput from "../../checkboxInput/components/CheckboxInput";
 import RadioInput from "../../radioInput/RadioInput";
 import FormFieldWrapper from "../../shared/components/FormFieldWrapper";

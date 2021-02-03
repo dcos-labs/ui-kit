@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { tintSVG } from "../../shared/styles/styleUtils";
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
 import { ProductIcons } from "../../icons/dist/product-icons-enum";

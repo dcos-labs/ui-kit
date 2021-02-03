@@ -2,7 +2,7 @@
 
 exports[`Tabs renders default 1`] = `
 <div
-  class="react-tabs css-1jxz441"
+  class="react-tabs css-pjouvl"
   data-cy="tabs"
   data-tabs="true"
 >
@@ -53,7 +53,7 @@ exports[`Tabs renders default 1`] = `
 
 exports[`Tabs renders vertically 1`] = `
 <div
-  class="react-tabs css-11llber"
+  class="react-tabs css-14zcokl"
   data-cy="tabs"
   data-tabs="true"
 >

@@ -3,7 +3,7 @@
 exports[`Pagination rendering renders default 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-right-style: solid;
   padding-right: 16px;
   margin-right: 16px;
@@ -76,7 +76,7 @@ exports[`Pagination rendering renders default 1`] = `
 exports[`Pagination rendering renders prev and next buttons as links 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-right-style: solid;
   padding-right: 16px;
   margin-right: 16px;
@@ -151,7 +151,7 @@ exports[`Pagination rendering renders prev and next buttons as links 1`] = `
 exports[`Pagination rendering renders w/ custom item label 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-right-style: solid;
   padding-right: 16px;
   margin-right: 16px;
@@ -222,20 +222,20 @@ exports[`Pagination rendering renders w/ custom item label 1`] = `
 `;
 
 exports[`Pagination rendering renders w/ page length menu 1`] = `
-.emotion-1 {
-  display: inline-block;
-  max-width: 80px;
-}
-
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-left-style: solid;
   border-right-style: solid;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.emotion-1 {
+  display: inline-block;
+  max-width: 80px;
 }
 
 <Flex
@@ -351,7 +351,7 @@ exports[`Pagination rendering renders w/ page length menu 1`] = `
 exports[`Pagination rendering renders w/ totalItems set 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-right-style: solid;
   padding-right: 16px;
   margin-right: 16px;
@@ -425,7 +425,7 @@ exports[`Pagination rendering renders w/ totalItems set 1`] = `
 exports[`Pagination rendering renders w/ totalPages, pageLength, and totalItems set 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-right-style: solid;
   padding-right: 16px;
   margin-right: 16px;

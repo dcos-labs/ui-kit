@@ -2,7 +2,7 @@
 
 exports[`Stack renders default 1`] = `
 <div
-  class="css-1h7en16"
+  class="css-15twc3j"
   data-cy="stack"
 >
   <div>
@@ -19,7 +19,7 @@ exports[`Stack renders default 1`] = `
 
 exports[`Stack renders with a custom tag 1`] = `
 <ul
-  class="css-m4vfxm"
+  class="css-15wkwvi"
   data-cy="stack"
 >
   <li>
@@ -36,7 +36,7 @@ exports[`Stack renders with a custom tag 1`] = `
 
 exports[`Stack renders with different spacingSize 1`] = `
 <div
-  class="css-bpezze"
+  class="css-p1p1p3"
   data-cy="stack"
 >
   <div>
@@ -53,7 +53,7 @@ exports[`Stack renders with different spacingSize 1`] = `
 
 exports[`Stack renders with responsive spacingSize 1`] = `
 <div
-  class="css-6ifz3s"
+  class="css-i8pzeb"
   data-cy="stack"
 >
   <div>

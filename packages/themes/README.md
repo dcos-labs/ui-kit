@@ -93,7 +93,7 @@ If you wrapped your app in
 You could use the CSS variable for `brandPrimary` in emotion like this:
 
 ```JS
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { themeBrandPrimary } from "@dcos/ui-kit/dist/packages/design-tokens/build/js/designTokens";
 
 export const brandedBg = css`

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { storiesOf } from "@storybook/react";
 import { withReadme } from "storybook-readme";
 import { action } from "@storybook/addon-actions";

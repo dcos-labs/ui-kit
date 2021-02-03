@@ -7,6 +7,7 @@ exports[`Cell renders correctly 1`] = `
   padding: 7px;
   z-index: 2;
   text-align: left;
+  padding-right: ;
 }
 
 <div
@@ -17,6 +18,17 @@ exports[`Cell renders correctly 1`] = `
 `;
 
 exports[`HeaderCell renders correctly 1`] = `
+.emotion-0 {
+  height: auto;
+  box-sizing: border-box;
+  padding: 7px;
+  z-index: 2;
+  text-align: left;
+  padding-right: ;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
 .emotion-1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -31,7 +43,7 @@ exports[`HeaderCell renders correctly 1`] = `
   z-index: 2;
 }
 
-.emotion-0 {
+.emotion-2 {
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
   text-overflow: ellipsis;
@@ -49,24 +61,14 @@ exports[`HeaderCell renders correctly 1`] = `
   padding-right: 4px;
 }
 
-.emotion-2 {
-  height: auto;
-  box-sizing: border-box;
-  padding: 7px;
-  z-index: 2;
-  text-align: left;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-
 <div
-  class="emotion-2"
+  class="emotion-0"
 >
   <div
     class="emotion-1"
   >
     <div
-      class="emotion-0"
+      class="emotion-2"
     >
       This is content
     </div>
@@ -81,6 +83,7 @@ exports[`TextCell renders correctly 1`] = `
   padding: 7px;
   z-index: 2;
   text-align: left;
+  padding-right: ;
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
   text-overflow: ellipsis;

@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 
 import {
@@ -18,7 +18,7 @@ import {
   WarningText
 } from "../";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 const allComponents = [
   Text,

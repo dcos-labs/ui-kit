@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { menuList, hideHoriztonalScroll, getPopoverBoxArrow } from "../style";
 import { alignContainerWithCaretStyles } from "../../shared/styles/containerWithCaret";
 import { border } from "../../shared/styles/styleUtils";

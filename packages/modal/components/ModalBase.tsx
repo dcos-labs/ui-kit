@@ -1,6 +1,6 @@
 import * as React from "react";
 import ReactDOM from "react-dom";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { Transition } from "react-transition-group";
 import FocusLock from "react-focus-lock";
 import {

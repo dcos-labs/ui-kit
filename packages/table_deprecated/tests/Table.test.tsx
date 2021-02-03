@@ -1,12 +1,12 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { render, shallow, mount } from "enzyme";
 import toJson from "enzyme-to-json";
 
 import { Table_Deprecated, Column } from "../";
 import { fillColumns, clampWidth } from "../components/Table";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("Table", () => {
   const items = [

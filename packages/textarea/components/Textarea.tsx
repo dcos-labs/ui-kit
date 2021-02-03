@@ -1,7 +1,7 @@
 import * as React from "react";
 import { InputAppearance } from "../../shared/types/inputAppearance";
 import FormFieldWrapper from "../../shared/components/FormFieldWrapper";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { inputReset } from "../../shared/styles/styleUtils";
 import {
   getInputAppearanceStyle,

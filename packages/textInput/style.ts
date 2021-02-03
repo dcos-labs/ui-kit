@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { spaceXs } from "../design-tokens/build/js/designTokens";
 import { textInputHeight } from "../shared/styles/formStyles";
 

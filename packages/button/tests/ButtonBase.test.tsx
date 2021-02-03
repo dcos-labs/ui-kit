@@ -2,11 +2,11 @@ import React from "react";
 
 import ButtonBase, { ButtonAppearances } from "../components/ButtonBase";
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { shallow, mount } from "enzyme";
 import toJson from "enzyme-to-json";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("ButtonBase", () => {
   it("renders all appearances with props", () => {

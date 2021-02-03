@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { getAllFocusableChildNodes } from "../../utilities/getFocusableChildNodes";
 import { padding } from "../../shared/styles/styleUtils";
 import { flex } from "../../shared/styles/styleUtils/layout/flexbox";

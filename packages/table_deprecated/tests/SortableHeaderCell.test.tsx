@@ -1,12 +1,12 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { shallow } from "enzyme";
 import toJson from "enzyme-to-json";
 
 import { SortableHeaderCell } from "../";
 import HeaderCell from "../components/HeaderCell";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("SortableHeaderCell", () => {
   it("renders default", () => {

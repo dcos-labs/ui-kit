@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { themeTextColorInteractive } from "../design-tokens/build/js/designTokens";
 
 export const defaultLinkStyles = `

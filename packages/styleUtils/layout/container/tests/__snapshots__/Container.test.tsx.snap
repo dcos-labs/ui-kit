@@ -8,19 +8,19 @@ exports[`Container renders default 1`] = `
   width: 100%;
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     max-width: 800px;
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .emotion-0 {
     max-width: 900px;
   }
 }
 
-@media (min-width:1800px) {
+@media (min-width: 1800px) {
   .emotion-0 {
     max-width: 1100px;
   }

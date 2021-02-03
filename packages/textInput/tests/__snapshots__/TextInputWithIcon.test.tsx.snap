@@ -34,8 +34,8 @@ exports[`TextInputWithIcon should render all appearances with iconEnd 2`] = `
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <div
@@ -117,8 +117,8 @@ exports[`TextInputWithIcon should render all appearances with iconStart 2`] = `
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <div
@@ -200,8 +200,8 @@ exports[`TextInputWithIcon should render all appearances with twoIcons 2`] = `
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 500;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <div

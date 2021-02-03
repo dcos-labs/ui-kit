@@ -3,12 +3,12 @@
 exports[`Form structure components renders top-level form structure components 1`] = `
 Array [
   <div
-    class="css-wl7hq3"
+    class="css-ut0yx1"
     data-cy="formMessage"
   >
     <div
       aria-live="assertive"
-      class="css-1ij0p3n"
+      class="css-1xs0a49"
       data-cy="infoBox infoBox.warning"
       role="alert"
     >
@@ -20,18 +20,18 @@ Array [
     </div>
   </div>,
   <div
-    class="css-wl7hq3"
+    class="css-ut0yx1"
     data-cy="spacingBox"
   >
     <h3
-      class="rmTextMargins css-ipvdfg"
+      class="rmTextMargins css-8tyz7n"
       data-cy="formTitle"
     >
       Form Title Content
     </h3>
   </div>,
   <div
-    class="css-1534o5d"
+    class="css-spit4o"
     data-cy="formSection"
   >
     <div
@@ -44,25 +44,25 @@ Array [
     </div>
   </div>,
   <div
-    class="css-1534o5d"
+    class="css-spit4o"
     data-cy="formSection"
   >
     <div
-      class="css-ilu7d6"
+      class="css-lkxn4w"
       data-cy="formSectionHeader"
     >
       <h2
-        class="rmTextMargins css-1jlnqz6"
+        class="rmTextMargins css-z67oj0"
         data-cy="formSectionHeader-title"
       >
         Section title
       </h2>
       <div
-        class="css-1vewm7l"
+        class="css-au7v6l"
         data-cy="spacingBox"
       >
         <div
-          class="rmTextMargins css-wgr9z0"
+          class="rmTextMargins css-1vleyv4"
           data-cy="formSectionHeader-subtitle"
         >
           Section subtitle

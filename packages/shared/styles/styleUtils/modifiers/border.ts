@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { BoxSides } from "./modifierUtils";
 import {
   themeBorder,

@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 import PopoverListItem from "../components/PopoverListItem";
 import { PopoverListItemAppearances } from "../../shared/types/popoverListItemAppearances";
@@ -8,7 +8,7 @@ import PopoverListItemIcon from "../components/PopoverListItemIcon";
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
 import PopoverListItemAvatar from "../components/PopoverListItemAvatar";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("PopoverListItem", () => {
   it("renders", () => {

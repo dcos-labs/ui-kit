@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 import { withReadme } from "storybook-readme";
 import { DonutChart } from "../index";
 import { purple, pink, blue } from "../../design-tokens/build/js/designTokens";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 import readme from "../README.md";
 

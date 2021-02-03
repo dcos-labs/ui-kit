@@ -1,5 +1,5 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { render, mount } from "enzyme";
 import toJSON from "enzyme-to-json";
 
@@ -14,7 +14,7 @@ import {
   ConfigurationMapRowAction
 } from "../";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("ConfigurationMap", () => {
   it("renders default", () => {

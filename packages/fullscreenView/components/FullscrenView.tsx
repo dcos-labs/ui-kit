@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import Delegate from "react-delegate-component";
 import { ButtonProps } from "../../button/components/ButtonBase";
 import { flex, padding, flexItem } from "../../shared/styles/styleUtils";

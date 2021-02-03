@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sidebar renders 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: block;
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-1 {
   background: none;
   border: 0;
   color: inherit;
@@ -20,29 +20,29 @@ exports[`Sidebar renders 1`] = `
   cursor: pointer;
 }
 
-.emotion-4::-moz-focus-inner {
+.emotion-1::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-4 > div:focus {
+.emotion-1>div:focus {
   outline: none;
 }
 
-.emotion-4:focus > div {
+.emotion-1:focus>div {
   outline-color: Highlight;
   outline-width: thin;
 }
 
-@media (-webkit-min-device-pixel-ratio:0) {
-  .emotion-4:focus > div {
+@media (-webkit-min-device-pixel-ratio: 0) {
+  .emotion-1:focus>div {
     outline-color: -webkit-focus-ring-color;
     outline-style: auto;
     outline-width: unset;
   }
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -51,12 +51,13 @@ exports[`Sidebar renders 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -69,18 +70,18 @@ exports[`Sidebar renders 1`] = `
   row-gap: 0;
 }
 
-.emotion-3 > div {
+.emotion-2>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-3 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-2>*:not(:last-child) {
     padding-right: 0;
     padding-bottom: 0;
   }
 }
 
-.emotion-1 {
+.emotion-3 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -95,16 +96,16 @@ exports[`Sidebar renders 1`] = `
   width: initial;
 }
 
-.emotion-0 {
+.emotion-4 {
   vertical-align: middle;
   fill: currentColor;
 }
 
-.emotion-0 use {
+.emotion-4 use {
   pointer-events: none;
 }
 
-.emotion-2 {
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -129,13 +130,13 @@ exports[`Sidebar renders 1`] = `
     <div>
       <ResetButton
         aria-expanded={true}
-        className="emotion-5"
+        className="emotion-0"
         onClick={[Function]}
         tabIndex={0}
       >
         <button
           aria-expanded={true}
-          className="emotion-4"
+          className="emotion-1"
           onClick={[Function]}
           tabIndex={0}
           type="button"
@@ -151,14 +152,14 @@ exports[`Sidebar renders 1`] = `
               wrap="nowrap"
             >
               <div
-                className="emotion-3"
+                className="emotion-2"
                 data-cy="flex"
               >
                 <FlexItem
                   flex="shrink"
                 >
                   <div
-                    className="emotion-1"
+                    className="emotion-3"
                     data-cy="flexItem"
                   >
                     <Icon
@@ -167,7 +168,7 @@ exports[`Sidebar renders 1`] = `
                     >
                       <svg
                         aria-label="system-triangle-down icon"
-                        className="emotion-0"
+                        className="emotion-4"
                         data-cy="icon"
                         height={16}
                         preserveAspectRatio="xMinYMin meet"
@@ -186,7 +187,7 @@ exports[`Sidebar renders 1`] = `
                   flex="grow"
                 >
                   <div
-                    className="emotion-2"
+                    className="emotion-5"
                     data-cy="flexItem"
                   >
                     Label
@@ -197,9 +198,7 @@ exports[`Sidebar renders 1`] = `
           </div>
         </button>
       </ResetButton>
-      <div
-        className=""
-      >
+      <div>
         Content
       </div>
     </div>

@@ -15,7 +15,7 @@ exports[`Card default 1`] = `
 
 exports[`Card with aspectRatio set 1`] = `
 <div
-  class="css-1lk8bu3"
+  class="css-1wx7lyh"
   data-cy="card"
 >
   <div

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { default as HeaderCell } from "./HeaderCell";
 import Clickable from "../../clickable/components/clickable";
 import { sortableHeaderIconBaseCSS, styleArrowDirection } from "../style";

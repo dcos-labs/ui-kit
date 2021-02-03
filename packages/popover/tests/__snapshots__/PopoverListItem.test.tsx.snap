@@ -50,7 +50,7 @@ exports[`PopoverListItem renders active 1`] = `
   padding-top: 8px;
   padding-bottom: 8px;
   display: table;
-  background-color: var(--themeBgHover,#F7F8F9);
+  background-color: var(--themeBgHover, #F7F8F9);
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -91,8 +91,8 @@ exports[`PopoverListItem renders active and selected 1`] = `
   padding-top: 8px;
   padding-bottom: 8px;
   display: table;
-  background-color: var(--themeBgHover,#F7F8F9);
-  background-color: var(--themeBgSelected,#7D58FF);
+  background-color: var(--themeBgHover, #F7F8F9);
+  background-color: var(--themeBgSelected, #7D58FF);
   color: #FFFFFF;
   background-color: #704fe5;
   margin-top: 8px;
@@ -135,12 +135,12 @@ exports[`PopoverListItem renders all appearances 1`] = `
   padding-top: 8px;
   padding-bottom: 8px;
   display: table;
-  background-color: var(--themeBgSelected,#7D58FF);
+  background-color: var(--themeBgSelected, #7D58FF);
   color: #FFFFFF;
   margin-top: 8px;
   margin-bottom: 8px;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <div
@@ -180,7 +180,7 @@ exports[`PopoverListItem renders disabled 1`] = `
   padding-bottom: 8px;
   display: table;
   background-color: transparent;
-  color: var(--themeTextColorDisabled,#AEB0B4);
+  color: var(--themeTextColorDisabled, #AEB0B4);
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -222,7 +222,7 @@ exports[`PopoverListItem renders selected 1`] = `
   padding-top: 8px;
   padding-bottom: 8px;
   display: table;
-  background-color: var(--themeBgSelected,#7D58FF);
+  background-color: var(--themeBgSelected, #7D58FF);
   color: #FFFFFF;
   margin-top: 8px;
   margin-bottom: 8px;

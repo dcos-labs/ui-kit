@@ -1,6 +1,6 @@
 import * as React from "react";
 import ChartistGraph from "react-chartist";
-import { injectGlobal } from "emotion";
+import { injectGlobal } from "@emotion/css";
 
 // Chartist CSS which we need to inject globally if this component is used
 /* tslint:disable */

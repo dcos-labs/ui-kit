@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { rowActionStaticClassname } from "./components/ConfigurationMapRowAction";
 import {
   visuallyHidden,

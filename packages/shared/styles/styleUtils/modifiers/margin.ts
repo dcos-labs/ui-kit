@@ -1,4 +1,4 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { boxSpacing, BoxSides, SpaceSizes } from "./modifierUtils";
 import { atMediaUp, breakpoints } from "../../breakpoints";
 

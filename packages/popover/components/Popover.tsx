@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useId } from "react-id-generator";
 import FocusLock from "react-focus-lock";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { Dropdownable } from "../../dropdownable";
 import PopoverBox from "./PopoverBox";
 import { SpacingBox } from "../../styleUtils/modifiers";

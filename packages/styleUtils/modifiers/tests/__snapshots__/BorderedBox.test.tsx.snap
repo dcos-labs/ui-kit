@@ -3,7 +3,7 @@
 exports[`BorderedBox renders default 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-style: solid;
   border-radius: 0;
 }
@@ -27,7 +27,7 @@ exports[`BorderedBox renders default 1`] = `
 exports[`BorderedBox renders with all props 1`] = `
 .emotion-0 {
   border-width: 1px;
-  border-color: var(--themeBorderHeavy,#1B2029);
+  border-color: var(--themeBorderHeavy, #1B2029);
   border-top-style: solid;
   border-radius: 4px;
 }

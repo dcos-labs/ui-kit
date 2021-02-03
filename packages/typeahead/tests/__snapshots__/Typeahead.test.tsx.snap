@@ -9,7 +9,7 @@ exports[`Typeahead renders 1`] = `
   font-weight: 500;
 }
 
-.emotion-2 {
+.emotion-1 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -18,12 +18,13 @@ exports[`Typeahead renders 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -33,11 +34,11 @@ exports[`Typeahead renders 1`] = `
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   border: 0;
   box-shadow: none;
@@ -61,62 +62,62 @@ exports[`Typeahead renders 1`] = `
   font-size: inherit;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-color: var(--themeBorder,#DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-color: var(--themeBorder, #DADDE2);
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: 0;
 }
 
-.emotion-1::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input {
+.emotion-2 input {
   font-size: inherit;
   color: inherit;
 }
 
-.emotion-1 input::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   background-color: rgba(125,88,255,0.05);
-  border-color: var(--themeBrandPrimary,#7D58FF);
+  border-color: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Typeahead
@@ -180,8 +181,12 @@ exports[`Typeahead renders 1`] = `
             <div
               data-cy="typeahead-dropdown"
             >
-              <div
-                className="css-1432z9w"
+              .emotion-0 {
+  margin-top: 4px;
+}
+
+<div
+                className="emotion-0"
               >
                 <Popover
                   aria-labelledby="downshift-0-label"
@@ -275,7 +280,7 @@ exports[`Typeahead renders 1`] = `
                 >
                   <div>
                     <div
-                      className="emotion-2"
+                      className="emotion-1"
                     >
                       <input
                         aria-activedescendant={null}
@@ -285,7 +290,7 @@ exports[`Typeahead renders 1`] = `
                         aria-invalid={false}
                         aria-labelledby="downshift-0-label"
                         autoComplete="off"
-                        className="emotion-1"
+                        className="emotion-2"
                         data-cy="textInput-input"
                         downshiftReset={[Function]}
                         id="standard.input"
@@ -323,7 +328,7 @@ exports[`Typeahead renders a menu with a max height 1`] = `
   font-weight: 500;
 }
 
-.emotion-2 {
+.emotion-1 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -332,12 +337,13 @@ exports[`Typeahead renders a menu with a max height 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -347,11 +353,11 @@ exports[`Typeahead renders a menu with a max height 1`] = `
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   border: 0;
   box-shadow: none;
@@ -375,62 +381,62 @@ exports[`Typeahead renders a menu with a max height 1`] = `
   font-size: inherit;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-color: var(--themeBorder,#DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-color: var(--themeBorder, #DADDE2);
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: 0;
 }
 
-.emotion-1::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input {
+.emotion-2 input {
   font-size: inherit;
   color: inherit;
 }
 
-.emotion-1 input::-webkit-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-webkit-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::-moz-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::-moz-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input:-ms-input-placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input:-ms-input-placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1 input::placeholder {
-  color: var(--themeTextColorPrimary,#1B2029);
+.emotion-2 input::placeholder {
+  color: var(--themeTextColorPrimary, #1B2029);
   opacity: 0.4;
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   background-color: rgba(125,88,255,0.05);
-  border-color: var(--themeBrandPrimary,#7D58FF);
+  border-color: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Typeahead
@@ -494,8 +500,12 @@ exports[`Typeahead renders a menu with a max height 1`] = `
             <div
               data-cy="typeahead-dropdown"
             >
-              <div
-                className="css-1432z9w"
+              .emotion-0 {
+  margin-top: 4px;
+}
+
+<div
+                className="emotion-0"
               >
                 <Popover
                   aria-labelledby="downshift-1-label"
@@ -589,7 +599,7 @@ exports[`Typeahead renders a menu with a max height 1`] = `
                 >
                   <div>
                     <div
-                      className="emotion-2"
+                      className="emotion-1"
                     >
                       <input
                         aria-activedescendant={null}
@@ -599,7 +609,7 @@ exports[`Typeahead renders a menu with a max height 1`] = `
                         aria-invalid={false}
                         aria-labelledby="downshift-1-label"
                         autoComplete="off"
-                        className="emotion-1"
+                        className="emotion-2"
                         data-cy="textInput-input"
                         downshiftReset={[Function]}
                         id="standard.input"

@@ -1,12 +1,12 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 
 import Pagination, { getItemCountString } from "./Pagination";
 import PaginationContainer from "./PaginationContainer";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("Pagination", () => {
   describe("rendering", () => {

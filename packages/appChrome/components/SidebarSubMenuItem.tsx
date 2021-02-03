@@ -6,11 +6,11 @@ import {
   sidebarNavItem,
   spaceMenuIcon
 } from "../style";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { textSize, flex, tintContent } from "../../shared/styles/styleUtils";
 import Clickable from "../../clickable/components/clickable";
 import ResetLink from "../../link/components/ResetLink";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import getCSSVarValue from "../../utilities/getCSSVarValue";
 import {
   themeTextColorPrimary,
@@ -44,7 +44,7 @@ const SidebarSubMenuItem: React.FC<SidebarNavItemProps> = ({
   openInNewTab,
   url
 }) => {
-  const theme: AppChromeTheme & { menuHasIcon: boolean } = useTheme();
+  const theme = useTheme() as AppChromeTheme & { menuHasIcon: boolean };
   const iconContainerWidth = theme.iconWidth || "s";
   const sidebarBgColor = theme?.sidebarBackgroundColor
     ? theme.sidebarBackgroundColor

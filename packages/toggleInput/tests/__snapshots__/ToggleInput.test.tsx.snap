@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ToggleInput renders a checkbox input type 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10,24 +10,12 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -43,10 +31,10 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -66,9 +54,9 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -77,7 +65,18 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -104,23 +103,23 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
     id="defaultId"
   >
     <div
-      className="emotion-5"
+      className="emotion-0"
       data-cy="checkboxInput"
     >
       <label
-        className="emotion-4"
+        className="emotion-1"
         htmlFor="defaultId"
       >
         <div
           className="emotion-2"
         >
           <div
-            className="emotion-1"
+            className="emotion-3"
           >
             <input
               aria-describedby=""
               aria-invalid={false}
-              className="emotion-0"
+              className="emotion-4"
               data-cy="checkboxInput-input"
               id="defaultId"
               onBlur={[Function]}
@@ -131,7 +130,7 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
           </div>
         </div>
         <div
-          className="emotion-3"
+          className="emotion-5"
         >
           Sample label
         </div>
@@ -142,7 +141,7 @@ exports[`ToggleInput renders a checkbox input type 1`] = `
 `;
 
 exports[`ToggleInput renders a radio input type 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -151,24 +150,12 @@ exports[`ToggleInput renders a radio input type 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -184,10 +171,10 @@ exports[`ToggleInput renders a radio input type 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -208,6 +195,28 @@ exports[`ToggleInput renders a radio input type 1`] = `
 }
 
 .emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-style: solid;
+  border-width: 1px;
+  height: 14px;
+  width: 14px;
+  border-radius: 999px;
+  position: relative;
+}
+
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -219,17 +228,6 @@ exports[`ToggleInput renders a radio input type 1`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-}
-
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-style: solid;
-  border-width: 1px;
-  height: 14px;
-  width: 14px;
-  border-radius: 999px;
-  position: relative;
 }
 
 <ForwardRef
@@ -245,23 +243,23 @@ exports[`ToggleInput renders a radio input type 1`] = `
     id="defaultId"
   >
     <div
-      className="emotion-5"
+      className="emotion-0"
       data-cy="radioInput"
     >
       <label
-        className="emotion-4"
+        className="emotion-1"
         htmlFor="defaultId"
       >
         <div
           className="emotion-2"
         >
           <div
-            className="emotion-1"
+            className="emotion-3"
           >
             <input
               aria-describedby=""
               aria-invalid={false}
-              className="emotion-0"
+              className="emotion-4"
               data-cy="radioInput-input"
               id="defaultId"
               onBlur={[Function]}
@@ -272,7 +270,7 @@ exports[`ToggleInput renders a radio input type 1`] = `
           </div>
         </div>
         <div
-          className="emotion-3"
+          className="emotion-5"
         >
           Sample label
         </div>
@@ -283,7 +281,7 @@ exports[`ToggleInput renders a radio input type 1`] = `
 `;
 
 exports[`ToggleInput renders all appearances 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -292,24 +290,12 @@ exports[`ToggleInput renders all appearances 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -325,10 +311,10 @@ exports[`ToggleInput renders all appearances 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -348,9 +334,9 @@ exports[`ToggleInput renders all appearances 1`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -359,7 +345,18 @@ exports[`ToggleInput renders all appearances 1`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -386,23 +383,23 @@ exports[`ToggleInput renders all appearances 1`] = `
     id="defaultId"
   >
     <div
-      className="emotion-5"
+      className="emotion-0"
       data-cy="checkboxInput"
     >
       <label
-        className="emotion-4"
+        className="emotion-1"
         htmlFor="defaultId"
       >
         <div
           className="emotion-2"
         >
           <div
-            className="emotion-1"
+            className="emotion-3"
           >
             <input
               aria-describedby=""
               aria-invalid={false}
-              className="emotion-0"
+              className="emotion-4"
               data-cy="checkboxInput-input"
               id="defaultId"
               onBlur={[Function]}
@@ -413,7 +410,7 @@ exports[`ToggleInput renders all appearances 1`] = `
           </div>
         </div>
         <div
-          className="emotion-3"
+          className="emotion-5"
         >
           Sample label
         </div>
@@ -424,7 +421,7 @@ exports[`ToggleInput renders all appearances 1`] = `
 `;
 
 exports[`ToggleInput renders all appearances 2`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -433,24 +430,12 @@ exports[`ToggleInput renders all appearances 2`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -466,10 +451,10 @@ exports[`ToggleInput renders all appearances 2`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -489,9 +474,9 @@ exports[`ToggleInput renders all appearances 2`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -500,7 +485,18 @@ exports[`ToggleInput renders all appearances 2`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -512,8 +508,8 @@ exports[`ToggleInput renders all appearances 2`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <ForwardRef
@@ -529,23 +525,23 @@ exports[`ToggleInput renders all appearances 2`] = `
     id="defaultId"
   >
     <div
-      className="emotion-5"
+      className="emotion-0"
       data-cy="checkboxInput checkboxInput.error"
     >
       <label
-        className="emotion-4"
+        className="emotion-1"
         htmlFor="defaultId"
       >
         <div
           className="emotion-2"
         >
           <div
-            className="emotion-1"
+            className="emotion-3"
           >
             <input
               aria-describedby=""
               aria-invalid={false}
-              className="emotion-0"
+              className="emotion-4"
               data-cy="checkboxInput-input checkboxInput-input.error"
               id="defaultId"
               onBlur={[Function]}
@@ -556,7 +552,7 @@ exports[`ToggleInput renders all appearances 2`] = `
           </div>
         </div>
         <div
-          className="emotion-3"
+          className="emotion-5"
         >
           Sample label
         </div>
@@ -567,7 +563,7 @@ exports[`ToggleInput renders all appearances 2`] = `
 `;
 
 exports[`ToggleInput renders all appearances 3`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -576,24 +572,12 @@ exports[`ToggleInput renders all appearances 3`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -609,10 +593,10 @@ exports[`ToggleInput renders all appearances 3`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -632,9 +616,9 @@ exports[`ToggleInput renders all appearances 3`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -643,7 +627,18 @@ exports[`ToggleInput renders all appearances 3`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -655,8 +650,8 @@ exports[`ToggleInput renders all appearances 3`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-  color: var(--themeSuccess,#14C684);
-  fill: var(--themeSuccess,#14C684);
+  color: var(--themeSuccess, #14C684);
+  fill: var(--themeSuccess, #14C684);
 }
 
 <ForwardRef
@@ -672,23 +667,23 @@ exports[`ToggleInput renders all appearances 3`] = `
     id="defaultId"
   >
     <div
-      className="emotion-5"
+      className="emotion-0"
       data-cy="checkboxInput checkboxInput.success"
     >
       <label
-        className="emotion-4"
+        className="emotion-1"
         htmlFor="defaultId"
       >
         <div
           className="emotion-2"
         >
           <div
-            className="emotion-1"
+            className="emotion-3"
           >
             <input
               aria-describedby=""
               aria-invalid={false}
-              className="emotion-0"
+              className="emotion-4"
               data-cy="checkboxInput-input checkboxInput-input.success"
               id="defaultId"
               onBlur={[Function]}
@@ -699,7 +694,7 @@ exports[`ToggleInput renders all appearances 3`] = `
           </div>
         </div>
         <div
-          className="emotion-3"
+          className="emotion-5"
         >
           Sample label
         </div>

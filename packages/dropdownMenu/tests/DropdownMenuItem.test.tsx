@@ -1,12 +1,12 @@
 import React from "react";
 import { mount } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 import { PopoverListItemAppearances } from "../../shared/types/popoverListItemAppearances";
 
 import { DropdownMenuItem } from "..";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("Dropdown", () => {
   it("default", () => {

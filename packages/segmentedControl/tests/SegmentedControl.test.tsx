@@ -1,11 +1,11 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { shallow, mount } from "enzyme";
 import toJson from "enzyme-to-json";
 
 import { SegmentedControl, SegmentedControlButton } from "../";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("SegmentedControl", () => {
   it("renders default", () => {

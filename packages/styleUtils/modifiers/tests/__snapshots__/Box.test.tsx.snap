@@ -2,7 +2,15 @@
 
 exports[`Box renders default 1`] = `
 .emotion-0 {
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
   background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
 }
 
 <div
@@ -17,8 +25,10 @@ exports[`Box renders with all props 1`] = `
 .emotion-0 {
   background-color: #000000;
   background-image: url(https://via.placeholder.com/150);
+  -webkit-background-position: top-left;
   background-position: top-left;
   background-repeat: repeat-x;
+  -webkit-background-size: contain;
   background-size: contain;
   display: -webkit-box;
   display: -webkit-flex;
@@ -26,7 +36,6 @@ exports[`Box renders with all props 1`] = `
   display: flex;
   text-align: center;
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -42,8 +51,8 @@ exports[`Box renders with all props 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 

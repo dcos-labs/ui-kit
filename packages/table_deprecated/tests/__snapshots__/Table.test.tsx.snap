@@ -2,11 +2,11 @@
 
 exports[`Table renders a table with resizable columns 1`] = `
 Array [
-  .emotion-48 {
+  .emotion-0 {
   font-weight: normal;
 }
 
-.emotion-48::after {
+.emotion-0::after {
   content: "";
   height: 100%;
   left: 0;
@@ -16,53 +16,18 @@ Array [
   width: 100%;
 }
 
-.emotion-47 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
+.emotion-1 {
+  overflow: unset!important;
 }
 
-.emotion-34 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+.emotion-1 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
-.emotion-34::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-3 {
-  cursor: col-resize;
-  height: 100%;
-  visibility: hidden;
-}
-
-.emotion-3:hover .staticClass_dragHandleWrapper,
-.emotion-3:active .staticClass_dragHandleWrapper {
-  background-color: var(--themeBgHover,#F7F8F9);
-}
-
-.emotion-29 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-29::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-29 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-7 {
-  overflow: unset !important;
-}
-
-.emotion-7 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-6 {
+.emotion-2 {
   box-sizing: border-box;
-  border-top: 1px solid var(--themeBorderHeavy,#1B2029);
-  border-bottom: 1px solid var(--themeBorderHeavy,#1B2029);
+  border-top: 1px solid var(--themeBorderHeavy, #1B2029);
+  border-bottom: 1px solid var(--themeBorderHeavy, #1B2029);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,17 +36,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-6:hover .staticClass_dragHandleWrapper,
-.emotion-6:active .staticClass_dragHandleWrapper {
+.emotion-2:hover .staticClass_dragHandleWrapper,
+.emotion-2:active .staticClass_dragHandleWrapper {
   visibility: visible;
 }
 
-.emotion-5 {
+.emotion-3 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -90,12 +55,13 @@ Array [
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -105,11 +71,11 @@ Array [
   min-height: 0;
 }
 
-.emotion-5 > div {
+.emotion-3>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -122,7 +88,7 @@ Array [
   width: auto;
 }
 
-.emotion-4 {
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -140,24 +106,19 @@ Array [
   z-index: 1;
 }
 
-.emotion-30 {
-  box-sizing: border-box;
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
-  white-space: nowrap;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+.emotion-6 {
+  cursor: col-resize;
+  height: 100%;
+  visibility: hidden;
 }
 
-.emotion-2 {
+.emotion-6:hover .staticClass_dragHandleWrapper,
+.emotion-6:active .staticClass_dragHandleWrapper {
+  background-color: var(--themeBgHover, #F7F8F9);
+}
+
+.emotion-7 {
+  -webkit-background-clip: content-box;
   background-clip: content-box;
   height: 100%;
   position: absolute;
@@ -170,23 +131,64 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding-left: 24px;
 }
 
-.emotion-1 {
+.emotion-8 {
   vertical-align: middle;
   fill: #76797E;
 }
 
-.emotion-1 use {
+.emotion-8 use {
   pointer-events: none;
 }
 
+.emotion-9 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-9::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-9 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
+.emotion-31 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-31::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-32 {
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-36 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
 <div
-    class="emotion-48"
+    class="emotion-0"
     style="overflow:visible;height:0;width:0"
   >
     <div
@@ -198,7 +200,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-7"
+          class="ReactVirtualized__Grid emotion-1"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:307.2px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:0;top:0"
         >
@@ -208,31 +210,31 @@ Array [
             style="width:307.2px;height:35px;max-width:307.2px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-6"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col0 table-headerCell.row0"
               style="height:35px;left:0;position:absolute;top:0;width:307.2px"
             >
               <div
-                class="emotion-5"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-0"
+                  class="emotion-4"
                 >
                   name
                 </div>
                 <div
-                  class="emotion-4"
+                  class="emotion-5"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-6"
                     style="touch-action:none;transform:translate(0px,0px)"
                   >
                     <div
-                      class="staticClass_dragHandleWrapper emotion-2"
+                      class="staticClass_dragHandleWrapper emotion-7"
                     >
                       <svg
                         aria-label="system-resize-horizontal icon"
-                        class="emotion-1"
+                        class="emotion-8"
                         data-cy="icon"
                         height="12"
                         preserveAspectRatio="xMinYMin meet"
@@ -258,7 +260,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-29"
+            class="ReactVirtualized__Grid emotion-9"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:716.8px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:0;top:0"
           >
@@ -268,31 +270,31 @@ Array [
               style="width:1021.5999999999999px;height:35px;max-width:1021.5999999999999px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-6"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col1 table-headerCell.row0"
                 style="height:35px;left:0;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-5"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     role
                   </div>
                   <div
-                    class="emotion-4"
+                    class="emotion-5"
                   >
                     <div
-                      class="emotion-3"
+                      class="emotion-6"
                       style="touch-action:none;transform:translate(0px,0px)"
                     >
                       <div
-                        class="staticClass_dragHandleWrapper emotion-2"
+                        class="staticClass_dragHandleWrapper emotion-7"
                       >
                         <svg
                           aria-label="system-resize-horizontal icon"
-                          class="emotion-1"
+                          class="emotion-8"
                           data-cy="icon"
                           height="12"
                           preserveAspectRatio="xMinYMin meet"
@@ -310,31 +312,31 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-6"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col2 table-headerCell.row0"
                 style="height:35px;left:307.2px;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-5"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     state
                   </div>
                   <div
-                    class="emotion-4"
+                    class="emotion-5"
                   >
                     <div
-                      class="emotion-3"
+                      class="emotion-6"
                       style="touch-action:none;transform:translate(0px,0px)"
                     >
                       <div
-                        class="staticClass_dragHandleWrapper emotion-2"
+                        class="staticClass_dragHandleWrapper emotion-7"
                       >
                         <svg
                           aria-label="system-resize-horizontal icon"
-                          class="emotion-1"
+                          class="emotion-8"
                           data-cy="icon"
                           height="12"
                           preserveAspectRatio="xMinYMin meet"
@@ -352,31 +354,31 @@ Array [
                 </div>
               </div>
               <div
-                class="emotion-6"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col3 table-headerCell.row0"
                 style="height:35px;left:614.4px;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-5"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     zipcode
                   </div>
                   <div
-                    class="emotion-4"
+                    class="emotion-5"
                   >
                     <div
-                      class="emotion-3"
+                      class="emotion-6"
                       style="touch-action:none;transform:translate(0px,0px)"
                     >
                       <div
-                        class="staticClass_dragHandleWrapper emotion-2"
+                        class="staticClass_dragHandleWrapper emotion-7"
                       >
                         <svg
                           aria-label="system-resize-horizontal icon"
-                          class="emotion-1"
+                          class="emotion-8"
                           data-cy="icon"
                           height="12"
                           preserveAspectRatio="xMinYMin meet"
@@ -407,7 +409,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-34"
+            class="ReactVirtualized__Grid emotion-31"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:307.2px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:auto;left:0"
           >
@@ -417,7 +419,7 @@ Array [
               style="width:307.2px;height:70px;max-width:307.2px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-30 emotion-31"
+                class="emotion-32 emotion-33"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:0;position:absolute;top:0;width:307.2px"
@@ -427,7 +429,7 @@ Array [
                 </strong>
               </div>
               <div
-                class="emotion-30 emotion-31"
+                class="emotion-32 emotion-33"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:0;position:absolute;top:35px;width:307.2px"
@@ -442,7 +444,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-47"
+          class="ReactVirtualized__Grid emotion-36"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:716.8px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:307.2px"
           tabindex="0"
@@ -453,7 +455,7 @@ Array [
             style="width:1021.5999999999999px;height:70px;max-width:1021.5999999999999px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-30 emotion-31"
+              class="emotion-32 emotion-33"
               data-cy="table-contentCell table-contentCell.col1 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:0;position:absolute;top:0;width:307.2px"
@@ -463,7 +465,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-30 emotion-31"
+              class="emotion-32 emotion-33"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:307.2px;position:absolute;top:0;width:307.2px"
@@ -473,7 +475,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-30 emotion-31"
+              class="emotion-32 emotion-33"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:614.4px;position:absolute;top:0;width:307.2px"
@@ -483,7 +485,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-30 emotion-31"
+              class="emotion-32 emotion-33"
               data-cy="table-contentCell table-contentCell.col1 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:0;position:absolute;top:35px;width:307.2px"
@@ -493,7 +495,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-30 emotion-31"
+              class="emotion-32 emotion-33"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:307.2px;position:absolute;top:35px;width:307.2px"
@@ -503,7 +505,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-30 emotion-31"
+              class="emotion-32 emotion-33"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:614.4px;position:absolute;top:35px;width:307.2px"
@@ -600,8 +602,8 @@ exports[`Table renders again with new data 1`] = `
         cellRenderer={[Function]}
         classNameBottomLeftGrid="css-1oay0jc"
         classNameBottomRightGrid="css-1abf74x"
-        classNameTopLeftGrid="css-4bzelf"
-        classNameTopRightGrid="css-1n6cz8p"
+        classNameTopLeftGrid="css-1pzjt78"
+        classNameTopRightGrid="css-1o2d4b9"
         columnCount={1}
         columnWidth={[Function]}
         enableFixedColumnScroll={true}
@@ -697,8 +699,8 @@ exports[`Table renders again with new data 2`] = `
         cellRenderer={[Function]}
         classNameBottomLeftGrid="css-1oay0jc"
         classNameBottomRightGrid="css-1abf74x"
-        classNameTopLeftGrid="css-4bzelf"
-        classNameTopRightGrid="css-1n6cz8p"
+        classNameTopLeftGrid="css-1pzjt78"
+        classNameTopRightGrid="css-1o2d4b9"
         columnCount={1}
         columnWidth={[Function]}
         enableFixedColumnScroll={true}
@@ -730,11 +732,11 @@ exports[`Table renders again with new data 2`] = `
 
 exports[`Table renders default 1`] = `
 Array [
-  .emotion-36 {
+  .emotion-0 {
   font-weight: normal;
 }
 
-.emotion-36::after {
+.emotion-0::after {
   content: "";
   height: 100%;
   left: 0;
@@ -744,42 +746,18 @@ Array [
   width: 100%;
 }
 
-.emotion-35 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
+.emotion-1 {
+  overflow: unset!important;
 }
 
-.emotion-22 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+.emotion-1 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
-.emotion-22::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-17 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-17::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-17 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-4 {
-  overflow: unset !important;
-}
-
-.emotion-4 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-3 {
+.emotion-2 {
   box-sizing: border-box;
-  border-top: 1px solid var(--themeBorderHeavy,#1B2029);
-  border-bottom: 1px solid var(--themeBorderHeavy,#1B2029);
+  border-top: 1px solid var(--themeBorderHeavy, #1B2029);
+  border-bottom: 1px solid var(--themeBorderHeavy, #1B2029);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -788,17 +766,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-3:hover .staticClass_dragHandleWrapper,
-.emotion-3:active .staticClass_dragHandleWrapper {
+.emotion-2:hover .staticClass_dragHandleWrapper,
+.emotion-2:active .staticClass_dragHandleWrapper {
   visibility: visible;
 }
 
-.emotion-2 {
+.emotion-3 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -807,12 +785,13 @@ Array [
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -822,11 +801,11 @@ Array [
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-3>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -839,7 +818,7 @@ Array [
   width: auto;
 }
 
-.emotion-1 {
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -857,9 +836,29 @@ Array [
   z-index: 1;
 }
 
-.emotion-18 {
+.emotion-6 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-6::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-6 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
+.emotion-19 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-19::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-20 {
   box-sizing: border-box;
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
   white-space: nowrap;
   display: -webkit-box;
   display: -webkit-flex;
@@ -869,13 +868,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
+.emotion-24 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
 <div
-    class="emotion-36"
+    class="emotion-0"
     style="overflow:visible;height:0;width:0"
   >
     <div
@@ -887,7 +890,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-4"
+          class="ReactVirtualized__Grid emotion-1"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:307.2px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:0;top:0"
         >
@@ -897,20 +900,20 @@ Array [
             style="width:307.2px;height:35px;max-width:307.2px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-3"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col0 table-headerCell.row0"
               style="height:35px;left:0;position:absolute;top:0;width:307.2px"
             >
               <div
-                class="emotion-2"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-0"
+                  class="emotion-4"
                 >
                   name
                 </div>
                 <div
-                  class="emotion-1"
+                  class="emotion-5"
                 />
               </div>
             </div>
@@ -923,7 +926,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-17"
+            class="ReactVirtualized__Grid emotion-6"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:716.8px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:0;top:0"
           >
@@ -933,56 +936,56 @@ Array [
               style="width:1021.5999999999999px;height:35px;max-width:1021.5999999999999px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col1 table-headerCell.row0"
                 style="height:35px;left:0;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     role
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col2 table-headerCell.row0"
                 style="height:35px;left:307.2px;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     state
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col3 table-headerCell.row0"
                 style="height:35px;left:614.4px;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     zipcode
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
@@ -1000,7 +1003,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-22"
+            class="ReactVirtualized__Grid emotion-19"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:307.2px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:auto;left:0"
           >
@@ -1010,7 +1013,7 @@ Array [
               style="width:307.2px;height:70px;max-width:307.2px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-18 emotion-19"
+                class="emotion-20 emotion-21"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:0;position:absolute;top:0;width:307.2px"
@@ -1020,7 +1023,7 @@ Array [
                 </strong>
               </div>
               <div
-                class="emotion-18 emotion-19"
+                class="emotion-20 emotion-21"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:0;position:absolute;top:35px;width:307.2px"
@@ -1035,7 +1038,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-35"
+          class="ReactVirtualized__Grid emotion-24"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:716.8px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:307.2px"
           tabindex="0"
@@ -1046,7 +1049,7 @@ Array [
             style="width:1021.5999999999999px;height:70px;max-width:1021.5999999999999px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-18 emotion-19"
+              class="emotion-20 emotion-21"
               data-cy="table-contentCell table-contentCell.col1 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:0;position:absolute;top:0;width:307.2px"
@@ -1056,7 +1059,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-18 emotion-19"
+              class="emotion-20 emotion-21"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:307.2px;position:absolute;top:0;width:307.2px"
@@ -1066,7 +1069,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-18 emotion-19"
+              class="emotion-20 emotion-21"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:614.4px;position:absolute;top:0;width:307.2px"
@@ -1076,7 +1079,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-18 emotion-19"
+              class="emotion-20 emotion-21"
               data-cy="table-contentCell table-contentCell.col1 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:0;position:absolute;top:35px;width:307.2px"
@@ -1086,7 +1089,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-18 emotion-19"
+              class="emotion-20 emotion-21"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:307.2px;position:absolute;top:35px;width:307.2px"
@@ -1096,7 +1099,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-18 emotion-19"
+              class="emotion-20 emotion-21"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:614.4px;position:absolute;top:35px;width:307.2px"
@@ -1129,11 +1132,11 @@ Array [
 
 exports[`Table renders with growToFill cols 1`] = `
 Array [
-  .emotion-44 {
+  .emotion-0 {
   font-weight: normal;
 }
 
-.emotion-44::after {
+.emotion-0::after {
   content: "";
   height: 100%;
   left: 0;
@@ -1143,42 +1146,18 @@ Array [
   width: 100%;
 }
 
-.emotion-43 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
+.emotion-1 {
+  overflow: unset!important;
 }
 
-.emotion-26 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+.emotion-1 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
 }
 
-.emotion-26::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-21 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-21::-webkit-scrollbar {
-  display: none;
-}
-
-.emotion-21 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-4 {
-  overflow: unset !important;
-}
-
-.emotion-4 .ReactVirtualized__Grid__innerScrollContainer {
-  overflow: unset !important;
-}
-
-.emotion-3 {
+.emotion-2 {
   box-sizing: border-box;
-  border-top: 1px solid var(--themeBorderHeavy,#1B2029);
-  border-bottom: 1px solid var(--themeBorderHeavy,#1B2029);
+  border-top: 1px solid var(--themeBorderHeavy, #1B2029);
+  border-bottom: 1px solid var(--themeBorderHeavy, #1B2029);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1187,17 +1166,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-3:hover .staticClass_dragHandleWrapper,
-.emotion-3:active .staticClass_dragHandleWrapper {
+.emotion-2:hover .staticClass_dragHandleWrapper,
+.emotion-2:active .staticClass_dragHandleWrapper {
   visibility: visible;
 }
 
-.emotion-2 {
+.emotion-3 {
   -webkit-align-items: flex;
   -webkit-box-align: flex;
   -ms-flex-align: flex;
@@ -1206,12 +1185,13 @@ Array [
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -1221,11 +1201,11 @@ Array [
   min-height: 0;
 }
 
-.emotion-2 > div {
+.emotion-3>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -1238,7 +1218,7 @@ Array [
   width: auto;
 }
 
-.emotion-1 {
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -1256,9 +1236,29 @@ Array [
   z-index: 1;
 }
 
-.emotion-22 {
+.emotion-6 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-6::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-6 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
+.emotion-23 {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-23::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-24 {
   box-sizing: border-box;
-  border-bottom: 1px solid var(--themeBorder,#DADDE2);
+  border-bottom: 1px solid var(--themeBorder, #DADDE2);
   white-space: nowrap;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1268,13 +1268,17 @@ Array [
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
+.emotion-28 .ReactVirtualized__Grid__innerScrollContainer {
+  overflow: unset!important;
+}
+
 <div
-    class="emotion-44"
+    class="emotion-0"
     style="overflow:visible;height:0;width:0"
   >
     <div
@@ -1286,7 +1290,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-4"
+          class="ReactVirtualized__Grid emotion-1"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:204px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:hidden;left:0;top:0"
         >
@@ -1296,20 +1300,20 @@ Array [
             style="width:204px;height:35px;max-width:204px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-3"
+              class="emotion-2"
               data-cy="table-headerCell table-headerCell.col0 table-headerCell.row0"
               style="height:35px;left:0;position:absolute;top:0;width:204px"
             >
               <div
-                class="emotion-2"
+                class="emotion-3"
               >
                 <div
-                  class="emotion-0"
+                  class="emotion-4"
                 >
                   name
                 </div>
                 <div
-                  class="emotion-1"
+                  class="emotion-5"
                 />
               </div>
             </div>
@@ -1322,7 +1326,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-21"
+            class="ReactVirtualized__Grid emotion-6"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:35px;position:absolute;width:820px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:0;top:0"
           >
@@ -1332,74 +1336,74 @@ Array [
               style="width:1022.4000000000001px;height:35px;max-width:1022.4000000000001px;max-height:35px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col1 table-headerCell.row0"
                 style="height:35px;left:0;position:absolute;top:0;width:204px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     role
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col2 table-headerCell.row0"
                 style="height:35px;left:204px;position:absolute;top:0;width:204px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     state
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col3 table-headerCell.row0"
                 style="height:35px;left:408px;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     zipcode
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
               <div
-                class="emotion-3"
+                class="emotion-2"
                 data-cy="table-headerCell table-headerCell.col4 table-headerCell.row0"
                 style="height:35px;left:715.2px;position:absolute;top:0;width:307.2px"
               >
                 <div
-                  class="emotion-2"
+                  class="emotion-3"
                 >
                   <div
-                    class="emotion-0"
+                    class="emotion-4"
                   >
                     city
                   </div>
                   <div
-                    class="emotion-1"
+                    class="emotion-5"
                   />
                 </div>
               </div>
@@ -1417,7 +1421,7 @@ Array [
           <div
             aria-label="grid"
             aria-readonly="true"
-            class="ReactVirtualized__Grid emotion-26"
+            class="ReactVirtualized__Grid emotion-23"
             role="grid"
             style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:204px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:hidden;overflow-y:auto;left:0"
           >
@@ -1427,7 +1431,7 @@ Array [
               style="width:204px;height:70px;max-width:204px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
             >
               <div
-                class="emotion-22 emotion-23"
+                class="emotion-24 emotion-25"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row1"
                 data-rowindex="1"
                 style="height:35px;left:0;position:absolute;top:0;width:204px"
@@ -1437,7 +1441,7 @@ Array [
                 </strong>
               </div>
               <div
-                class="emotion-22 emotion-23"
+                class="emotion-24 emotion-25"
                 data-cy="table-contentCell table-contentCell.col0 table-contentCell.row2"
                 data-rowindex="2"
                 style="height:35px;left:0;position:absolute;top:35px;width:204px"
@@ -1452,7 +1456,7 @@ Array [
         <div
           aria-label="grid"
           aria-readonly="true"
-          class="ReactVirtualized__Grid emotion-43"
+          class="ReactVirtualized__Grid emotion-28"
           role="grid"
           style="box-sizing:border-box;direction:ltr;height:733px;position:absolute;width:820px;-webkit-overflow-scrolling:touch;will-change:transform;overflow-x:auto;overflow-y:hidden;left:204px"
           tabindex="0"
@@ -1463,7 +1467,7 @@ Array [
             style="width:1022.4000000000001px;height:70px;max-width:1022.4000000000001px;max-height:70px;overflow:hidden;pointer-events:;position:relative"
           >
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col1 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:0;position:absolute;top:0;width:204px"
@@ -1473,7 +1477,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:204px;position:absolute;top:0;width:204px"
@@ -1483,7 +1487,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:408px;position:absolute;top:0;width:307.2px"
@@ -1493,7 +1497,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row1"
               data-rowindex="1"
               style="height:35px;left:715.2px;position:absolute;top:0;width:307.2px"
@@ -1503,7 +1507,7 @@ Array [
               </strong>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col1 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:0;position:absolute;top:35px;width:204px"
@@ -1513,7 +1517,7 @@ Array [
               </em>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col2 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:204px;position:absolute;top:35px;width:204px"
@@ -1523,7 +1527,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col3 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:408px;position:absolute;top:35px;width:307.2px"
@@ -1533,7 +1537,7 @@ Array [
               </span>
             </div>
             <div
-              class="emotion-22 emotion-23"
+              class="emotion-24 emotion-25"
               data-cy="table-contentCell table-contentCell.col4 table-contentCell.row2"
               data-rowindex="2"
               style="height:35px;left:715.2px;position:absolute;top:35px;width:307.2px"

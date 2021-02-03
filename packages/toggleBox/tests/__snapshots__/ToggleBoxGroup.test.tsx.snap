@@ -2,27 +2,6 @@
 
 exports[`ToggleBoxGroup renders default 1`] = `
 .emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-3,
-.emotion-3 > * {
-  height: 100%;
-}
-
-.emotion-6 > * {
-  height: 100%;
-}
-
-.emotion-21 {
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -31,12 +10,13 @@ exports[`ToggleBoxGroup renders default 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -49,18 +29,22 @@ exports[`ToggleBoxGroup renders default 1`] = `
   row-gap: 0;
 }
 
-.emotion-21 > div {
+.emotion-0>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-21 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-0>*:not(:last-child) {
     padding-right: 16px;
     padding-bottom: 0;
   }
 }
 
-.emotion-5 {
+.emotion-1>* {
+  height: 100%;
+}
+
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -73,37 +57,53 @@ exports[`ToggleBoxGroup renders default 1`] = `
   width: auto;
 }
 
-.emotion-5 > * {
+.emotion-2>* {
   height: 100%;
 }
 
-.emotion-4 {
+.emotion-3 {
   display: block;
 }
 
-.emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5,
+.emotion-5>* {
+  height: 100%;
+}
+
+.emotion-6 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
 }
 
-.emotion-2 > div {
+.emotion-6>div {
   height: 100%;
 }
 
-.emotion-2:hover,
-.emotion-2:focus,
-.emotion-2:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-6:hover,
+.emotion-6:focus,
+.emotion-6:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-2:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-6:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-1 {
+.emotion-7 {
   padding: 16px;
 }
 
@@ -118,16 +118,16 @@ exports[`ToggleBoxGroup renders default 1`] = `
     wrap="nowrap"
   >
     <div
-      className="emotion-21"
+      className="emotion-0"
       data-cy="flex"
     >
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-exosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -149,13 +149,13 @@ exports[`ToggleBoxGroup renders default 1`] = `
               value="exosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="exosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="exosphere"
@@ -167,7 +167,7 @@ exports[`ToggleBoxGroup renders default 1`] = `
                   value="exosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -177,11 +177,11 @@ exports[`ToggleBoxGroup renders default 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Exosphere
                       </div>
@@ -194,12 +194,12 @@ exports[`ToggleBoxGroup renders default 1`] = `
         </div>
       </FlexItem>
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-thermosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -221,13 +221,13 @@ exports[`ToggleBoxGroup renders default 1`] = `
               value="thermosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="thermosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="thermosphere"
@@ -239,7 +239,7 @@ exports[`ToggleBoxGroup renders default 1`] = `
                   value="thermosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -249,11 +249,11 @@ exports[`ToggleBoxGroup renders default 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Thermosphere
                       </div>
@@ -266,12 +266,12 @@ exports[`ToggleBoxGroup renders default 1`] = `
         </div>
       </FlexItem>
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-mesosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -293,13 +293,13 @@ exports[`ToggleBoxGroup renders default 1`] = `
               value="mesosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="mesosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="mesosphere"
@@ -311,7 +311,7 @@ exports[`ToggleBoxGroup renders default 1`] = `
                   value="mesosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -321,11 +321,11 @@ exports[`ToggleBoxGroup renders default 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Mesosphere
                       </div>
@@ -343,34 +343,22 @@ exports[`ToggleBoxGroup renders default 1`] = `
 `;
 
 exports[`ToggleBoxGroup renders with a label 1`] = `
-.emotion-23 {
+.emotion-0 {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
 .emotion-1 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
   padding: 0;
-  width: 1px;
-  height: 1px;
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
 }
 
-.emotion-4,
-.emotion-4 > * {
-  height: 100%;
-}
-
-.emotion-7 > * {
-  height: 100%;
-}
-
-.emotion-22 {
+.emotion-2 {
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -379,12 +367,13 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -397,18 +386,22 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
   row-gap: 0;
 }
 
-.emotion-22 > div {
+.emotion-2>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-22 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-2>*:not(:last-child) {
     padding-right: 16px;
     padding-bottom: 0;
   }
 }
 
-.emotion-6 {
+.emotion-3>* {
+  height: 100%;
+}
+
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -421,7 +414,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
   width: auto;
 }
 
-.emotion-6 > * {
+.emotion-4>* {
   height: 100%;
 }
 
@@ -429,39 +422,46 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
   display: block;
 }
 
-.emotion-3 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-6 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-7,
+.emotion-7>* {
+  height: 100%;
+}
+
+.emotion-8 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
 }
 
-.emotion-3 > div {
+.emotion-8>div {
   height: 100%;
 }
 
-.emotion-3:hover,
-.emotion-3:focus,
-.emotion-3:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-8:hover,
+.emotion-8:focus,
+.emotion-8:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-3:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-8:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-2 {
+.emotion-9 {
   padding: 16px;
-}
-
-.emotion-0 {
-  padding: 0;
-  display: block;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 500;
 }
 
 <ToggleBoxGroup
@@ -469,10 +469,10 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
   label="Atmosphere layer"
 >
   <fieldset
-    className="emotion-23"
+    className="emotion-0"
   >
     <legend
-      className="emotion-0"
+      className="emotion-1"
     >
       Atmosphere layer
     </legend>
@@ -484,16 +484,16 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
       wrap="nowrap"
     >
       <div
-        className="emotion-22"
+        className="emotion-2"
         data-cy="flex"
       >
         <FlexItem
-          className="emotion-7"
+          className="emotion-3"
           flex="grow"
           key="buttonWrapper-exosphere"
         >
           <div
-            className="emotion-6"
+            className="emotion-4"
             data-cy="flexItem"
           >
             <ToggleBox
@@ -521,7 +521,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                   <input
                     aria-checked={false}
                     checked={false}
-                    className="emotion-1"
+                    className="emotion-6"
                     data-cy="toggleWrapper-input"
                     disabled={false}
                     id="exosphere"
@@ -533,7 +533,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                     value="exosphere"
                   />
                   <div
-                    className="emotion-4"
+                    className="emotion-7"
                   >
                     <ButtonCard
                       disabled={false}
@@ -543,11 +543,11 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                       paddingSize="m"
                     >
                       <div
-                        className="emotion-3"
+                        className="emotion-8"
                         data-cy="buttonCard"
                       >
                         <div
-                          className="emotion-2"
+                          className="emotion-9"
                         >
                           Exosphere
                         </div>
@@ -560,12 +560,12 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
           </div>
         </FlexItem>
         <FlexItem
-          className="emotion-7"
+          className="emotion-3"
           flex="grow"
           key="buttonWrapper-thermosphere"
         >
           <div
-            className="emotion-6"
+            className="emotion-4"
             data-cy="flexItem"
           >
             <ToggleBox
@@ -593,7 +593,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                   <input
                     aria-checked={false}
                     checked={false}
-                    className="emotion-1"
+                    className="emotion-6"
                     data-cy="toggleWrapper-input"
                     disabled={false}
                     id="thermosphere"
@@ -605,7 +605,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                     value="thermosphere"
                   />
                   <div
-                    className="emotion-4"
+                    className="emotion-7"
                   >
                     <ButtonCard
                       disabled={false}
@@ -615,11 +615,11 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                       paddingSize="m"
                     >
                       <div
-                        className="emotion-3"
+                        className="emotion-8"
                         data-cy="buttonCard"
                       >
                         <div
-                          className="emotion-2"
+                          className="emotion-9"
                         >
                           Thermosphere
                         </div>
@@ -632,12 +632,12 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
           </div>
         </FlexItem>
         <FlexItem
-          className="emotion-7"
+          className="emotion-3"
           flex="grow"
           key="buttonWrapper-mesosphere"
         >
           <div
-            className="emotion-6"
+            className="emotion-4"
             data-cy="flexItem"
           >
             <ToggleBox
@@ -665,7 +665,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                   <input
                     aria-checked={false}
                     checked={false}
-                    className="emotion-1"
+                    className="emotion-6"
                     data-cy="toggleWrapper-input"
                     disabled={false}
                     id="mesosphere"
@@ -677,7 +677,7 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                     value="mesosphere"
                   />
                   <div
-                    className="emotion-4"
+                    className="emotion-7"
                   >
                     <ButtonCard
                       disabled={false}
@@ -687,11 +687,11 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
                       paddingSize="m"
                     >
                       <div
-                        className="emotion-3"
+                        className="emotion-8"
                         data-cy="buttonCard"
                       >
                         <div
-                          className="emotion-2"
+                          className="emotion-9"
                         >
                           Mesosphere
                         </div>
@@ -711,27 +711,6 @@ exports[`ToggleBoxGroup renders with a label 1`] = `
 
 exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
 .emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-3,
-.emotion-3 > * {
-  height: 100%;
-}
-
-.emotion-6 > * {
-  height: 100%;
-}
-
-.emotion-21 {
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -740,12 +719,13 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -758,18 +738,22 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
   row-gap: 0;
 }
 
-.emotion-21 > div {
+.emotion-0>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-21 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-0>*:not(:last-child) {
     padding-right: 16px;
     padding-bottom: 0;
   }
 }
 
-.emotion-5 {
+.emotion-1>* {
+  height: 100%;
+}
+
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -782,70 +766,86 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
   width: auto;
 }
 
-.emotion-5 > * {
+.emotion-2>* {
   height: 100%;
 }
 
-.emotion-4 {
+.emotion-3 {
   display: block;
 }
 
-.emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5,
+.emotion-5>* {
+  height: 100%;
+}
+
+.emotion-6 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
 }
 
-.emotion-2 > div {
+.emotion-6>div {
   height: 100%;
 }
 
-.emotion-2:hover,
-.emotion-2:focus,
-.emotion-2:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-6:hover,
+.emotion-6:focus,
+.emotion-6:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-2:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-6:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-1 {
+.emotion-7 {
   padding: 16px;
 }
 
-.emotion-16 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-20 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
 }
 
-.emotion-16 > div {
+.emotion-20>div {
   height: 100%;
 }
 
-.emotion-16:hover,
-.emotion-16:focus,
-.emotion-16:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-20:hover,
+.emotion-20:focus,
+.emotion-20:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-16:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-20:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-16,
-.emotion-16:hover,
-.emotion-16:focus {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-20,
+.emotion-20:hover,
+.emotion-20:focus {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-16:focus {
-  background-color: var(--themeBgHover,#F7F8F9);
+.emotion-20:focus {
+  background-color: var(--themeBgHover, #F7F8F9);
 }
 
 <ToggleBoxGroup
@@ -864,16 +864,16 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
     wrap="nowrap"
   >
     <div
-      className="emotion-21"
+      className="emotion-0"
       data-cy="flex"
     >
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-exosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -895,13 +895,13 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
               value="exosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="exosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="exosphere"
@@ -913,7 +913,7 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
                   value="exosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -923,11 +923,11 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Exosphere
                       </div>
@@ -940,12 +940,12 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
         </div>
       </FlexItem>
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-thermosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -967,13 +967,13 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
               value="thermosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="thermosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="thermosphere"
@@ -985,7 +985,7 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
                   value="thermosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -995,11 +995,11 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Thermosphere
                       </div>
@@ -1012,12 +1012,12 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
         </div>
       </FlexItem>
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-mesosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -1039,13 +1039,13 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
               value="mesosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="mesosphere"
               >
                 <input
                   aria-checked={true}
                   checked={true}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="mesosphere"
@@ -1057,7 +1057,7 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
                   value="mesosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -1067,11 +1067,11 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-16"
+                      className="emotion-20"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Mesosphere
                       </div>
@@ -1090,74 +1090,6 @@ exports[`ToggleBoxGroup renders with a selected ToggleBox 1`] = `
 
 exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
 .emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-3,
-.emotion-3 > * {
-  height: 100%;
-}
-
-.emotion-6 > * {
-  height: 100%;
-}
-
-.emotion-5 {
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-}
-
-.emotion-5 > * {
-  height: 100%;
-}
-
-.emotion-4 {
-  display: block;
-}
-
-.emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.emotion-2 > div {
-  height: 100%;
-}
-
-.emotion-2:hover,
-.emotion-2:focus,
-.emotion-2:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
-  outline: 0;
-}
-
-.emotion-2:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
-}
-
-.emotion-1 {
-  padding: 16px;
-}
-
-.emotion-21 {
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -1166,12 +1098,13 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -1184,15 +1117,82 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
   row-gap: 48px;
 }
 
-.emotion-21 > div {
+.emotion-0>div {
   width: 100%;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-21 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-0>*:not(:last-child) {
     padding-right: 0;
     padding-bottom: 48px;
   }
+}
+
+.emotion-1>* {
+  height: 100%;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+}
+
+.emotion-2>* {
+  height: 100%;
+}
+
+.emotion-3 {
+  display: block;
+}
+
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5,
+.emotion-5>* {
+  height: 100%;
+}
+
+.emotion-6 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.emotion-6>div {
+  height: 100%;
+}
+
+.emotion-6:hover,
+.emotion-6:focus,
+.emotion-6:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
+  outline: 0;
+}
+
+.emotion-6:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
+}
+
+.emotion-7 {
+  padding: 16px;
 }
 
 <ToggleBoxGroup
@@ -1208,16 +1208,16 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
     wrap="nowrap"
   >
     <div
-      className="emotion-21"
+      className="emotion-0"
       data-cy="flex"
     >
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-exosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -1239,13 +1239,13 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
               value="exosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="exosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="exosphere"
@@ -1257,7 +1257,7 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
                   value="exosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -1267,11 +1267,11 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Exosphere
                       </div>
@@ -1284,12 +1284,12 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
         </div>
       </FlexItem>
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-thermosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -1311,13 +1311,13 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
               value="thermosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="thermosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="thermosphere"
@@ -1329,7 +1329,7 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
                   value="thermosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -1339,11 +1339,11 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Thermosphere
                       </div>
@@ -1356,12 +1356,12 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
         </div>
       </FlexItem>
       <FlexItem
-        className="emotion-6"
+        className="emotion-1"
         flex="grow"
         key="buttonWrapper-mesosphere"
       >
         <div
-          className="emotion-5"
+          className="emotion-2"
           data-cy="flexItem"
         >
           <ToggleBox
@@ -1383,13 +1383,13 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
               value="mesosphere"
             >
               <label
-                className="emotion-4"
+                className="emotion-3"
                 htmlFor="mesosphere"
               >
                 <input
                   aria-checked={false}
                   checked={false}
-                  className="emotion-0"
+                  className="emotion-4"
                   data-cy="toggleWrapper-input"
                   disabled={false}
                   id="mesosphere"
@@ -1401,7 +1401,7 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
                   value="mesosphere"
                 />
                 <div
-                  className="emotion-3"
+                  className="emotion-5"
                 >
                   <ButtonCard
                     disabled={false}
@@ -1411,11 +1411,11 @@ exports[`ToggleBoxGroup renders with custom direction and gutter size 1`] = `
                     paddingSize="m"
                   >
                     <div
-                      className="emotion-2"
+                      className="emotion-6"
                       data-cy="buttonCard"
                     >
                       <div
-                        className="emotion-1"
+                        className="emotion-7"
                       >
                         Mesosphere
                       </div>

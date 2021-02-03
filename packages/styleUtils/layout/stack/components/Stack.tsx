@@ -1,7 +1,7 @@
 import * as React from "react";
 import { SpaceSize } from "../../../../shared/styles/styleUtils/modifiers/modifierUtils";
 import { stack } from "../style";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { listReset } from "../../../../shared/styles/styleUtils";
 import { flex } from "../../../../shared/styles/styleUtils/layout/flexbox";
 

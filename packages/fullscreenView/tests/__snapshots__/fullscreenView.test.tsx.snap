@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FullscreenView renders FullscreenView 1`] = `
-.emotion-10 {
+.emotion-0 {
   height: 100%;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -14,47 +14,18 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   min-height: 0;
 }
 
-.emotion-10 > div {
+.emotion-0>div {
   width: 100%;
 }
 
-.emotion-8 {
-  background-color: var(--themeBgSecondary,#F7F8F9);
+.emotion-1 {
+  background-color: var(--themeBgSecondary, #F7F8F9);
   box-sizing: border-box;
   border-bottom: 1px solid #DADDE2;
   padding: 32px;
 }
 
-.emotion-4 {
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-}
-
-.emotion-9 {
-  box-sizing: border-box;
-  overflow: auto;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  padding: 32px;
-}
-
-.emotion-7 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -80,11 +51,11 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   width: initial;
 }
 
-.emotion-7 > div {
+.emotion-2>div {
   width: auto;
 }
 
-.emotion-1 {
+.emotion-3 {
   text-align: left;
   box-sizing: border-box;
   -webkit-flex-basis: 0;
@@ -98,7 +69,60 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   width: auto;
 }
 
-.emotion-2 {
+.emotion-4 {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  text-align: inherit;
+  color: var(--themeTextColorInteractive, #7D58FF);
+  fill: var(--themeTextColorInteractive, #7D58FF);
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.emotion-4::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.emotion-4:hover {
+  color: #704fe5;
+  fill: #704fe5;
+}
+
+.emotion-4:active {
+  color: #6446cc;
+  fill: #6446cc;
+}
+
+.emotion-4[href],
+.emotion-4[href]:visited {
+  color: var(--themeTextColorInteractive, #7D58FF);
+  fill: var(--themeTextColorInteractive, #7D58FF);
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+}
+
+.emotion-6 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -107,7 +131,7 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   font-weight: 400;
 }
 
-.emotion-3 {
+.emotion-7 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -117,7 +141,7 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   fill: #76797E;
 }
 
-.emotion-6 {
+.emotion-8 {
   text-align: right;
   box-sizing: border-box;
   -webkit-flex-basis: 0;
@@ -131,47 +155,7 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   width: auto;
 }
 
-.emotion-0 {
-  background: none;
-  border: 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
-  text-align: inherit;
-  color: var(--themeTextColorInteractive,#7D58FF);
-  fill: var(--themeTextColorInteractive,#7D58FF);
-  cursor: pointer;
-  display: inline-block;
-  outline: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.emotion-0::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-.emotion-0:hover {
-  color: #704fe5;
-  fill: #704fe5;
-}
-
-.emotion-0:active {
-  color: #6446cc;
-  fill: #6446cc;
-}
-
-.emotion-0[href],
-.emotion-0[href]:visited {
-  color: var(--themeTextColorInteractive,#7D58FF);
-  fill: var(--themeTextColorInteractive,#7D58FF);
-}
-
-.emotion-5 {
+.emotion-9 {
   background: none;
   border: 0;
   color: inherit;
@@ -193,23 +177,39 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   font-weight: 500;
 }
 
-.emotion-5::-moz-focus-inner {
+.emotion-9::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.emotion-5[href],
-.emotion-5[href]:visited {
+.emotion-9[href],
+.emotion-9[href]:visited {
   color: #FFFFFF;
   fill: #FFFFFF;
 }
 
-.emotion-5:hover {
+.emotion-9:hover {
   background-color: #704fe5;
 }
 
-.emotion-5:active {
+.emotion-9:active {
   background-color: #6446cc;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  overflow: auto;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  padding: 32px;
 }
 
 <FullscreenView
@@ -223,10 +223,10 @@ exports[`FullscreenView renders FullscreenView 1`] = `
   title="Title"
 >
   <div
-    className="emotion-10"
+    className="emotion-0"
   >
     <div
-      className="emotion-8"
+      className="emotion-1"
       data-cy="fullscreenView-header"
     >
       <Delegate
@@ -255,10 +255,10 @@ exports[`FullscreenView renders FullscreenView 1`] = `
           title="Title"
         >
           <div
-            className="emotion-7"
+            className="emotion-2"
           >
             <div
-              className="emotion-1"
+              className="emotion-3"
             >
               <SecondaryButton
                 onClick={[MockFunction]}
@@ -272,15 +272,13 @@ exports[`FullscreenView renders FullscreenView 1`] = `
                     focusEnabledClass="css-1h85cd2"
                   >
                     <button
-                      className="emotion-0"
+                      className="emotion-4"
                       data-cy="secondaryButton"
                       onClick={[Function]}
                       tabIndex={0}
                       type="button"
                     >
-                      <span
-                        className=""
-                      >
+                      <span>
                         Close
                       </span>
                     </button>
@@ -289,19 +287,19 @@ exports[`FullscreenView renders FullscreenView 1`] = `
               </SecondaryButton>
             </div>
             <div
-              className="emotion-4"
+              className="emotion-5"
             >
               <h2
-                className="emotion-2"
+                className="emotion-6"
               >
                 Title
               </h2>
               <h3
-                className="emotion-3"
+                className="emotion-7"
               />
             </div>
             <div
-              className="emotion-6"
+              className="emotion-8"
             >
               <PrimaryButton>
                 <ButtonBase
@@ -312,15 +310,13 @@ exports[`FullscreenView renders FullscreenView 1`] = `
                     focusEnabledClass="css-xcotv6"
                   >
                     <button
-                      className="emotion-5"
+                      className="emotion-9"
                       data-cy="primaryButton"
                       onClick={[Function]}
                       tabIndex={0}
                       type="button"
                     >
-                      <span
-                        className=""
-                      >
+                      <span>
                         CTA
                       </span>
                     </button>
@@ -333,7 +329,7 @@ exports[`FullscreenView renders FullscreenView 1`] = `
       </Delegate>
     </div>
     <div
-      className="emotion-9"
+      className="emotion-10"
       data-cy="fullscreenView-content"
     >
       <div

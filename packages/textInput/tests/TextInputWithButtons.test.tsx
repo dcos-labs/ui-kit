@@ -1,5 +1,5 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { mount } from "enzyme";
 import toJson from "enzyme-to-json";
 
@@ -7,7 +7,7 @@ import TextInputWithButtons from "../components/TextInputWithButtons";
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
 import { TextInputButton } from "../../textInputButton";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("TextInputWithIcon", () => {
   it("renders", () => {

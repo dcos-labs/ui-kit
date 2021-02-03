@@ -20,7 +20,7 @@ exports[`Sidebar SidebarItem renders 1`] = `
 `;
 
 exports[`Sidebar SidebarItemLabel renders 1`] = `
-.emotion-2 {
+.emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -36,11 +36,11 @@ exports[`Sidebar SidebarItemLabel renders 1`] = `
   padding-bottom: 12px;
 }
 
-.emotion-2 > div {
+.emotion-0>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-1 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -57,7 +57,7 @@ exports[`Sidebar SidebarItemLabel renders 1`] = `
   line-height: 0;
 }
 
-.emotion-1 {
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -71,10 +71,10 @@ exports[`Sidebar SidebarItemLabel renders 1`] = `
 }
 
 <div
-  className="emotion-2"
+  className="emotion-0"
 >
   <div
-    className="emotion-0"
+    className="emotion-1"
   >
     <IconPropAdapter
       color="inherit"
@@ -83,7 +83,7 @@ exports[`Sidebar SidebarItemLabel renders 1`] = `
     />
   </div>
   <div
-    className="emotion-1"
+    className="emotion-2"
   >
     Item label
   </div>
@@ -115,7 +115,7 @@ exports[`Sidebar SidebarSection renders 1`] = `
   margin-top: 0;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   width: auto;
 }
 
@@ -173,7 +173,7 @@ exports[`Sidebar SidebarSubMenu renders 1`] = `
           </SidebarItemLabel>
         </div>
       }
-      labelClassName="css-1opfzkn"
+      labelClassName="css-18glxmc"
     >
       <ul
         className="emotion-0"
@@ -209,7 +209,7 @@ exports[`Sidebar SidebarSubMenu renders 1`] = `
 `;
 
 exports[`Sidebar SidebarSubMenuItem renders 1`] = `
-.emotion-2 {
+.emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -225,11 +225,11 @@ exports[`Sidebar SidebarSubMenuItem renders 1`] = `
   padding-bottom: 12px;
 }
 
-.emotion-2 > div {
+.emotion-0>div {
   width: auto;
 }
 
-.emotion-0 {
+.emotion-1 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -246,7 +246,7 @@ exports[`Sidebar SidebarSubMenuItem renders 1`] = `
   line-height: 0;
 }
 
-.emotion-1 {
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -260,10 +260,10 @@ exports[`Sidebar SidebarSubMenuItem renders 1`] = `
 }
 
 <div
-  className="emotion-2"
+  className="emotion-0"
 >
   <div
-    className="emotion-0"
+    className="emotion-1"
   >
     <IconPropAdapter
       color="inherit"
@@ -272,7 +272,7 @@ exports[`Sidebar SidebarSubMenuItem renders 1`] = `
     />
   </div>
   <div
-    className="emotion-1"
+    className="emotion-2"
   >
     Item label
   </div>

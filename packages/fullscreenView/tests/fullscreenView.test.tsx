@@ -1,11 +1,11 @@
 import React from "react";
 import { mount } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 import FullscreenView from "../components/FullscrenView";
 import { PrimaryButton } from "../../button";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("FullscreenView", () => {
   it("renders FullscreenView", () => {

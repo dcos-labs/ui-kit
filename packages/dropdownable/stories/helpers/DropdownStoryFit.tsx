@@ -1,5 +1,5 @@
 import React from "react";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 import Dropdownable, { Direction } from "../../components/Dropdownable";
 import DropdownStuffContainer from "./DropdownStuffContainer";

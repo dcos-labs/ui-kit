@@ -13,7 +13,7 @@ exports[`Link renders ResetLink 1`] = `
 
 exports[`Link renders default 1`] = `
 <a
-  class="css-1k6f9tx"
+  class="css-1ygm8ii"
   href="http://google.com"
   rel="noopener"
   target="_blank"

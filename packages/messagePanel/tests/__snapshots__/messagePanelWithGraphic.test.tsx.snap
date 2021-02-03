@@ -5,7 +5,7 @@ exports[`MessagePanelWithGraphic default 1`] = `
   data-cy="messagePanelWithGraphic"
 >
   <div
-    class="css-1534o5d"
+    class="css-spit4o"
     data-cy="spacingBox"
   >
     <img
@@ -16,15 +16,15 @@ exports[`MessagePanelWithGraphic default 1`] = `
     />
   </div>
   <div
-    class="css-v5n8zn"
+    class="css-5z0bq0"
     data-cy="spacingBox"
   >
     <div
-      class="css-ilu7d6"
+      class="css-lkxn4w"
       data-cy="spacingBox"
     >
       <h2
-        class="rmTextMargins css-1rl5bwh"
+        class="rmTextMargins css-ivxmqa"
         data-cy="headingText2"
       >
         Heading
@@ -44,7 +44,7 @@ exports[`MessagePanelWithGraphic renders with primary and secondary actions 1`] 
   data-cy="messagePanelWithGraphic"
 >
   <div
-    class="css-1534o5d"
+    class="css-spit4o"
     data-cy="spacingBox"
   >
     <img
@@ -55,15 +55,15 @@ exports[`MessagePanelWithGraphic renders with primary and secondary actions 1`] 
     />
   </div>
   <div
-    class="css-1534o5d"
+    class="css-spit4o"
     data-cy="spacingBox"
   >
     <div
-      class="css-ilu7d6"
+      class="css-lkxn4w"
       data-cy="spacingBox"
     >
       <h2
-        class="rmTextMargins css-1rl5bwh"
+        class="rmTextMargins css-ivxmqa"
         data-cy="headingText2"
       >
         Heading
@@ -84,7 +84,7 @@ exports[`MessagePanelWithGraphic renders with primary and secondary actions 1`] 
       data-cy="flexItem"
     >
       <button
-        class="css-8g34zf"
+        class="css-1qbr1ah"
         data-cy="secondaryButton"
         tabindex="0"
         type="button"
@@ -101,7 +101,7 @@ exports[`MessagePanelWithGraphic renders with primary and secondary actions 1`] 
       data-cy="flexItem"
     >
       <button
-        class="css-1jip74i"
+        class="css-tc1f66"
         data-cy="primaryButton"
         tabindex="0"
         type="button"

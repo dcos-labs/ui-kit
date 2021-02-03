@@ -1,122 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HashMap renders array value 1`] = `
-.emotion-3 {
+.emotion-0 {
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 24px;
-}
-
-.emotion-2 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-2:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-2 > div {
-  width: auto;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 }
 
 .emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-<div
-  class="emotion-3"
-  data-cy="configurationMapSection"
->
-  <div
-    class="emotion-2"
-    data-cy="configurationMapRow"
-  >
-    <div
-      class="emotion-0"
-      data-cy="configurationMapLabel"
-    >
-      foo
-    </div>
-    <div
-      class="emotion-1"
-      data-cy="configurationMapValue"
-    >
-      foo, bar, baz
-    </div>
-  </div>
-</div>
-`;
-
-exports[`HashMap renders boolean value 1`] = `
-.emotion-3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-2 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-bottom-style: solid;
   -webkit-align-items: flex;
   -webkit-box-align: flex;
@@ -126,12 +19,13 @@ exports[`HashMap renders boolean value 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -143,332 +37,11 @@ exports[`HashMap renders boolean value 1`] = `
   padding-bottom: 8px;
 }
 
-.emotion-2:last-of-type {
+.emotion-1:last-of-type {
   border-bottom-width: 0;
 }
 
-.emotion-2 > div {
-  width: auto;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-<div
-  class="emotion-3"
-  data-cy="configurationMapSection"
->
-  <div
-    class="emotion-2"
-    data-cy="configurationMapRow"
-  >
-    <div
-      class="emotion-0"
-      data-cy="configurationMapLabel"
-    >
-      foo
-    </div>
-    <div
-      class="emotion-1"
-      data-cy="configurationMapValue"
-    >
-      true
-    </div>
-  </div>
-</div>
-`;
-
-exports[`HashMap renders default 1`] = `
-.emotion-3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-2 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-2:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-2 > div {
-  width: auto;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-<div
-  class="emotion-3"
-  data-cy="configurationMapSection"
->
-  <div
-    class="emotion-2"
-    data-cy="configurationMapRow"
-  >
-    <div
-      class="emotion-0"
-      data-cy="configurationMapLabel"
-    >
-      foo
-    </div>
-    <div
-      class="emotion-1"
-      data-cy="configurationMapValue"
-    >
-      bar
-    </div>
-  </div>
-</div>
-`;
-
-exports[`HashMap renders empty value 1`] = `
-.emotion-3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-2 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-2:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-2 > div {
-  width: auto;
-}
-
-.emotion-0 {
-  -webkit-flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  flex-basis: 15em;
-  overflow: hidden;
-  padding-right: 12px;
-  font-weight: 500;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-.emotion-0,
-.emotion-0 > * {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.emotion-1 {
-  margin-left: 0;
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-
-<div
-  class="emotion-3"
-  data-cy="configurationMapSection"
->
-  <div
-    class="emotion-2"
-    data-cy="configurationMapRow"
-  >
-    <div
-      class="emotion-0"
-      data-cy="configurationMapLabel"
-    >
-      foo
-    </div>
-    <div
-      class="emotion-1"
-      data-cy="configurationMapValue"
-    >
-      empty
-    </div>
-  </div>
-</div>
-`;
-
-exports[`HashMap renders with a headline 1`] = `
-.emotion-5 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 24px;
-}
-
-.emotion-4 {
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-  -webkit-align-items: flex;
-  -webkit-box-align: flex;
-  -ms-flex-align: flex;
-  align-items: flex;
-  height: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.emotion-4:last-of-type {
-  border-bottom-width: 0;
-}
-
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -487,7 +60,7 @@ exports[`HashMap renders with a headline 1`] = `
 }
 
 .emotion-2,
-.emotion-2 > * {
+.emotion-2>* {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -511,40 +84,228 @@ exports[`HashMap renders with a headline 1`] = `
   word-wrap: break-word;
 }
 
-.emotion-1 {
-  margin: 1em 0;
-  padding-bottom: 8px;
-  border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
-  border-bottom-style: solid;
-}
-
-.emotion-0 {
-  line-height: 1.4;
-  font-weight: 500;
-  font-size: 24px;
-  color: var(--themeTextColorPrimary,#1B2029);
-  fill: var(--themeTextColorPrimary,#1B2029);
-  text-align: inherit;
-}
-
 <div
-  class="emotion-5"
+  class="emotion-0"
   data-cy="configurationMapSection"
 >
   <div
     class="emotion-1"
-    data-cy="configurationMapHeading"
+    data-cy="configurationMapRow"
   >
-    <h1
-      class="rmTextMargins emotion-0"
-      data-cy="headingText1"
+    <div
+      class="emotion-2"
+      data-cy="configurationMapLabel"
     >
-      baz
-    </h1>
+      foo
+    </div>
+    <div
+      class="emotion-3"
+      data-cy="configurationMapValue"
+    >
+      foo, bar, baz
+    </div>
   </div>
+</div>
+`;
+
+exports[`HashMap renders boolean value 1`] = `
+.emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.emotion-1 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-1:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-1>div {
+  width: auto;
+}
+
+.emotion-2 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-2,
+.emotion-2>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-3 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+<div
+  class="emotion-0"
+  data-cy="configurationMapSection"
+>
   <div
-    class="emotion-4"
+    class="emotion-1"
+    data-cy="configurationMapRow"
+  >
+    <div
+      class="emotion-2"
+      data-cy="configurationMapLabel"
+    >
+      foo
+    </div>
+    <div
+      class="emotion-3"
+      data-cy="configurationMapValue"
+    >
+      true
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HashMap renders default 1`] = `
+.emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.emotion-1 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-1:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-1>div {
+  width: auto;
+}
+
+.emotion-2 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-2,
+.emotion-2>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-3 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+<div
+  class="emotion-0"
+  data-cy="configurationMapSection"
+>
+  <div
+    class="emotion-1"
     data-cy="configurationMapRow"
   >
     <div
@@ -563,16 +324,16 @@ exports[`HashMap renders with a headline 1`] = `
 </div>
 `;
 
-exports[`HashMap renders with nested object hash 1`] = `
-.emotion-5 {
+exports[`HashMap renders empty value 1`] = `
+.emotion-0 {
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 24px;
 }
 
-.emotion-4 {
+.emotion-1 {
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-bottom-style: solid;
   -webkit-align-items: flex;
   -webkit-box-align: flex;
@@ -582,12 +343,13 @@ exports[`HashMap renders with nested object hash 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -599,11 +361,11 @@ exports[`HashMap renders with nested object hash 1`] = `
   padding-bottom: 8px;
 }
 
-.emotion-4:last-of-type {
+.emotion-1:last-of-type {
   border-bottom-width: 0;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -622,7 +384,7 @@ exports[`HashMap renders with nested object hash 1`] = `
 }
 
 .emotion-2,
-.emotion-2 > * {
+.emotion-2>* {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -646,38 +408,282 @@ exports[`HashMap renders with nested object hash 1`] = `
   word-wrap: break-word;
 }
 
+<div
+  class="emotion-0"
+  data-cy="configurationMapSection"
+>
+  <div
+    class="emotion-1"
+    data-cy="configurationMapRow"
+  >
+    <div
+      class="emotion-2"
+      data-cy="configurationMapLabel"
+    >
+      foo
+    </div>
+    <div
+      class="emotion-3"
+      data-cy="configurationMapValue"
+    >
+      empty
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HashMap renders with a headline 1`] = `
+.emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
 .emotion-1 {
   margin: 1em 0;
   padding-bottom: 8px;
   border-width: 1px;
-  border-color: var(--themeBorder,#DADDE2);
+  border-color: var(--themeBorder, #DADDE2);
   border-bottom-style: solid;
 }
 
+.emotion-2 {
+  line-height: 1.4;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--themeTextColorPrimary, #1B2029);
+  fill: var(--themeTextColorPrimary, #1B2029);
+  text-align: inherit;
+}
+
+.emotion-3 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-3:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-3>div {
+  width: auto;
+}
+
+.emotion-4 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-4,
+.emotion-4>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-5 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+<div
+  class="emotion-0"
+  data-cy="configurationMapSection"
+>
+  <div
+    class="emotion-1"
+    data-cy="configurationMapHeading"
+  >
+    <h1
+      class="rmTextMargins emotion-2"
+      data-cy="headingText1"
+    >
+      baz
+    </h1>
+  </div>
+  <div
+    class="emotion-3"
+    data-cy="configurationMapRow"
+  >
+    <div
+      class="emotion-4"
+      data-cy="configurationMapLabel"
+    >
+      foo
+    </div>
+    <div
+      class="emotion-5"
+      data-cy="configurationMapValue"
+    >
+      bar
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HashMap renders with nested object hash 1`] = `
 .emotion-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 24px;
+}
+
+.emotion-2 {
+  margin: 1em 0;
+  padding-bottom: 8px;
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+}
+
+.emotion-3 {
   line-height: 1.33;
   line-height: 1.4;
   font-weight: 500;
   font-size: 18px;
-  color: var(--themeTextColorPrimary,#1B2029);
-  fill: var(--themeTextColorPrimary,#1B2029);
+  color: var(--themeTextColorPrimary, #1B2029);
+  fill: var(--themeTextColorPrimary, #1B2029);
   text-align: inherit;
 }
 
+.emotion-4 {
+  border-width: 1px;
+  border-color: var(--themeBorder, #DADDE2);
+  border-bottom-style: solid;
+  -webkit-align-items: flex;
+  -webkit-box-align: flex;
+  -ms-flex-align: flex;
+  align-items: flex;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-4:last-of-type {
+  border-bottom-width: 0;
+}
+
+.emotion-4>div {
+  width: auto;
+}
+
+.emotion-5 {
+  -webkit-flex-basis: 15em;
+  -ms-flex-preferred-size: 15em;
+  flex-basis: 15em;
+  overflow: hidden;
+  padding-right: 12px;
+  font-weight: 500;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.emotion-5,
+.emotion-5>* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.emotion-6 {
+  margin-left: 0;
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
 <div
-  class="emotion-5"
+  class="emotion-0"
   data-cy="configurationMapSection"
 >
   <div
-    class="emotion-5"
+    class="emotion-0"
     data-cy="configurationMapSection"
   >
     <div
-      class="emotion-1"
+      class="emotion-2"
       data-cy="configurationMapHeading"
     >
       <h2
-        class="rmTextMargins emotion-0"
+        class="rmTextMargins emotion-3"
         data-cy="headingText2"
       >
         foo
@@ -688,13 +694,13 @@ exports[`HashMap renders with nested object hash 1`] = `
       data-cy="configurationMapRow"
     >
       <div
-        class="emotion-2"
+        class="emotion-5"
         data-cy="configurationMapLabel"
       >
         bar
       </div>
       <div
-        class="emotion-3"
+        class="emotion-6"
         data-cy="configurationMapValue"
       >
         baz

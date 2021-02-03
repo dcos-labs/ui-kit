@@ -1,20 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CodeSnippet renders default 1`] = `
-.emotion-6 {
+.emotion-0 {
   overflow: auto;
   white-space: pre;
 }
 
-.emotion-5 {
+.emotion-1 {
   overflow: auto;
   white-space: pre;
   padding: 16px;
 }
 
-.emotion-4 {
+.emotion-2 {
   background-color: #1B2029;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
   background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
   overflow: auto;
   white-space: pre;
   padding: 16px;
@@ -29,12 +36,13 @@ exports[`CodeSnippet renders default 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -47,18 +55,18 @@ exports[`CodeSnippet renders default 1`] = `
   row-gap: 0;
 }
 
-.emotion-3 > div {
+.emotion-3>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-3 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-3>*:not(:last-child) {
     padding-right: 0;
     padding-bottom: 0;
   }
 }
 
-.emotion-2 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -71,24 +79,24 @@ exports[`CodeSnippet renders default 1`] = `
   width: auto;
 }
 
-.emotion-1 {
+.emotion-5 {
   font-family: 'Menlo','Bitstream Vera Sans Mono','DejaVu Sans Mono','Monaco','Consolas',monospace;
 }
 
-.emotion-0 {
+.emotion-6 {
   font-family: 'Menlo','Bitstream Vera Sans Mono','DejaVu Sans Mono','Monaco','Consolas',monospace;
   line-height: 1.4;
   font-weight: 500;
   font-size: 14px;
-  color: var(--themeTextColorPrimaryInverted,#FFFFFF);
-  fill: var(--themeTextColorPrimaryInverted,#FFFFFF);
+  color: var(--themeTextColorPrimaryInverted, #FFFFFF);
+  fill: var(--themeTextColorPrimaryInverted, #FFFFFF);
   text-align: inherit;
 }
 
 <CodeSnippet>
   <SpacingBox
     bgColor="#1B2029"
-    className="emotion-6"
+    className="emotion-0"
     side="all"
     spacingSize="m"
     tag="div"
@@ -102,12 +110,12 @@ exports[`CodeSnippet renders default 1`] = `
           "size": undefined,
         }
       }
-      className="emotion-5"
+      className="emotion-1"
       data-cy="spacingBox"
       tag="div"
     >
       <div
-        className="emotion-4"
+        className="emotion-2"
         data-cy="spacingBox"
       >
         <Flex
@@ -125,7 +133,7 @@ exports[`CodeSnippet renders default 1`] = `
               flex="grow"
             >
               <div
-                className="emotion-2"
+                className="emotion-4"
                 data-cy="flexItem"
               >
                 <MonospaceText
@@ -138,7 +146,7 @@ exports[`CodeSnippet renders default 1`] = `
                 >
                   <Text
                     align="inherit"
-                    className="emotion-1"
+                    className="emotion-5"
                     color="var(--themeTextColorPrimaryInverted, #FFFFFF)"
                     data-cy="monospaceText"
                     size="m"
@@ -147,7 +155,7 @@ exports[`CodeSnippet renders default 1`] = `
                     wrap="wrap"
                   >
                     <code
-                      className="rmTextMargins emotion-0"
+                      className="rmTextMargins emotion-6"
                       data-cy="monospaceText"
                     >
                       snippet content
@@ -165,30 +173,33 @@ exports[`CodeSnippet renders default 1`] = `
 `;
 
 exports[`CodeSnippet renders with copy button 1`] = `
-.emotion-5 {
-  cursor: pointer;
-}
-
-.emotion-11 {
+.emotion-0 {
   overflow: auto;
   white-space: pre;
 }
 
-.emotion-10 {
+.emotion-1 {
   overflow: auto;
   white-space: pre;
   padding: 16px;
 }
 
-.emotion-9 {
+.emotion-2 {
   background-color: #1B2029;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
   background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: ;
+  text-align: ;
   overflow: auto;
   white-space: pre;
   padding: 16px;
 }
 
-.emotion-8 {
+.emotion-3 {
   -webkit-align-items: flex-start;
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
@@ -197,12 +208,13 @@ exports[`CodeSnippet renders with copy button 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   display: -webkit-box;
@@ -215,18 +227,18 @@ exports[`CodeSnippet renders with copy button 1`] = `
   row-gap: 0;
 }
 
-.emotion-8 > div {
+.emotion-3>div {
   width: auto;
 }
 
-@supports (-webkit-column-gap:1px) and (row-gap:1px) or (column-gap:1px) and (row-gap:1px) {
-  .emotion-8 > *:not(:last-child) {
+@supports (column-gap: 1px) and (row-gap: 1px) {
+  .emotion-3>*:not(:last-child) {
     padding-right: 0;
     padding-bottom: 0;
   }
 }
 
-.emotion-2 {
+.emotion-4 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -239,17 +251,17 @@ exports[`CodeSnippet renders with copy button 1`] = `
   width: auto;
 }
 
-.emotion-1 {
+.emotion-5 {
   font-family: 'Menlo','Bitstream Vera Sans Mono','DejaVu Sans Mono','Monaco','Consolas',monospace;
 }
 
-.emotion-0 {
+.emotion-6 {
   font-family: 'Menlo','Bitstream Vera Sans Mono','DejaVu Sans Mono','Monaco','Consolas',monospace;
   line-height: 1.4;
   font-weight: 500;
   font-size: 14px;
-  color: var(--themeTextColorPrimaryInverted,#FFFFFF);
-  fill: var(--themeTextColorPrimaryInverted,#FFFFFF);
+  color: var(--themeTextColorPrimaryInverted, #FFFFFF);
+  fill: var(--themeTextColorPrimaryInverted, #FFFFFF);
   text-align: inherit;
 }
 
@@ -268,23 +280,41 @@ exports[`CodeSnippet renders with copy button 1`] = `
   width: initial;
 }
 
-.emotion-6 {
+.emotion-8 {
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
   background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
   display: inline-block;
+  text-align: ;
 }
 
-.emotion-4 {
-  background-repeat: no-repeat;
-  display: inline-block;
+.emotion-9 {
   cursor: pointer;
 }
 
-.emotion-3 {
-  vertical-align: middle;
-  fill: var(--themeTextColorPrimaryInverted,#FFFFFF);
+.emotion-10 {
+  background-color: ;
+  background-image: ;
+  -webkit-background-position: ;
+  background-position: ;
+  background-repeat: no-repeat;
+  -webkit-background-size: ;
+  background-size: ;
+  display: inline-block;
+  text-align: ;
+  cursor: pointer;
 }
 
-.emotion-3 use {
+.emotion-11 {
+  vertical-align: middle;
+  fill: var(--themeTextColorPrimaryInverted, #FFFFFF);
+}
+
+.emotion-11 use {
   pointer-events: none;
 }
 
@@ -293,7 +323,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
 >
   <SpacingBox
     bgColor="#1B2029"
-    className="emotion-11"
+    className="emotion-0"
     side="all"
     spacingSize="m"
     tag="div"
@@ -307,12 +337,12 @@ exports[`CodeSnippet renders with copy button 1`] = `
           "size": undefined,
         }
       }
-      className="emotion-10"
+      className="emotion-1"
       data-cy="spacingBox"
       tag="div"
     >
       <div
-        className="emotion-9"
+        className="emotion-2"
         data-cy="spacingBox"
       >
         <Flex
@@ -323,14 +353,14 @@ exports[`CodeSnippet renders with copy button 1`] = `
           wrap="nowrap"
         >
           <div
-            className="emotion-8"
+            className="emotion-3"
             data-cy="flex"
           >
             <FlexItem
               flex="grow"
             >
               <div
-                className="emotion-2"
+                className="emotion-4"
                 data-cy="flexItem"
               >
                 <MonospaceText
@@ -343,7 +373,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
                 >
                   <Text
                     align="inherit"
-                    className="emotion-1"
+                    className="emotion-5"
                     color="var(--themeTextColorPrimaryInverted, #FFFFFF)"
                     data-cy="monospaceText"
                     size="m"
@@ -352,7 +382,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
                     wrap="wrap"
                   >
                     <code
-                      className="rmTextMargins emotion-0"
+                      className="rmTextMargins emotion-6"
                       data-cy="monospaceText"
                     >
                       snippet content
@@ -390,7 +420,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
                       tag="div"
                     >
                       <div
-                        className="emotion-6"
+                        className="emotion-8"
                         data-cy="box"
                       >
                         <Tooltip
@@ -468,7 +498,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
                                         "size": undefined,
                                       }
                                     }
-                                    className="emotion-5"
+                                    className="emotion-9"
                                     data-cy="box"
                                     display="inline-block"
                                     onClick={[Function]}
@@ -478,7 +508,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
                                     tag="span"
                                   >
                                     <span
-                                      className="emotion-4"
+                                      className="emotion-10"
                                       data-cy="box"
                                       onClick={[Function]}
                                       onKeyPress={[Function]}
@@ -492,7 +522,7 @@ exports[`CodeSnippet renders with copy button 1`] = `
                                       >
                                         <svg
                                           aria-label="system-clipboard icon"
-                                          className="emotion-3"
+                                          className="emotion-11"
                                           data-cy="icon"
                                           height={24}
                                           preserveAspectRatio="xMinYMin meet"

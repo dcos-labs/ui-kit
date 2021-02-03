@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Tabs as ReactTabs, TabList, TabPanel } from "react-tabs";
-import { injectGlobal, cx } from "emotion";
+import { injectGlobal, cx } from "@emotion/css";
 
 import { TabItemProps } from "./TabItem";
 import { TabTitle } from "..";

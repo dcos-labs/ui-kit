@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import { border } from "../../shared/styles/styleUtils";
 import { AccordionTitleAppearances } from "../types";
 import {

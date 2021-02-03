@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import FocusStyleManager from "../../shared/components/FocusStyleManager";
 import { IconShapes } from "../../icon/components/Icon";
 import IconPropAdapter from "../../icon/components/IconPropAdapter";

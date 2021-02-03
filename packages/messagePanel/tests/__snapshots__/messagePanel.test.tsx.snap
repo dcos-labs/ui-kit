@@ -13,16 +13,16 @@ exports[`MessagePanel appearance='error' 1`] = `
       class="css-yy1d4r"
     >
       <div
-        class="css-1c71uxj"
+        class="css-rgkn38"
         data-cy="spacingBox"
       >
         <h2
-          class="rmTextMargins css-1rl5bwh"
+          class="rmTextMargins css-ivxmqa"
           data-cy="headingText2"
         >
           <svg
             aria-label="system-circle-close icon"
-            class="css-pgwe9l"
+            class="css-lfoue6"
             data-cy="icon"
             height="16"
             preserveAspectRatio="xMinYMin meet"
@@ -35,7 +35,7 @@ exports[`MessagePanel appearance='error' 1`] = `
             />
           </svg>
           <span
-            class="css-93yxf5"
+            class="css-m1scup"
             data-cy="spacingBox"
           >
             Heading
@@ -43,7 +43,7 @@ exports[`MessagePanel appearance='error' 1`] = `
         </h2>
       </div>
       <div
-        class="css-dbyz3d"
+        class="css-94vex"
         data-cy="spacingBox"
       >
         Body content
@@ -66,18 +66,18 @@ exports[`MessagePanel default 1`] = `
       class="css-yy1d4r"
     >
       <div
-        class="css-1c71uxj"
+        class="css-rgkn38"
         data-cy="spacingBox"
       >
         <h2
-          class="rmTextMargins css-1rl5bwh"
+          class="rmTextMargins css-ivxmqa"
           data-cy="headingText2"
         >
           Heading
         </h2>
       </div>
       <div
-        class="css-dbyz3d"
+        class="css-94vex"
         data-cy="spacingBox"
       >
         Body content
@@ -100,18 +100,18 @@ exports[`MessagePanel renders with primary and secondary actions 1`] = `
       class="css-yy1d4r"
     >
       <div
-        class="css-1c71uxj"
+        class="css-rgkn38"
         data-cy="spacingBox"
       >
         <h2
-          class="rmTextMargins css-1rl5bwh"
+          class="rmTextMargins css-ivxmqa"
           data-cy="headingText2"
         >
           Heading
         </h2>
       </div>
       <div
-        class="css-1tq4izn"
+        class="css-1yjoybz"
         data-cy="spacingBox"
       >
         Body content
@@ -125,7 +125,7 @@ exports[`MessagePanel renders with primary and secondary actions 1`] = `
           data-cy="flexItem"
         >
           <button
-            class="css-8g34zf"
+            class="css-1qbr1ah"
             data-cy="secondaryButton"
             tabindex="0"
             type="button"
@@ -142,7 +142,7 @@ exports[`MessagePanel renders with primary and secondary actions 1`] = `
           data-cy="flexItem"
         >
           <button
-            class="css-1jip74i"
+            class="css-tc1f66"
             data-cy="primaryButton"
             tabindex="0"
             type="button"

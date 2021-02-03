@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "emotion";
+import { cx } from "@emotion/css";
 import nextId from "react-id-generator";
 import { ToggleBoxProps } from "./ToggleBox";
 import { Flex, FlexItem } from "../../styleUtils/layout";

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CheckboxInput renders all appearances 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10,24 +10,12 @@ exports[`CheckboxInput renders all appearances 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -43,10 +31,10 @@ exports[`CheckboxInput renders all appearances 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -66,9 +54,9 @@ exports[`CheckboxInput renders all appearances 1`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -77,7 +65,18 @@ exports[`CheckboxInput renders all appearances 1`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -110,23 +109,23 @@ exports[`CheckboxInput renders all appearances 1`] = `
       id="defaultId"
     >
       <div
-        className="emotion-5"
+        className="emotion-0"
         data-cy="checkboxInput"
       >
         <label
-          className="emotion-4"
+          className="emotion-1"
           htmlFor="defaultId"
         >
           <div
             className="emotion-2"
           >
             <div
-              className="emotion-1"
+              className="emotion-3"
             >
               <input
                 aria-describedby=""
                 aria-invalid={false}
-                className="emotion-0"
+                className="emotion-4"
                 data-cy="checkboxInput-input"
                 id="defaultId"
                 onBlur={[Function]}
@@ -137,7 +136,7 @@ exports[`CheckboxInput renders all appearances 1`] = `
             </div>
           </div>
           <div
-            className="emotion-3"
+            className="emotion-5"
           >
             Sample label
           </div>
@@ -149,7 +148,7 @@ exports[`CheckboxInput renders all appearances 1`] = `
 `;
 
 exports[`CheckboxInput renders all appearances 2`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -158,24 +157,12 @@ exports[`CheckboxInput renders all appearances 2`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -191,10 +178,10 @@ exports[`CheckboxInput renders all appearances 2`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -214,9 +201,9 @@ exports[`CheckboxInput renders all appearances 2`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -225,7 +212,18 @@ exports[`CheckboxInput renders all appearances 2`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -237,8 +235,8 @@ exports[`CheckboxInput renders all appearances 2`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-  color: var(--themeError,#EB293A);
-  fill: var(--themeError,#EB293A);
+  color: var(--themeError, #EB293A);
+  fill: var(--themeError, #EB293A);
 }
 
 <CheckboxInput
@@ -260,23 +258,23 @@ exports[`CheckboxInput renders all appearances 2`] = `
       id="defaultId"
     >
       <div
-        className="emotion-5"
+        className="emotion-0"
         data-cy="checkboxInput checkboxInput.error"
       >
         <label
-          className="emotion-4"
+          className="emotion-1"
           htmlFor="defaultId"
         >
           <div
             className="emotion-2"
           >
             <div
-              className="emotion-1"
+              className="emotion-3"
             >
               <input
                 aria-describedby=""
                 aria-invalid={false}
-                className="emotion-0"
+                className="emotion-4"
                 data-cy="checkboxInput-input checkboxInput-input.error"
                 id="defaultId"
                 onBlur={[Function]}
@@ -287,7 +285,7 @@ exports[`CheckboxInput renders all appearances 2`] = `
             </div>
           </div>
           <div
-            className="emotion-3"
+            className="emotion-5"
           >
             Sample label
           </div>
@@ -299,7 +297,7 @@ exports[`CheckboxInput renders all appearances 2`] = `
 `;
 
 exports[`CheckboxInput renders all appearances 3`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -308,24 +306,12 @@ exports[`CheckboxInput renders all appearances 3`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -341,10 +327,10 @@ exports[`CheckboxInput renders all appearances 3`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -364,9 +350,9 @@ exports[`CheckboxInput renders all appearances 3`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -375,7 +361,18 @@ exports[`CheckboxInput renders all appearances 3`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -387,8 +384,8 @@ exports[`CheckboxInput renders all appearances 3`] = `
   min-width: 0;
   width: auto;
   padding-left: 12px;
-  color: var(--themeSuccess,#14C684);
-  fill: var(--themeSuccess,#14C684);
+  color: var(--themeSuccess, #14C684);
+  fill: var(--themeSuccess, #14C684);
 }
 
 <CheckboxInput
@@ -410,23 +407,23 @@ exports[`CheckboxInput renders all appearances 3`] = `
       id="defaultId"
     >
       <div
-        className="emotion-5"
+        className="emotion-0"
         data-cy="checkboxInput checkboxInput.success"
       >
         <label
-          className="emotion-4"
+          className="emotion-1"
           htmlFor="defaultId"
         >
           <div
             className="emotion-2"
           >
             <div
-              className="emotion-1"
+              className="emotion-3"
             >
               <input
                 aria-describedby=""
                 aria-invalid={false}
-                className="emotion-0"
+                className="emotion-4"
                 data-cy="checkboxInput-input checkboxInput-input.success"
                 id="defaultId"
                 onBlur={[Function]}
@@ -437,7 +434,7 @@ exports[`CheckboxInput renders all appearances 3`] = `
             </div>
           </div>
           <div
-            className="emotion-3"
+            className="emotion-5"
           >
             Sample label
           </div>
@@ -449,7 +446,7 @@ exports[`CheckboxInput renders all appearances 3`] = `
 `;
 
 exports[`CheckboxInput renders indeterminate 1`] = `
-.emotion-7 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -458,24 +455,12 @@ exports[`CheckboxInput renders indeterminate 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-6 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -491,14 +476,14 @@ exports[`CheckboxInput renders indeterminate 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-6 > div {
+.emotion-1>div {
   width: auto;
 }
 
-.emotion-4 {
+.emotion-2 {
   box-sizing: border-box;
   -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
@@ -514,21 +499,31 @@ exports[`CheckboxInput renders indeterminate 1`] = `
   display: inherit;
 }
 
-.emotion-5 {
-  box-sizing: border-box;
-  -webkit-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  min-width: 0;
-  width: auto;
-  padding-left: 12px;
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  border-style: solid;
+  border-width: 1px;
+  height: 14px;
+  width: 14px;
+  background-color: var(--themeBrandPrimary, #7D58FF);
+  border-color: var(--themeBrandPrimary, #7D58FF);
+  border-radius: 4px;
+  position: relative;
 }
 
-.emotion-2 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   height: 100%;
   padding: 2px;
@@ -540,31 +535,32 @@ exports[`CheckboxInput renders indeterminate 1`] = `
   display: inline-flex;
 }
 
-.emotion-2 svg {
+.emotion-5 svg {
   height: 100%;
   width: 100%;
 }
 
-.emotion-3 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  border-style: solid;
-  border-width: 1px;
-  height: 14px;
-  width: 14px;
-  background-color: var(--themeBrandPrimary,#7D58FF);
-  border-color: var(--themeBrandPrimary,#7D58FF);
-  border-radius: 4px;
-  position: relative;
-}
-
-.emotion-1 {
+.emotion-6 {
   vertical-align: middle;
-  fill: var(--themeBgPrimary,#FFFFFF);
+  fill: var(--themeBgPrimary, #FFFFFF);
 }
 
-.emotion-1 use {
+.emotion-6 use {
   pointer-events: none;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 0;
+  width: auto;
+  padding-left: 12px;
 }
 
 <CheckboxInput
@@ -587,15 +583,15 @@ exports[`CheckboxInput renders indeterminate 1`] = `
       id="indeterminateId"
     >
       <div
-        className="emotion-7"
+        className="emotion-0"
         data-cy="checkboxInput checkboxInput.indeterminate"
       >
         <label
-          className="emotion-6"
+          className="emotion-1"
           htmlFor="indeterminateId"
         >
           <div
-            className="emotion-4"
+            className="emotion-2"
           >
             <div
               className="emotion-3"
@@ -603,7 +599,7 @@ exports[`CheckboxInput renders indeterminate 1`] = `
               <input
                 aria-describedby=""
                 aria-invalid={false}
-                className="emotion-0"
+                className="emotion-4"
                 data-cy="checkboxInput-input checkboxInput-input.indeterminate"
                 id="indeterminateId"
                 onBlur={[Function]}
@@ -612,7 +608,7 @@ exports[`CheckboxInput renders indeterminate 1`] = `
                 value="indeterminate"
               />
               <span
-                className="emotion-2"
+                className="emotion-5"
               >
                 <Icon
                   color="var(--themeBgPrimary, #FFFFFF)"
@@ -621,7 +617,7 @@ exports[`CheckboxInput renders indeterminate 1`] = `
                 >
                   <svg
                     aria-label="system-minus icon"
-                    className="emotion-1"
+                    className="emotion-6"
                     data-cy="icon"
                     height={16}
                     preserveAspectRatio="xMinYMin meet"
@@ -638,7 +634,7 @@ exports[`CheckboxInput renders indeterminate 1`] = `
             </div>
           </div>
           <div
-            className="emotion-5"
+            className="emotion-7"
           >
             Sample Label
           </div>
@@ -650,7 +646,7 @@ exports[`CheckboxInput renders indeterminate 1`] = `
 `;
 
 exports[`CheckboxInput renders with a hidden label 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -659,24 +655,12 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-}
-
-.emotion-4 {
+.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -692,10 +676,10 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0 !important;
+  margin-bottom: 0!important;
 }
 
-.emotion-4 > div {
+.emotion-1>div {
   width: auto;
 }
 
@@ -715,9 +699,9 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
   display: inherit;
 }
 
-.emotion-1 {
-  border-color: var(--themeBorder,#DADDE2);
-  background-color: var(--themeBgPrimary,#FFFFFF);
+.emotion-3 {
+  border-color: var(--themeBorder, #DADDE2);
+  background-color: var(--themeBgPrimary, #FFFFFF);
   border-style: solid;
   border-width: 1px;
   height: 14px;
@@ -726,7 +710,18 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.emotion-5 {
   box-sizing: border-box;
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
@@ -739,7 +734,6 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
   width: auto;
   padding-left: 12px;
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -768,23 +762,23 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
       id="hiddenLabel"
     >
       <div
-        className="emotion-5"
+        className="emotion-0"
         data-cy="checkboxInput"
       >
         <label
-          className="emotion-4"
+          className="emotion-1"
           htmlFor="hiddenLabel"
         >
           <div
             className="emotion-2"
           >
             <div
-              className="emotion-1"
+              className="emotion-3"
             >
               <input
                 aria-describedby=""
                 aria-invalid={false}
-                className="emotion-0"
+                className="emotion-4"
                 data-cy="checkboxInput-input"
                 id="hiddenLabel"
                 onBlur={[Function]}
@@ -795,7 +789,7 @@ exports[`CheckboxInput renders with a hidden label 1`] = `
             </div>
           </div>
           <div
-            className="emotion-3"
+            className="emotion-5"
           >
             Sample Label
           </div>

@@ -4,7 +4,7 @@ exports[`GridList renders default 1`] = `
 .emotion-0 {
   display: grid;
   grid-gap: 16px;
-  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   list-style: none;
   margin-left: 0;
   margin-top: 0;
@@ -29,7 +29,7 @@ exports[`GridList renders with all props 1`] = `
 .emotion-0 {
   display: grid;
   grid-gap: 24px;
-  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   list-style: none;
   margin-left: 0;
   margin-top: 0;
@@ -60,27 +60,27 @@ exports[`GridList renders with responsive props 1`] = `
   padding-left: 0;
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
     grid-gap: 12px;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
     grid-gap: 16px;
   }
 }
 
-@media (min-width:0) {
+@media (min-width: 0) {
   .emotion-0 {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .emotion-0 {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

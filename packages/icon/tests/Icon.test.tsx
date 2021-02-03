@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 import { Icon } from "../";
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("Icon", () => {
   it("renders", () => {

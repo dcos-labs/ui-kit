@@ -43,13 +43,22 @@ exports[`Tooltip renders 1`] = `
 
 exports[`Tooltip renders open tooltip 1`] = `
 .emotion-0 {
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   border-radius: 2px;
   box-sizing: border-box;
   font-size: 12px;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
@@ -60,9 +69,10 @@ exports[`Tooltip renders open tooltip 1`] = `
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
@@ -125,13 +135,22 @@ exports[`Tooltip renders open tooltip 1`] = `
               innerRef={[Function]}
               overlayRoot={
                 .emotion-0 {
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   border-radius: 2px;
   box-sizing: border-box;
   font-size: 12px;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
@@ -142,9 +161,10 @@ exports[`Tooltip renders open tooltip 1`] = `
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
@@ -184,13 +204,22 @@ exports[`Tooltip renders open tooltip 1`] = `
               <Portal
                 containerInfo={
                   .emotion-0 {
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   border-radius: 2px;
   box-sizing: border-box;
   font-size: 12px;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
@@ -201,9 +230,10 @@ exports[`Tooltip renders open tooltip 1`] = `
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
@@ -276,13 +306,22 @@ exports[`Tooltip renders open tooltip 1`] = `
 
 exports[`Tooltip renders with preferred directions 1`] = `
 .emotion-0 {
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   border-radius: 2px;
   box-sizing: border-box;
   font-size: 12px;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
@@ -293,9 +332,10 @@ exports[`Tooltip renders with preferred directions 1`] = `
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
@@ -358,13 +398,22 @@ exports[`Tooltip renders with preferred directions 1`] = `
               innerRef={[Function]}
               overlayRoot={
                 .emotion-0 {
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   border-radius: 2px;
   box-sizing: border-box;
   font-size: 12px;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
@@ -375,9 +424,10 @@ exports[`Tooltip renders with preferred directions 1`] = `
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;
@@ -438,13 +488,22 @@ exports[`Tooltip renders with preferred directions 1`] = `
               <Portal
                 containerInfo={
                   .emotion-0 {
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   border-radius: 2px;
   box-sizing: border-box;
   font-size: 12px;
-  -webkit-transform: translateY( -9px );
-  -ms-transform: translateY( -9px );
-  transform: translateY( -9px );
+  -webkit-transform: translateY(
+      -9px
+    );
+  -moz-transform: translateY(
+      -9px
+    );
+  -ms-transform: translateY(
+      -9px
+    );
+  transform: translateY(
+      -9px
+    );
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
@@ -455,9 +514,10 @@ exports[`Tooltip renders with preferred directions 1`] = `
   position: absolute;
   bottom: 4px;
   left: calc(50% - 5px);
-  background-color: var(--themeBgPrimaryInverted,#1B2029);
+  background-color: var(--themeBgPrimaryInverted, #1B2029);
   box-sizing: border-box;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 10px;

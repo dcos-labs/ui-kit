@@ -28,13 +28,7 @@ exports[`InfoBox InfoBoxBanner renders default 1`] = `
 `;
 
 exports[`InfoBox renders default 1`] = `
-.emotion-1 {
-  cursor: pointer;
-  line-height: 0;
-  opacity: 0.5;
-}
-
-.emotion-2 {
+.emotion-0 {
   background-color: #DADDE2;
   border-bottom-color: #828487;
   color: #1B2029;
@@ -44,7 +38,6 @@ exports[`InfoBox renders default 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   overflow: auto;
   word-break: break-word;
@@ -55,18 +48,24 @@ exports[`InfoBox renders default 1`] = `
   font-weight: 500;
 }
 
-.emotion-0 {
+.emotion-1 {
   padding-bottom: 16px;
+}
+
+.emotion-2 {
+  cursor: pointer;
+  line-height: 0;
+  opacity: 0.5;
 }
 
 <div
   aria-live="polite"
-  className="emotion-2"
+  className="emotion-0"
   data-cy="infoBox"
   role="log"
 >
   <div
-    className="emotion-0"
+    className="emotion-1"
   >
     message
   </div>
@@ -77,7 +76,7 @@ exports[`InfoBox renders default 1`] = `
     tabIndex={0}
   >
     <span
-      className="emotion-1"
+      className="emotion-2"
     >
       <Icon
         color="#1B2029"
@@ -90,13 +89,7 @@ exports[`InfoBox renders default 1`] = `
 `;
 
 exports[`InfoBox renders with JSX message 1`] = `
-.emotion-1 {
-  cursor: pointer;
-  line-height: 0;
-  opacity: 0.5;
-}
-
-.emotion-2 {
+.emotion-0 {
   background-color: #DADDE2;
   border-bottom-color: #828487;
   color: #1B2029;
@@ -106,7 +99,6 @@ exports[`InfoBox renders with JSX message 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   overflow: auto;
   word-break: break-word;
@@ -117,18 +109,24 @@ exports[`InfoBox renders with JSX message 1`] = `
   font-weight: 500;
 }
 
-.emotion-0 {
+.emotion-1 {
   padding-bottom: 16px;
+}
+
+.emotion-2 {
+  cursor: pointer;
+  line-height: 0;
+  opacity: 0.5;
 }
 
 <div
   aria-live="polite"
-  className="emotion-2"
+  className="emotion-0"
   data-cy="infoBox"
   role="log"
 >
   <div
-    className="emotion-0"
+    className="emotion-1"
   >
     <MessageComponent />
   </div>
@@ -139,7 +137,7 @@ exports[`InfoBox renders with JSX message 1`] = `
     tabIndex={0}
   >
     <span
-      className="emotion-1"
+      className="emotion-2"
     >
       <Icon
         color="#1B2029"
@@ -152,23 +150,7 @@ exports[`InfoBox renders with JSX message 1`] = `
 `;
 
 exports[`InfoBox renders with actions 1`] = `
-.emotion-4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.emotion-5 {
-  cursor: pointer;
-  line-height: 0;
-  opacity: 0.5;
-}
-
-.emotion-6 {
+.emotion-0 {
   background-color: #DADDE2;
   border-bottom-color: #828487;
   color: #1B2029;
@@ -178,7 +160,6 @@ exports[`InfoBox renders with actions 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   overflow: auto;
   word-break: break-word;
@@ -189,7 +170,18 @@ exports[`InfoBox renders with actions 1`] = `
   font-weight: 500;
 }
 
-.emotion-0 {
+.emotion-1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-2 {
   padding-bottom: 16px;
 }
 
@@ -202,28 +194,34 @@ exports[`InfoBox renders with actions 1`] = `
   padding-bottom: 16px;
 }
 
-.emotion-2 {
-  padding-left: 16px;
-}
-
-.emotion-1 {
+.emotion-4 {
   -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
   padding-left: 16px;
 }
 
+.emotion-5 {
+  padding-left: 16px;
+}
+
+.emotion-6 {
+  cursor: pointer;
+  line-height: 0;
+  opacity: 0.5;
+}
+
 <div
   aria-live="polite"
-  className="emotion-6"
+  className="emotion-0"
   data-cy="infoBox"
   role="log"
 >
   <div
-    className="emotion-4"
+    className="emotion-1"
   >
     <div
-      className="emotion-0"
+      className="emotion-2"
     >
       message
     </div>
@@ -232,12 +230,12 @@ exports[`InfoBox renders with actions 1`] = `
       data-cy="infoBox-actions"
     >
       <span
-        className="emotion-1"
+        className="emotion-4"
       >
         <Component />
       </span>
       <span
-        className="emotion-2"
+        className="emotion-5"
       >
         <Component />
       </span>
@@ -250,7 +248,7 @@ exports[`InfoBox renders with actions 1`] = `
     tabIndex={0}
   >
     <span
-      className="emotion-5"
+      className="emotion-6"
     >
       <Icon
         color="#1B2029"
@@ -263,7 +261,7 @@ exports[`InfoBox renders with actions 1`] = `
 `;
 
 exports[`InfoBox renders without dismiss button 1`] = `
-.emotion-1 {
+.emotion-0 {
   background-color: #DADDE2;
   border-bottom-color: #828487;
   color: #1B2029;
@@ -273,7 +271,6 @@ exports[`InfoBox renders without dismiss button 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   overflow: auto;
   word-break: break-word;
@@ -284,18 +281,18 @@ exports[`InfoBox renders without dismiss button 1`] = `
   font-weight: 500;
 }
 
-.emotion-0 {
+.emotion-1 {
   padding-bottom: 16px;
 }
 
 <div
   aria-live="polite"
-  className="emotion-1"
+  className="emotion-0"
   data-cy="infoBox"
   role="log"
 >
   <div
-    className="emotion-0"
+    className="emotion-1"
   >
     message
   </div>

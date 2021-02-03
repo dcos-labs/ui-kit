@@ -1,11 +1,11 @@
 import React from "react";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import { shallow, render, mount } from "enzyme";
 import toJson from "enzyme-to-json";
 
 import { CheckboxTable_Deprecated, Column } from "../";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("CheckboxTable", () => {
   const items = [

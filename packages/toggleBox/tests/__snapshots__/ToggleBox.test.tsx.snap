@@ -2,8 +2,11 @@
 
 exports[`ToggleBox renders active 1`] = `
 .emotion-0 {
+  display: block;
+}
+
+.emotion-1 {
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -13,49 +16,45 @@ exports[`ToggleBox renders active 1`] = `
   height: 1px;
 }
 
-.emotion-3,
-.emotion-3 > * {
+.emotion-2,
+.emotion-2>* {
   height: 100%;
 }
 
-.emotion-4 {
-  display: block;
-}
-
-.emotion-1 {
-  padding: 16px;
-}
-
-.emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-3 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
 }
 
-.emotion-2 > div {
+.emotion-3>div {
   height: 100%;
 }
 
-.emotion-2:hover,
-.emotion-2:focus,
-.emotion-2:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-3:hover,
+.emotion-3:focus,
+.emotion-3:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-2:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-3:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-2,
-.emotion-2:hover,
-.emotion-2:focus {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-3,
+.emotion-3:hover,
+.emotion-3:focus {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-2:focus {
-  background-color: var(--themeBgHover,#F7F8F9);
+.emotion-3:focus {
+  background-color: var(--themeBgHover, #F7F8F9);
+}
+
+.emotion-4 {
+  padding: 16px;
 }
 
 <ToggleBox
@@ -71,13 +70,13 @@ exports[`ToggleBox renders active 1`] = `
     value="active"
   >
     <label
-      className="emotion-4"
+      className="emotion-0"
       htmlFor="active"
     >
       <input
         aria-checked={true}
         checked={true}
-        className="emotion-0"
+        className="emotion-1"
         data-cy="toggleWrapper-input"
         disabled={false}
         id="active"
@@ -87,7 +86,7 @@ exports[`ToggleBox renders active 1`] = `
         value="active"
       />
       <div
-        className="emotion-3"
+        className="emotion-2"
       >
         <ButtonCard
           disabled={false}
@@ -97,11 +96,11 @@ exports[`ToggleBox renders active 1`] = `
           paddingSize="m"
         >
           <div
-            className="emotion-2"
+            className="emotion-3"
             data-cy="buttonCard"
           >
             <div
-              className="emotion-1"
+              className="emotion-4"
             >
               isActive
             </div>
@@ -115,8 +114,11 @@ exports[`ToggleBox renders active 1`] = `
 
 exports[`ToggleBox renders default 1`] = `
 .emotion-0 {
+  display: block;
+}
+
+.emotion-1 {
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -126,38 +128,34 @@ exports[`ToggleBox renders default 1`] = `
   height: 1px;
 }
 
-.emotion-3,
-.emotion-3 > * {
+.emotion-2,
+.emotion-2>* {
   height: 100%;
 }
 
-.emotion-4 {
-  display: block;
-}
-
-.emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-3 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
 }
 
-.emotion-2 > div {
+.emotion-3>div {
   height: 100%;
 }
 
-.emotion-2:hover,
-.emotion-2:focus,
-.emotion-2:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-3:hover,
+.emotion-3:focus,
+.emotion-3:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-2:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-3:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-1 {
+.emotion-4 {
   padding: 16px;
 }
 
@@ -172,11 +170,11 @@ exports[`ToggleBox renders default 1`] = `
     value="default"
   >
     <label
-      className="emotion-4"
+      className="emotion-0"
       htmlFor="default"
     >
       <input
-        className="emotion-0"
+        className="emotion-1"
         data-cy="toggleWrapper-input"
         disabled={false}
         id="default"
@@ -186,7 +184,7 @@ exports[`ToggleBox renders default 1`] = `
         value="default"
       />
       <div
-        className="emotion-3"
+        className="emotion-2"
       >
         <ButtonCard
           disabled={false}
@@ -195,11 +193,11 @@ exports[`ToggleBox renders default 1`] = `
           paddingSize="m"
         >
           <div
-            className="emotion-2"
+            className="emotion-3"
             data-cy="buttonCard"
           >
             <div
-              className="emotion-1"
+              className="emotion-4"
             >
               default
             </div>
@@ -213,8 +211,11 @@ exports[`ToggleBox renders default 1`] = `
 
 exports[`ToggleBox renders disabled 1`] = `
 .emotion-0 {
+  display: block;
+}
+
+.emotion-1 {
   border: 0;
-  -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   position: absolute;
   overflow: hidden;
@@ -224,48 +225,44 @@ exports[`ToggleBox renders disabled 1`] = `
   height: 1px;
 }
 
-.emotion-3,
-.emotion-3 > * {
+.emotion-2,
+.emotion-2>* {
   height: 100%;
 }
 
-.emotion-4 {
-  display: block;
-}
-
-.emotion-1 {
-  padding: 16px;
-}
-
-.emotion-2 {
-  background-color: var(--themeBgPrimary,#FFFFFF);
-  box-shadow: 0 0 0 1px var(--themeBorder,#DADDE2);
+.emotion-3 {
+  background-color: var(--themeBgPrimary, #FFFFFF);
+  box-shadow: 0 0 0 1px var(--themeBorder, #DADDE2);
   border-radius: 6px;
   cursor: pointer;
-  background-color: var(--themeBgDisabled,#E8EAED);
-  color: var(--themeTextColorDisabled,#AEB0B4);
+  background-color: var(--themeBgDisabled, #E8EAED);
+  color: var(--themeTextColorDisabled, #AEB0B4);
   cursor: auto;
 }
 
-.emotion-2 > div {
+.emotion-3>div {
   height: 100%;
 }
 
-.emotion-2:hover,
-.emotion-2:focus,
-.emotion-2:focus-within {
-  box-shadow: 0 0 0 1px var(--themeBrandPrimary,#7D58FF);
+.emotion-3:hover,
+.emotion-3:focus,
+.emotion-3:focus-within {
+  box-shadow: 0 0 0 1px var(--themeBrandPrimary, #7D58FF);
   outline: 0;
 }
 
-.emotion-2:active {
-  box-shadow: 0 0 0 2px var(--themeBrandPrimary,#7D58FF);
+.emotion-3:active {
+  box-shadow: 0 0 0 2px var(--themeBrandPrimary, #7D58FF);
 }
 
-.emotion-2,
-.emotion-2:hover,
-.emotion-2:focus {
+.emotion-3,
+.emotion-3:hover,
+.emotion-3:focus {
   box-shadow: 0 0 0 0 transparent;
+}
+
+.emotion-4 {
+  padding: 16px;
 }
 
 <ToggleBox
@@ -280,11 +277,11 @@ exports[`ToggleBox renders disabled 1`] = `
     value="disabled"
   >
     <label
-      className="emotion-4"
+      className="emotion-0"
       htmlFor="disabled"
     >
       <input
-        className="emotion-0"
+        className="emotion-1"
         data-cy="toggleWrapper-input"
         disabled={true}
         id="disabled"
@@ -294,7 +291,7 @@ exports[`ToggleBox renders disabled 1`] = `
         value="disabled"
       />
       <div
-        className="emotion-3"
+        className="emotion-2"
       >
         <ButtonCard
           disabled={true}
@@ -303,11 +300,11 @@ exports[`ToggleBox renders disabled 1`] = `
           paddingSize="m"
         >
           <div
-            className="emotion-2"
+            className="emotion-3"
             data-cy="buttonCard"
           >
             <div
-              className="emotion-1"
+              className="emotion-4"
             >
               disabled
             </div>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { FlexItem } from "../../styleUtils/layout";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import { ROW_HEIGHT } from "../../table_deprecated/components/Table";
 
 export interface TableViewBodyProps {

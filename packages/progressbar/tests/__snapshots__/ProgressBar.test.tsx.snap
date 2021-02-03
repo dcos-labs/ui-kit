@@ -3,19 +3,17 @@
 exports[`ProgressBar renders all sizes 1`] = `
 @keyframes animation-0 {
   0% {
+    -webkit-background-position: 0 0;
     background-position: 0 0;
   }
 
   100% {
+    -webkit-background-position: 12px 0;
     background-position: 12px 0;
   }
 }
 
 .emotion-0 {
-  fill: var(--themeBrandPrimary,#7D58FF);
-}
-
-.emotion-1 {
   background-color: rgba(218,221,226,0.65);
   border-radius: 999px;
   display: block;
@@ -23,8 +21,22 @@ exports[`ProgressBar renders all sizes 1`] = `
   width: 100%;
   -webkit-animation: animation-0 0.6s linear infinite;
   animation: animation-0 0.6s linear infinite;
-  background-image: linear-gradient( 45deg, transparent 25%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.1) 50%, transparent 50%, transparent 75%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.1) 100% );
+  background-image: linear-gradient(
+      45deg,
+      transparent 25%,
+      rgba(0, 0, 0, 0.1) 25%,
+      rgba(0, 0, 0, 0.1) 50%,
+      transparent 50%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  -webkit-background-size: 12px 12px;
   background-size: 12px 12px;
+}
+
+.emotion-1 {
+  fill: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Fragment>
@@ -42,12 +54,12 @@ exports[`ProgressBar renders all sizes 1`] = `
     />
   </SpacingBox>
   <svg
-    className="emotion-1"
+    className="emotion-0"
     data-cy="progressBar-chart"
     role="presentation"
   >
     <rect
-      className="emotion-0"
+      className="emotion-1"
       height="100%"
       key="pbSegment-0"
       width="40%"
@@ -60,19 +72,17 @@ exports[`ProgressBar renders all sizes 1`] = `
 exports[`ProgressBar renders all sizes 2`] = `
 @keyframes animation-0 {
   0% {
+    -webkit-background-position: 0 0;
     background-position: 0 0;
   }
 
   100% {
+    -webkit-background-position: 12px 0;
     background-position: 12px 0;
   }
 }
 
 .emotion-0 {
-  fill: var(--themeBrandPrimary,#7D58FF);
-}
-
-.emotion-1 {
   background-color: rgba(218,221,226,0.65);
   border-radius: 999px;
   display: block;
@@ -80,8 +90,22 @@ exports[`ProgressBar renders all sizes 2`] = `
   width: 100%;
   -webkit-animation: animation-0 0.6s linear infinite;
   animation: animation-0 0.6s linear infinite;
-  background-image: linear-gradient( 45deg, transparent 25%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.1) 50%, transparent 50%, transparent 75%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.1) 100% );
+  background-image: linear-gradient(
+      45deg,
+      transparent 25%,
+      rgba(0, 0, 0, 0.1) 25%,
+      rgba(0, 0, 0, 0.1) 50%,
+      transparent 50%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  -webkit-background-size: 12px 12px;
   background-size: 12px 12px;
+}
+
+.emotion-1 {
+  fill: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Fragment>
@@ -99,12 +123,12 @@ exports[`ProgressBar renders all sizes 2`] = `
     />
   </SpacingBox>
   <svg
-    className="emotion-1"
+    className="emotion-0"
     data-cy="progressBar-chart"
     role="presentation"
   >
     <rect
-      className="emotion-0"
+      className="emotion-1"
       height="100%"
       key="pbSegment-0"
       width="40%"
@@ -117,19 +141,17 @@ exports[`ProgressBar renders all sizes 2`] = `
 exports[`ProgressBar renders isProcessing 1`] = `
 @keyframes animation-0 {
   0% {
+    -webkit-background-position: 0 0;
     background-position: 0 0;
   }
 
   100% {
+    -webkit-background-position: 12px 0;
     background-position: 12px 0;
   }
 }
 
 .emotion-0 {
-  fill: var(--themeBrandPrimary,#7D58FF);
-}
-
-.emotion-1 {
   background-color: rgba(218,221,226,0.65);
   border-radius: 999px;
   display: block;
@@ -137,8 +159,22 @@ exports[`ProgressBar renders isProcessing 1`] = `
   width: 100%;
   -webkit-animation: animation-0 0.6s linear infinite;
   animation: animation-0 0.6s linear infinite;
-  background-image: linear-gradient( 45deg, transparent 25%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.1) 50%, transparent 50%, transparent 75%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.1) 100% );
+  background-image: linear-gradient(
+      45deg,
+      transparent 25%,
+      rgba(0, 0, 0, 0.1) 25%,
+      rgba(0, 0, 0, 0.1) 50%,
+      transparent 50%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  -webkit-background-size: 12px 12px;
   background-size: 12px 12px;
+}
+
+.emotion-1 {
+  fill: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Fragment>
@@ -156,12 +192,12 @@ exports[`ProgressBar renders isProcessing 1`] = `
     />
   </SpacingBox>
   <svg
-    className="emotion-1"
+    className="emotion-0"
     data-cy="progressBar-chart"
     role="presentation"
   >
     <rect
-      className="emotion-0"
+      className="emotion-1"
       height="100%"
       key="pbSegment-0"
       width="40%"
@@ -172,7 +208,7 @@ exports[`ProgressBar renders isProcessing 1`] = `
 `;
 
 exports[`ProgressBar renders with caption text and value text 1`] = `
-.emotion-1 {
+.emotion-0 {
   background-color: rgba(218,221,226,0.65);
   border-radius: 999px;
   display: block;
@@ -180,8 +216,8 @@ exports[`ProgressBar renders with caption text and value text 1`] = `
   width: 100%;
 }
 
-.emotion-0 {
-  fill: var(--themeBrandPrimary,#7D58FF);
+.emotion-1 {
+  fill: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Fragment>
@@ -226,12 +262,12 @@ exports[`ProgressBar renders with caption text and value text 1`] = `
     </Flex>
   </SpacingBox>
   <svg
-    className="emotion-1"
+    className="emotion-0"
     data-cy="progressBar-chart"
     role="presentation"
   >
     <rect
-      className="emotion-0"
+      className="emotion-1"
       height="100%"
       key="pbSegment-0"
       width="40%"
@@ -242,7 +278,7 @@ exports[`ProgressBar renders with caption text and value text 1`] = `
 `;
 
 exports[`ProgressBar renders with multiple segments of data 1`] = `
-.emotion-2 {
+.emotion-0 {
   background-color: rgba(218,221,226,0.65);
   border-radius: 999px;
   display: block;
@@ -250,11 +286,11 @@ exports[`ProgressBar renders with multiple segments of data 1`] = `
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-1 {
   fill: green;
 }
 
-.emotion-1 {
+.emotion-2 {
   fill: yellow;
 }
 
@@ -273,19 +309,19 @@ exports[`ProgressBar renders with multiple segments of data 1`] = `
     />
   </SpacingBox>
   <svg
-    className="emotion-2"
+    className="emotion-0"
     data-cy="progressBar-chart"
     role="presentation"
   >
     <rect
-      className="emotion-0"
+      className="emotion-1"
       height="100%"
       key="pbSegment-0"
       width="40%"
       x="0%"
     />
     <rect
-      className="emotion-1"
+      className="emotion-2"
       height="100%"
       key="pbSegment-1"
       width="20%"
@@ -296,7 +332,7 @@ exports[`ProgressBar renders with multiple segments of data 1`] = `
 `;
 
 exports[`ProgressBar renders with one segment of data 1`] = `
-.emotion-1 {
+.emotion-0 {
   background-color: rgba(218,221,226,0.65);
   border-radius: 999px;
   display: block;
@@ -304,8 +340,8 @@ exports[`ProgressBar renders with one segment of data 1`] = `
   width: 100%;
 }
 
-.emotion-0 {
-  fill: var(--themeBrandPrimary,#7D58FF);
+.emotion-1 {
+  fill: var(--themeBrandPrimary, #7D58FF);
 }
 
 <Fragment>
@@ -323,12 +359,12 @@ exports[`ProgressBar renders with one segment of data 1`] = `
     />
   </SpacingBox>
   <svg
-    className="emotion-1"
+    className="emotion-0"
     data-cy="progressBar-chart"
     role="presentation"
   >
     <rect
-      className="emotion-0"
+      className="emotion-1"
       height="100%"
       key="pbSegment-0"
       width="40%"

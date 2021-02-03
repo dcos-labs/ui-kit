@@ -1,12 +1,12 @@
 import React from "react";
 import { shallow } from "enzyme";
-import serializer from "jest-emotion";
+import { createSerializer } from "@emotion/jest";
 import toJson from "enzyme-to-json";
 
 import { SystemIcons } from "../../icons/dist/system-icons-enum";
 import { ColorCodedBadge } from "..";
 
-expect.addSnapshotSerializer(serializer);
+expect.addSnapshotSerializer(createSerializer());
 
 describe("ColorCodedBadge", () => {
   it("renders with a color", () => {
