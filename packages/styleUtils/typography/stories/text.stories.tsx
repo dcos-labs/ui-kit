@@ -133,4 +133,9 @@ storiesOf("Typography|Text", module)
   ))
   .add("custom HTML tag", () => (
     <Text tag="span">{`This text is in a <span> tag`}</Text>
+  ))
+  .add("nested HTML tag", () => (
+    <Text>
+      <span>{`This text is in a <span> tag passed as a child`}</span>
+    </Text>
   ));

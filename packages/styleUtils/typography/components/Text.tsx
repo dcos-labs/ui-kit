@@ -34,6 +34,12 @@ const Text = (props: TextProps) => {
     "data-cy": dataCy
   } = props;
   const TextTag = tag || defaultTag;
+  let title: string | undefined;
+
+  // if truncated, show title attr with complete text
+  if (wrap === "truncate" && typeof children === "string") {
+    title = children;
+  }
 
   return (
     <TextTag
@@ -55,6 +61,7 @@ const Text = (props: TextProps) => {
         }
       )}
       data-cy={dataCy}
+      title={title}
     >
       {children}
     </TextTag>

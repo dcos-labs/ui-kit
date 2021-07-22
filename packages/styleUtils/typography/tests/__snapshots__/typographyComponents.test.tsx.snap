@@ -176,6 +176,7 @@ exports[`Typography Text renders all wrap variants 1`] = `
 <p
   className="rmTextMargins emotion-0"
   data-cy="text"
+  title="content"
 >
   content
 </p>

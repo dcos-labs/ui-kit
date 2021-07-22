@@ -2156,6 +2156,7 @@ exports[`Table v2 rendering renders default 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -2549,6 +2550,7 @@ exports[`Table v2 rendering renders default 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -2942,6 +2944,7 @@ exports[`Table v2 rendering renders default 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -3335,6 +3338,7 @@ exports[`Table v2 rendering renders default 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -3728,6 +3732,7 @@ exports[`Table v2 rendering renders default 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -6044,6 +6049,7 @@ exports[`Table v2 rendering renders without a sticky first column 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -6437,6 +6443,7 @@ exports[`Table v2 rendering renders without a sticky first column 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -6830,6 +6837,7 @@ exports[`Table v2 rendering renders without a sticky first column 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -7223,6 +7231,7 @@ exports[`Table v2 rendering renders without a sticky first column 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
@@ -7616,6 +7625,7 @@ exports[`Table v2 rendering renders without a sticky first column 1`] = `
               <div
                 className="rmTextMargins emotion-43"
                 data-cy="text"
+                title="No data is available."
               >
                 No data is available.
               </div>
