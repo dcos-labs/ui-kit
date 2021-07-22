@@ -22,7 +22,7 @@ export {
   AccordionItemTitleInteractive
 } from "./accordion";
 export { Badge, BadgeButton, ColorCodedBadge } from "./badge";
-export { Breadcrumb } from "./breadcrumb";
+export { Breadcrumb, BreadcrumbItem } from "./breadcrumb";
 export {
   PrimaryButton,
   SecondaryButton,
